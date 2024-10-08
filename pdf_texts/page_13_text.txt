@@ -1,0 +1,110 @@
+Scene Name
+Link
+Urban City
+https://www.unrealengine.com/marketplace/en-US/product/urban-city
+Medieval Village
+https://www.unrealengine.com/marketplace/en-US/product/medieval-village
+Loft
+https://ue4arch.com/shop/complete-projects/archviz/loft/
+Desert Town
+https://www.unrealengine.com/marketplace/en-US/product/desert-town
+Archinterior 1
+https://www.unrealengine.com/marketplace/en-US/product/archinteriors-vol-2-scene-01
+Desert Gas Station
+https://www.unrealengine.com/marketplace/en-US/product/desert-gas-station
+Modular School
+https://www.unrealengine.com/marketplace/en-US/product/modular-school-pack
+Factory District
+https://www.unrealengine.com/marketplace/en-US/product/factory-district
+Abandoned Factory
+https://www.unrealengine.com/marketplace/en-US/product/modular-abandoned-factory
+Buddhist
+https://www.unrealengine.com/marketplace/en-US/product/buddhist-monastery-environment
+Castle Fortress
+https://www.unrealengine.com/marketplace/en-US/product/castle-fortress
+Desert Ruin
+https://www.unrealengine.com/marketplace/en-US/product/modular-desert-ruins
+HALArchviz
+https://www.unrealengine.com/marketplace/en-US/product/hal-archviz-toolkit-v1
+Hospital
+https://www.unrealengine.com/marketplace/en-US/product/modular-sci-fi-hospital
+HQ House
+https://www.unrealengine.com/marketplace/en-US/product/hq-residential-house
+Industrial City
+https://www.unrealengine.com/marketplace/en-US/product/industrial-city
+Archinterior 2
+https://www.unrealengine.com/marketplace/en-US/product/archinteriors-vol-4-scene-02
+Ofﬁce
+https://www.unrealengine.com/marketplace/en-US/product/retro-office-environment
+Meeting Room
+https://drive.google.com/file/d/0B_mjKk7NOcnEUWZuRDVFQ09STE0/view
+Old Village
+https://www.unrealengine.com/marketplace/en-US/product/old-village
+Modular Building
+https://www.unrealengine.com/marketplace/en-US/product/modular-building-set
+Modular Home
+https://www.unrealengine.com/marketplace/en-US/product/supergenius-modular-home
+Dungeon
+https://www.unrealengine.com/marketplace/en-US/product/top-down-multistory-dungeons
+Old Town
+https://www.unrealengine.com/marketplace/en-US/product/old-town
+Root Cellar
+https://www.unrealengine.com/marketplace/en-US/product/root-cellar
+Victorian
+https://www.unrealengine.com/marketplace/en-US/product/victorian-street
+Spaceship
+https://www.unrealengine.com/marketplace/en-US/product/spaceship-interior-environment-set
+Top-Down City
+https://www.unrealengine.com/marketplace/en-US/product/top-down-city
+Scene Name
+https://www.unrealengine.com/marketplace/en-US/product/urban-city
+Utopian City
+https://www.unrealengine.com/marketplace/en-US/product/utopian-city
+Table 6: The list of 3D scene models used in this work.
+Implementation
+Case
+IIIT
+SVT
+IC13
+IC15
+SVTP
+CUTE80
+Total
+Long et al.
+All
+81.2
+71.2
+86.9
+62.0
+62.3
+65.1
+44.7
+Baek et al
+All
+81.5
+71.7
+88.9
+62.1
+62.6
+64.9
+41.5
+Long et al.
+lower case + digits
+89.5
+84.1
+89.9
+68.8
+73.5
+76.3
+58.2
+Baek et al
+lower case + digits
+86.5
+83.5
+93.0
+70.3
+75.1
+68.4
+46.0
+Table 7: Results on English datasets (word level accuracy). All indicates that the evaluation considers lower case characters,
+upper case characters, numerical digits, and punctuation marks.

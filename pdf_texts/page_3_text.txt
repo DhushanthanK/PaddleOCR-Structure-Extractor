@@ -1,0 +1,101 @@
+shelf 3D scenes without further changing it [33]. In con-
+trast to these researches, our proposed synthesis engine im-
+plements active and regular interaction with 3D scenes, to
+generate realistic and diverse scene text images.
+This paper is also a sequel to our previous attempt, the
+SynthText3D[16]. SynthText3D closely follows the designs
+of the SynthText method. While SynthText uses off-the-
+shelf computer vision models to estimate segmentation and
+depth maps for background images, SynthText3D uses the
+ground-truth segmentation and depth maps provided by the
+3D engines. The rendering process of SynthText3D does
+not involve interactions with the 3D worlds, such as the ob-
+ject meshes. As a result, SynthText3D is faced with at least
+these two limitations: (1) the camera locations and rotations
+are labeled by human, limiting the scalability as well as di-
+versity; (2) the generated text regions are limited to well
+deﬁned regions that the camera is facing upfront, resulting
+in a unfavorable location bias.
+2.2. Scene Text Detection and Recognition
+Scene text detection and recognition, possibly as the
+most human-centric computer vision task, has been a pop-
+ular research topic for many years [49, 21]. In scene text
+detection, there are mainly two branches of methodolo-
+gies: Top-down methods that inherit the idea of region pro-
+posal networks from general object detectors that detect text
+instances as rotated rectangles and polygons [19, 53, 11,
+52, 47]; Bottom-up approaches that predict local segments
+and local geometric attributes, and compose them into in-
+dividual text instances [38, 22, 2, 40]. Despite signiﬁcant
+improvements on individual datasets, those most widely
+used benchmark datasets are usually very small, with only
+around 500 to 1000 images in test sets, and are therefore
+prone to over-ﬁtting. The generalization ability across dif-
+ferent domains remains an open question, and is not studied
+yet. The reason lies in the very limited real data and that
+synthetic data are not effective enough. Therefore, one im-
+portant motivation of our synthesis engine is to serve as a
+stepping stone towards general scene text detection.
+Most scene text recognition models consist of CNN-
+based image feature extractors and attentional LSTM [9] or
+transformer [44]-based encoder-decoder to predict the tex-
+tual content [3, 39, 15, 23]. Since the encoder-decoder mod-
+ule is a language model in essence, scene text recognizers
+have a high demand for training data with a large vocabu-
+lary, which is extremely difﬁcult for real-world data. Be-
+sides, scene text recognizers work on image crops that have
+simple backgrounds, which are easy to synthesize. There-
+fore, synthetic data are necessary for scene text recogniz-
+ers, and synthetic data alone are usually enough to achieve
+state-of-the-art performance. Moreover, since the recogni-
+tion modules require a large amount of data, synthetic data
+are also necessary in training end-to-end text spotting sys-
+tems [18, 7, 30].
+3. Scene Text in 3D Virtual World
+3.1. Overview
+In this section, we give a detailed introduction to our
+scene text image synthesis engine, UnrealText, which is de-
+veloped upon UE4 and the UnrealCV plugin [31]. The syn-
+thesis engine: (1) produces photo-realistic images, (2) is
+efﬁcient, taking about only 1-1.5 second to render and gen-
+erate a new scene text image and, (3) is general and com-
+patible to off-the-shelf 3D scene models. As shown in Fig.
+2, the pipeline mainly consists of a Viewﬁnder module (sec-
+tion 3.2), an Environment Randomization module (section
+3.3), a Text Region Generation module (section 3.4), and a
+Text Rendering module (section 3.5).
+Firstly, the viewﬁnder module explores around the 3D
+scene with the camera, generating camera viewpoints.
+Then, the environment lighting is randomly adjusted. Next,
+the text regions are proposed based on 2D scene informa-
+tion and reﬁned with 3D mesh information in the graph-
+ics engine. After that, text foregrounds are generated with
+randomly sampled fonts, colors, and text content, and are
+loaded as planar meshes. Finally, we retrieve the RGB im-
+age and corresponding text locations as well as text content
+to make the synthetic dataset.
+3.2. Viewﬁnder
+The aim of the viewﬁnder module is to automatically de-
+termine a set of camera locations and rotations from the
+whole space of 3D scenes that are reasonable and non-
+trivial, getting rid of unsuitable viewpoints such as from
+inside object meshes (e.g. Fig. 3 bottom right).
+Learning-based methods such as navigation and explo-
+ration algorithms may require extra training data and are
+not guaranteed to generalize to different 3D scenes. There-
+fore, we turn to rule-based methods and design a physically-
+constrained 3D random walk (Fig.
+3 ﬁrst row) equipped
+with auxiliary camera anchors.
+3.2.1
+Physically-Constrained 3D Random Walk
+Starting from a valid location, the physically-constrained
+3D random walk aims to ﬁnd the next valid and non-trivial
+location. In contrast to being valid, locations are invalid if
+they are inside object meshes or far away from the scene
+boundary, for example. A non-trivial location should be not
+too close to the current location. Otherwise, the new view-
+point will be similar to the current one. The proposed 3D
+random walk uses ray-casting [36], which is constrained by
+physically, to inspect the physical environment to determine
+valid and non-trivial locations.

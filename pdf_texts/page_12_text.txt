@@ -1,0 +1,74 @@
+A. Scene Models
+In this work, we use a total number of 30 scene models
+which are all obtained from the Internet. However, most of
+these models are not free. Therefore, we are not allowed to
+share the models themselves. Instead, we list the models we
+use and their links in Tab. 6.
+B. New Annotations for Scene Text Recogni-
+tion Datasets
+During the experiments of scene text recognition for En-
+glish scripts, we notice that among the most widely used
+benchmark datasets, several have incomplete annotations.
+They are IIIT5K, SVT, SVTP, and CUTE-80. The annota-
+tions of these datasets are case-insensitive, and ignore punc-
+tuation marks.
+The common practice for recent scene text recognition
+research is to convert both prediction and ground-truth text
+strings to lower-case and then compare them. This means
+that the current evaluation is ﬂawed. It ignores letter case
+and punctuation marks which are crucial to the understand-
+ing of the text contents.
+Besides, evaluating on a much
+smaller vocabulary set results in over-optimism of the per-
+formance of the recognition models.
+To aid further research, we use the Amazon mechan-
+ical Turk (AMT) to re-annotate the aforementioned 4
+datasets, which amount to 6837 word images in total.
+Each word image is annotated by 3 workers, and we
+manually check and correct images where the 3 an-
+notations differ.
+The annotated datasets are released
+via
+GitHub
+at
+https://github.com/Jyouhou/
+Case-Sensitive-Scene-Text-Recognition-Datasets.
+B.1 Samples
+We select some samples from the 4 datasets to demon-
+strate the new annotations in Fig. 6.
+B.2 Benchmark Performances
+As we are encouraging case-sensitive (also with punctua-
+tion marks) evaluation for scene text recognition, we would
+like to provide benchmark performances on those widely
+used datasets.
+We evaluate two implementations of the
+ASTER models, by Long et al.7 and Baek et al8 respec-
+tively. Results are summarized in Tab. 7.
+The two benchmark implementations perform compara-
+bly, with Baek’s better on straight text and Long’s better at
+curved text. Compared with evaluation with lower case +
+digits, the performance drops considerably for both models
+when we evaluate with all symbols. These results indicate
+7https://github.com/Jyouhou/
+ICDAR2019-ArT-Recognition-Alchemy
+8https://github.com/clovaai/
+deep-text-recognition-benchmark
+Dataset
+Sample Image
+Original Annotation
+New Annotation
+CUTE80
+TEAM
+Team
+IIIT5K
+15
+15%.
+SVT
+DONALD
+Donald’
+SVTP
+MARLBORO
+Marlboro
+Figure 6: Examples of the new annotations.
+that it may still be a challenge to recognize a larger vocabu-
+lary, and is worth further research.

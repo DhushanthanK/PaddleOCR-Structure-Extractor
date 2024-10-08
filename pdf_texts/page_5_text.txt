@@ -1,0 +1,92 @@
+als; (2) Initial proposals are then projected to and reﬁned
+in the 3D world using object meshes. Finally, we sample
+a subset from the reﬁned proposals to render. To avoid oc-
+clusion among proposals, we project them back to screen
+space, and discard regions that overlap with each other one
+by one in a shufﬂed order until occlusion is eliminated.
+3.4.1
+Initial Proposals from Normal Maps
+In computer graphics, normal values are unit vectors that
+are perpendicular to a surface. Therefore, when projected
+to 2D screen space, a region with similar normal values
+tends to be a well-deﬁned region to embed text on. We ﬁnd
+valid image regions by applying sliding windows of 64×64
+pixels across the surface normal map, and retrieve those
+with smooth surface normal: the minimum cosine similar-
+ity value between any two pixels is larger than a threshold
+t. We set t to 0.95, which proves to produce reasonable
+results. We randomly sample at most 10 non-overlapping
+valid image regions to make the initial proposals. Making
+proposals from normal maps is an efﬁcient way to ﬁnd po-
+tential and visible regions.
+3.4.2
+Reﬁning Proposals in 3D Worlds
+As shown in Fig.
+4, rectangular initial proposals in 2D
+screen space will be distorted when projected into 3D
+world. Thus, we need to ﬁrst rectify the proposals in 3D
+world. We project the center point of the initial proposals
+into 3D space, and re-initialize orthogonal squares on the
+corresponding mesh surfaces around the center points: the
+horizontal sides are orthogonal to the gravity direction. The
+side lengths are set to the shortest sides of the quadrilaterals
+created by projecting the four corners of initial proposals
+into the 3D space. Then we enlarge the widths and heights
+along the horizontal and vertical sides alternatively. The
+expansion of one direction stops when the sides of that di-
+rection get off the surface1, hit other meshes, or reach the
+preset maximum expansion ratio. The proposed reﬁning al-
+gorithm works in 3D world space, and is able to produce
+natural homography transformation in 2D screen space.
+3.5. Text Rendering
+Generating Text Images: Given text regions as proposed
+and reﬁned in section 3.4, the text generation module sam-
+ples text content and renders text images with certain fonts
+and text colors. The numbers of lines and characters per
+line are determined by the font size and the size of reﬁned
+proposals in 2D space to make sure the characters are not
+too small and ensure legibility. For a fairer comparison, we
+also use the same font set from Google Fonts 2 as SynthText
+1when the distances from the rectangular proposals’ corners to the near-
+est point on the underlying surface mesh exceed certain threshold
+2https://fonts.google.com/
+Figure 4: Illustration of the reﬁnement of initial proposals.
+We draw green bounding boxes to represent proposals in 2D
+screen space, and use planar meshes to represent proposals
+in 3D space. (1) Initial proposals are made in 2D space.
+(2) When we project them into 3D world and inspect them
+from the front view, they are in distorted forms. (3) Based
+on the sizes of the distorted proposals and the positions of
+the center points, we re-initialize orthogonal squares on the
+same surfaces with horizontal sides orthogonal to the grav-
+ity direction. (5) Then we expand the squares. (6) Finally,
+we obtain text regions in 2D screen space with natural per-
+spective distortion.
+does. We also use the same text corpus, Newsgroup20. The
+generated text images have zero alpha values on non-stroke
+pixels, and non zero for others.
+Rendering Text in 3D World: We ﬁrst perform triangula-
+tion for the reﬁned proposals to generate planar triangular
+meshes that are closely attached to the underlying surface.
+Then we load the text images as texture onto the generated
+meshes. We also randomly sample the texture attributes,
+such as the ratio of diffuse and specular reﬂection.
+3.6. Implementation Details
+The proposed synthesis engine is implemented based on
+UE4.22 and the UnrealCV plugin. On an ubuntu worksta-
+tion with an 8-core Intel CPU, an NVIDIA GeForce RTX
+2070 GPU, and 16G RAM, the synthesis speed is 0.7-1.5
+seconds per image with a resolution of 1080×720, depend-
+ing on the complexity of the scene model.
+We collect 30 scene models from the ofﬁcial UE4 mar-
+ketplace. The engine is used to generate 600K scene text
+images with English words.
+With the same conﬁgura-
+tion, we also generate a multilingual version, making it the
+largest multilingual scene text dataset.
+4. Experiments on Scene Text Detection
+4.1. Settings
+We ﬁrst verify the effectiveness of the proposed engine
+by training detectors on the synthesized images and evaluat-
+ing them on real image datasets. We use a previous yet time-
+tested state-of-the-art model, EAST [53], which is fast and

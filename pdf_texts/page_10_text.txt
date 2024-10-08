@@ -1,0 +1,123 @@
+[9] Sepp Hochreiter and J¨urgen Schmidhuber. Long short-term
+memory. Neural computation, 9(8):1735–1780, 1997.
+[10] Max Jaderberg, Karen Simonyan, Andrea Vedaldi, and An-
+drew Zisserman.
+Synthetic data and artiﬁcial neural net-
+works for natural scene text recognition.
+arXiv preprint
+arXiv:1406.2227, 2014.
+[11] Yingying Jiang, Xiangyu Zhu, Xiaobing Wang, Shuli Yang,
+Wei Li, Hua Wang, Pei Fu, and Zhenbo Luo. R2cnn: rota-
+tional region cnn for orientation robust scene text detection.
+arXiv preprint arXiv:1706.09579, 2017.
+[12] Amlan Kar, Aayush Prakash, Ming-Yu Liu, Eric Cameracci,
+Justin Yuan, Matt Rusiniak, David Acuna, Antonio Torralba,
+and Sanja Fidler. Meta-sim: Learning to generate synthetic
+datasets. arXiv preprint arXiv:1904.11621, 2019.
+[13] Dimosthenis Karatzas, Lluis Gomez-Bigorda, Anguelos
+Nicolaou, Suman Ghosh, Andrew Bagdanov, Masakazu Iwa-
+mura, Jiri Matas, Lukas Neumann, Vijay Ramaseshan Chan-
+drasekhar, Shijian Lu, et al. Icdar 2015 competition on robust
+reading. In 2015 13th International Conference on Docu-
+ment Analysis and Recognition (ICDAR), pages 1156–1160.
+IEEE, 2015.
+[14] Dimosthenis Karatzas,
+Faisal Shafait,
+Seiichi Uchida,
+Masakazu Iwamura, Lluis Gomez i Bigorda, Sergi Robles
+Mestre, Joan Mas, David Fernandez Mota, Jon Almazan Al-
+mazan, and Lluis Pere de las Heras. Icdar 2013 robust read-
+ing competition. In 2013 12th International Conference on
+Document Analysis and Recognition (ICDAR), pages 1484–
+1493. IEEE, 2013.
+[15] Hui Li, Peng Wang, Chunhua Shen, and Guyu Zhang. Show,
+attend and read: A simple and strong baseline for irregular
+text recognition. AAAI, 2019.
+[16] Minghui Liao, Boyu Song, Shangbang Long, Minghang He,
+Cong Yao, and Xiang Bai. Synthtext3d: synthesizing scene
+text images from 3d virtual worlds. Science China Informa-
+tion Sciences, 63(2):120105, 2020.
+[17] Chen-Hsuan Lin, Ersin Yumer, Oliver Wang, Eli Shechtman,
+and Simon Lucey.
+St-gan: Spatial transformer generative
+adversarial networks for image compositing.
+In Proceed-
+ings of the IEEE Conference on Computer Vision and Pattern
+Recognition, pages 9455–9464, 2018.
+[18] Xuebo Liu, Ding Liang, Shi Yan, Dagui Chen, Yu Qiao, and
+Junjie Yan. Fots: Fast oriented text spotting with a uniﬁed
+network. Proc. CVPR, 2018.
+[19] Yuliang Liu and Lianwen Jin. Deep matching prior network:
+Toward tighter multi-oriented text detection. In Proc. CVPR,
+2017.
+[20] Shangbang Long, Yushuo Guan, Bingxuan Wang, Kaigui
+Bian, and Cong Yao.
+Alchemy: Techniques for rectiﬁca-
+tion based irregular scene text recognition. arXiv preprint
+arXiv:1908.11834, 2019.
+[21] Shangbang Long, Xin He, and Cong Yao. Scene text detec-
+tion and recognition: The deep learning era. arXiv preprint
+arXiv:1811.04256, 2018.
+[22] Shangbang Long, Jiaqiang Ruan, Wenjie Zhang, Xin He,
+Wenhao Wu, and Cong Yao. Textsnake: A ﬂexible represen-
+tation for detecting text of arbitrary shapes. In Proc. ECCV,
+2018.
+[23] Pengyuan Lyu, Zhicheng Yang, Xinhang Leng, Xiaojun Wu,
+Ruiyu Li, and Xiaoyong Shen. 2d attentional irregular scene
+text recognizer. arXiv preprint arXiv:1906.05708, 2019.
+[24] John McCormac, Ankur Handa, Stefan Leutenegger, and
+Andrew J. Davison.
+Scenenet RGB-D: 5m photorealistic
+images of synthetic indoor trajectories with ground truth.
+CoRR, abs/1612.05079, 2016.
+[25] Anand Mishra, Karteek Alahari, and CV Jawahar. Scene text
+recognition using higher order language priors. In BMVC-
+British Machine Vision Conference. BMVA, 2012.
+[26] Nibal Nayef, Yash Patel, Michal Busta, Pinaki Nath Chowd-
+hury, Dimosthenis Karatzas, Wafa Khlif, Jiri Matas, Uma-
+pada Pal, Jean-Christophe Burie, Cheng-lin Liu, et al. Ic-
+dar2019 robust reading challenge on multi-lingual scene
+text detection and recognition–rrc-mlt-2019. arXiv preprint
+arXiv:1907.00945, 2019.
+[27] Nibal Nayef, Fei Yin, Imen Bizid, Hyunsoo Choi, Yuan
+Feng, Dimosthenis Karatzas, Zhenbo Luo, Umapada Pal,
+Christophe Rigaud, Joseph Chazalon, et al. Icdar2017 ro-
+bust reading challenge on multi-lingual scene text detection
+and script identiﬁcation-rrc-mlt. In Proc. ICDAR, volume 1,
+pages 1454–1459. IEEE, 2017.
+[28] Jeremie Papon and Markus Schoeler. Semantic pose using
+deep networks trained on synthetic rgb-d. In Proc. ICCV,
+pages 774–782, 2015.
+[29] Xingchao Peng, Baochen Sun, Karim Ali, and Kate Saenko.
+Learning deep object detectors from 3d models. In Proc.
+ICCV, pages 1278–1286, 2015.
+[30] Siyang Qin, Alessandro Bissacco, Michalis Raptis, Yasuhisa
+Fujii, and Ying Xiao. Towards unconstrained end-to-end text
+spotting. In Proceedings of the IEEE International Confer-
+ence on Computer Vision, pages 4704–4714, 2019.
+[31] Weichao Qiu and Alan Yuille. Unrealcv: Connecting com-
+puter vision to unreal engine. In Proc. ECCV, pages 909–
+916, 2016.
+[32] Trung Quy Phan, Palaiahnakote Shivakumara, Shangxuan
+Tian, and Chew Lim Tan. Recognizing text with perspective
+distortion in natural scenes. In Proc. ICCV, pages 569–576,
+2013.
+[33] Stephan R Richter, Vibhav Vineet, Stefan Roth, and Vladlen
+Koltun.
+Playing for data: Ground truth from computer
+games. In European conference on computer vision, pages
+102–118. Springer, 2016.
+[34] Anhar Risnumawan, Palaiahankote Shivakumara, Chee Seng
+Chan, and Chew Lim Tan. A robust arbitrary text detection
+system for natural scene images. Expert Systems with Appli-
+cations, 41(18):8027–8048, 2014.
+[35] German Ros, Laura Sellart, Joanna Materzynska, David
+Vazquez, and Antonio M Lopez. The synthia dataset: A large
+collection of synthetic images for semantic segmentation of
+urban scenes. In Proc. CVPR, pages 3234–3243, 2016.
+[36] Scott D Roth. Ray casting for modeling solids. Computer
+Graphics & Image Processing, 18(2):109–144, 1982.
+[37] Fatemeh Sadat Saleh, Mohammad Sadegh Aliakbarian,
+Mathieu Salzmann, Lars Petersson, and Jose M Alvarez. Ef-
+fective use of synthetic data for urban scene semantic seg-
+mentation. In Proc. ECCV, pages 86–103, 2018.

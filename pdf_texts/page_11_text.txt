@@ -1,0 +1,68 @@
+[38] Baoguang Shi, Xiang Bai, and Serge Belongie. Detecting
+oriented text in natural images by linking segments. In The
+IEEE Conference on Computer Vision and Pattern Recogni-
+tion (CVPR), 2017.
+[39] Baoguang Shi, Mingkun Yang, XingGang Wang, Pengyuan
+Lyu, Xiang Bai, and Cong Yao. Aster: An attentional scene
+text recognizer with ﬂexible rectiﬁcation. IEEE transactions
+on pattern analysis and machine intelligence, 31(11):855–
+868, 2018.
+[40] Zhuotao Tian, Michelle Shu, Pengyuan Lyu, Ruiyu Li, Chao
+Zhou, Xiaoyong Shen, and Jiaya Jia. Learning shape-aware
+embedding for scene text detection. In Proceedings of the
+IEEE Conference on Computer Vision and Pattern Recogni-
+tion, pages 4234–4243, 2019.
+[41] Josh Tobin, Rachel Fong, Alex Ray, Jonas Schneider, Woj-
+ciech Zaremba, and Pieter Abbeel. Domain randomization
+for transferring deep neural networks from simulation to the
+real world. In 2017 IEEE/RSJ International Conference on
+Intelligent Robots and Systems (IROS), pages 23–30. IEEE,
+2017.
+[42] Jonathan Tremblay, Thang To, and Stan Birchﬁeld. Falling
+things: A synthetic dataset for 3d object detection and pose
+estimation. In Proc. CVPR Workshops, pages 2038–2041,
+2018.
+[43] Gul Varol, Javier Romero, Xavier Martin, Naureen Mah-
+mood, Michael J Black, Ivan Laptev, and Cordelia Schmid.
+Learning from synthetic humans. In Proc. CVPR, pages 109–
+117, 2017.
+[44] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszko-
+reit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia
+Polosukhin. Attention is all you need. In Proc. NIPS, pages
+5998–6008, 2017.
+[45] Kai Wang, Boris Babenko, and Serge Belongie. End-to-end
+scene text recognition. In 2011 IEEE International Confer-
+ence on Computer Vision (ICCV),, pages 1457–1464. IEEE,
+2011.
+[46] Tao Wang, David J Wu, Adam Coates, and Andrew Y Ng.
+End-to-end text recognition with convolutional neural net-
+works.
+In 2012 21st International Conference on Pattern
+Recognition (ICPR), pages 3304–3308. IEEE, 2012.
+[47] Xiaobing Wang, Yingying Jiang, Zhenbo Luo, Cheng-Lin
+Liu, Hyunsoo Choi, and Sungjin Kim. Arbitrary shape scene
+text detection with adaptive text region representation. In
+Proceedings of the IEEE Conference on Computer Vision
+and Pattern Recognition, pages 6449–6458, 2019.
+[48] Xinlong Wang, Zhipeng Man, Mingyu You, and Chunhua
+Shen. Adversarial generation of training examples: Appli-
+cations to moving vehicle license plate recognition. arXiv
+preprint arXiv:1707.03124, 2017.
+[49] Qixiang Ye and David Doermann. Text detection and recog-
+nition in imagery: A survey. IEEE transactions on pattern
+analysis and machine intelligence, 37(7):1480–1500, 2015.
+[50] Fangneng Zhan, Shijian Lu, and Chuhui Xue. Verisimilar
+image synthesis for accurate detection and recognition of
+texts in scenes. In Proc. ECCV, 2018.
+[51] Fangneng Zhan, Hongyuan Zhu, and Shijian Lu. Spatial fu-
+sion gan for image synthesis. In Proceedings of the IEEE
+Conference on Computer Vision and Pattern Recognition,
+pages 3653–3662, 2019.
+[52] Chengquan Zhang, Borong Liang, Zuming Huang, Mengyi
+En, Junyu Han, Errui Ding, and Xinghao Ding. Look more
+than once: An accurate detector for text of arbitrary shapes.
+Proceedings of the IEEE Conference on Computer Vision
+and Pattern Recognition (CVPR), 2019.
+[53] Xinyu Zhou, Cong Yao, He Wen, Yuzhi Wang, Shuchang
+Zhou, Weiran He, and Jiajun Liang. EAST: An efﬁcient and
+accurate scene text detector. In Proc. CVPR, 2017.

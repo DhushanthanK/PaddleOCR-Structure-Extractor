@@ -1,0 +1,190 @@
+Evaluation on ICDAR 2015
+Training Data
+P
+R
+F1
+IC15
+84.6
+78.5
+81.4
+IC15 + SynthText 10K
+85.6
+79.5
+82.4
+IC15 + VISD 10K
+86.3
+80.0
+83.1
+IC15 + SynthText3D 10K
+86.6
+80.4
+83.4
+IC15 + UnrealText 10K
+86.9
+81.0
+83.8
+IC15 + UnrealText 600K
+88.5
+80.8
+84.5
+Evaluation on ICDAR 2013
+Training Data
+P
+R
+F1
+IC13
+82.6
+70.0
+75.8
+IC13 + SynthText 10K
+85.3
+72.4
+78.3
+IC13 + VISD 10K
+85.9
+73.1
+79.0
+IC13 + SynthText3D 10K
+86.4
+73.0
+79.1
+IC13 + UnrealText 10K
+88.5
+74.7
+81.0
+IC13 + UnrealText 600K
+92.3
+73.4
+81.8
+Evaluation on MLT 2017
+Training Data
+P
+R
+F1
+MLT 2017
+72.9
+67.4
+70.1
+MLT 2017 + SynthText 10K
+73.1
+67.7
+70.3
+MLT 2017 + VISD 10K
+73.3
+67.9
+70.5
+MLT 2017 + SynthText3D 10K
+73.8
+67.6
+70.6
+MLT 2017 + UnrealText 10K
+74.6
+68.7
+71.6
+MLT 2017 + UnrealText 600K
+82.2
+67.4
+74.1
+Table 2: Detection performances of EAST models pre-
+trained on synthetic and then ﬁnetuned on real datasets.
+for 1x schedule long. All the hyperparameters are set to
+default values. The results are summarized in Tab. 3. We
+notice that the two synthetic datasets with natural images
+as backgrounds, i.e. SynthText and VISD, result in similar
+performances. SynthText3D and our UnrealText are signif-
+icantly better than them. UnrealText is further a signiﬁcant
+improvement over SynthText3D. When we combine Unre-
+alText and SynthText, the two highly scalable engines, the
+performances are even better.
+Training Data
+IC15
+IC13
+MLT 2017
+SynthText 10K
+13.6/13.4
+41.1/41.7
+19.6/17.5
+VISD 10K (full)
+13.8/13.5
+37.6/37.6
+18.1/18.4
+SynthText3D 10K (full)
+19.4/19.8
+37.9/39.3
+22.8/22.5
+UnrealText 10K
+25.1/23.7
+50.1/49.2
+24/23.6
+SynthText 800K (full)
+19.6/20.3
+47.5/48.2
+24.2/24.8
+UnrealText 600K (full)
+26.2/25
+51.5/52.2
+27.8/27.3
+UnrealText full + SynthText full
+27.7/27.5
+62.4/63.7
+32.4/32.1
+Table 3: Detection results (Box-AP/Mask-AP) of Mask-
+RCNN models trained on different synthetic data.
+4.3. Module Level Ablation Analysis
+One reasonable concern about synthesizing from 3D vir-
+tual scenes lies in the scene diversity. In this section, we
+address the importance of the proposed view ﬁnding mod-
+ule and the environment randomization module in increas-
+ing the diversity of synthetic images.
+Ablating Viewﬁnder Module We derive two baselines
+from the proposed viewﬁnder module: (1) Random View-
+point + Manual Anchor that randomly samples camera lo-
+cations and rotations from the norm-ball spaces centered
+around auxiliary camera anchors. (2) Random Viewpoint
+Only that randomly samples camera locations and rotations
+from the whole scene space, without checking their qual-
+ity. For experiments, we ﬁx the number of scenes to 10 to
+control scene diversity and generate different numbers of
+images, and compare their performance curve. By ﬁxing
+the number of scenes, we compare how well different view
+ﬁnding methods can exploit the scenes.
+Ablating Environment Randomization We remove the
+environment randomization module, and keep the scene
+models unchanged during synthesis. For experiments, we
+ﬁx the total number of images to 10K and use different
+number of scenes. In this way, we can compare the diversity
+of images generated with different methods.
+We train the EAST models with different numbers of im-
+ages or scenes, evaluate them on the 3 real datasets, and
+compute the arithmetic mean of the F1-scores. As shown
+in Fig. 5 (a), we observe that the proposed combination,
+i.e. Random Walk + Manual Anchor, achieves signiﬁcantly
+higher F1-scores consistently for different numbers of im-
+ages. Especially, larger sizes of training sets result in greater
+performance gaps. We also inspect the images generated
+with these methods respectively. When starting from the
+same anchor point, the proposed random walk can gener-
+ate more diverse viewpoints and can traverse much larger
+area.
+In contrast, the Random Viewpoint + Manual An-
+chor method degenerates either into random rotation only
+when we set a small norm ball size for random location, or
+into Random Viewpoint Only when we set a large norm ball
+size. As a result, the Random Viewpoint + Manual Anchor
+method requires careful manual selection of anchors, and
+we also need to manually tune the norm ball sizes for dif-
+ferent scenes, which restricts the scalability of the synthe-
+sis engine. Meanwhile, our proposed random walk based
+method is more ﬂexible and robust to the selection of man-
+ual anchors. As for the Random Viewpoint Only method,
+a large proportion of generated viewpoints are invalid, e.g.
+inside other object meshes, which is out-of-distribution for
+real images. This explains why it results in the worst per-
+formances.
+From Fig. 5 (b), the major observation is that environ-
+ment randomization module improves performances over
+different scene numbers consistently. Besides, the improve-
+ment is more signiﬁcant as we use fewer scenes. Therefore,
+we can draw a conclusion that, the environment random-
+ization helps increase image diversity and at the same time,
+can reduce the number of scenes needed. Furthermore, the

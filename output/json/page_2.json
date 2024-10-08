@@ -1,0 +1,2355 @@
+[
+    {
+        "type": "text",
+        "bbox": [
+            307,
+            222,
+            546,
+            713
+        ],
+        "res": [
+            {
+                "text": "The synthesis of photo-realistic datasets has been a pop-",
+                "confidence": 0.9573419690132141,
+                "text_region": [
+                    [
+                        317.0,
+                        218.0
+                    ],
+                    [
+                        547.0,
+                        220.0
+                    ],
+                    [
+                        546.0,
+                        237.0
+                    ],
+                    [
+                        317.0,
+                        235.0
+                    ]
+                ]
+            },
+            {
+                "text": "ular topic, since they provide detailed ground-truth annota-",
+                "confidence": 0.9831855297088623,
+                "text_region": [
+                    [
+                        306.0,
+                        232.0
+                    ],
+                    [
+                        546.0,
+                        234.0
+                    ],
+                    [
+                        545.0,
+                        248.0
+                    ],
+                    [
+                        306.0,
+                        245.0
+                    ]
+                ]
+            },
+            {
+                "text": "tions at multiple granularity, and cost less than manual an-",
+                "confidence": 0.9984152913093567,
+                "text_region": [
+                    [
+                        307.0,
+                        246.0
+                    ],
+                    [
+                        546.0,
+                        246.0
+                    ],
+                    [
+                        546.0,
+                        259.0
+                    ],
+                    [
+                        307.0,
+                        259.0
+                    ]
+                ]
+            },
+            {
+                "text": "notations. In scene text detection and recognition, the use of",
+                "confidence": 0.9910451769828796,
+                "text_region": [
+                    [
+                        306.0,
+                        256.0
+                    ],
+                    [
+                        546.0,
+                        256.0
+                    ],
+                    [
+                        546.0,
+                        269.0
+                    ],
+                    [
+                        306.0,
+                        269.0
+                    ]
+                ]
+            },
+            {
+                "text": "synthetic datasets has become a standard practice. For scene",
+                "confidence": 0.9864194989204407,
+                "text_region": [
+                    [
+                        307.0,
+                        269.0
+                    ],
+                    [
+                        547.0,
+                        269.0
+                    ],
+                    [
+                        547.0,
+                        282.0
+                    ],
+                    [
+                        307.0,
+                        282.0
+                    ]
+                ]
+            },
+            {
+                "text": "text recognition, where images contain only one word, syn-",
+                "confidence": 0.9989796876907349,
+                "text_region": [
+                    [
+                        307.0,
+                        281.0
+                    ],
+                    [
+                        547.0,
+                        281.0
+                    ],
+                    [
+                        547.0,
+                        295.0
+                    ],
+                    [
+                        307.0,
+                        295.0
+                    ]
+                ]
+            },
+            {
+                "text": "thetic images are rendered through several steps [46, 10],",
+                "confidence": 0.9897949695587158,
+                "text_region": [
+                    [
+                        307.0,
+                        293.0
+                    ],
+                    [
+                        547.0,
+                        293.0
+                    ],
+                    [
+                        547.0,
+                        307.0
+                    ],
+                    [
+                        307.0,
+                        307.0
+                    ]
+                ]
+            },
+            {
+                "text": "including font rendering, coloring, homography transfor-",
+                "confidence": 0.9883774518966675,
+                "text_region": [
+                    [
+                        307.0,
+                        306.0
+                    ],
+                    [
+                        547.0,
+                        306.0
+                    ],
+                    [
+                        547.0,
+                        319.0
+                    ],
+                    [
+                        307.0,
+                        319.0
+                    ]
+                ]
+            },
+            {
+                "text": "mation, and background blending. Later, GANs [5] are",
+                "confidence": 0.9884727001190186,
+                "text_region": [
+                    [
+                        306.0,
+                        316.0
+                    ],
+                    [
+                        546.0,
+                        316.0
+                    ],
+                    [
+                        546.0,
+                        330.0
+                    ],
+                    [
+                        306.0,
+                        330.0
+                    ]
+                ]
+            },
+            {
+                "text": "incorporated to maintain style consistency for implanted",
+                "confidence": 0.9981170296669006,
+                "text_region": [
+                    [
+                        307.0,
+                        330.0
+                    ],
+                    [
+                        548.0,
+                        330.0
+                    ],
+                    [
+                        548.0,
+                        343.0
+                    ],
+                    [
+                        307.0,
+                        343.0
+                    ]
+                ]
+            },
+            {
+                "text": "text [51], but it is only for single-word images. As a re-",
+                "confidence": 0.994118332862854,
+                "text_region": [
+                    [
+                        307.0,
+                        342.0
+                    ],
+                    [
+                        547.0,
+                        342.0
+                    ],
+                    [
+                        547.0,
+                        355.0
+                    ],
+                    [
+                        307.0,
+                        355.0
+                    ]
+                ]
+            },
+            {
+                "text": "sult of these progresses, synthetic data alone are enough to",
+                "confidence": 0.9821394681930542,
+                "text_region": [
+                    [
+                        307.0,
+                        353.0
+                    ],
+                    [
+                        548.0,
+                        353.0
+                    ],
+                    [
+                        548.0,
+                        367.0
+                    ],
+                    [
+                        307.0,
+                        367.0
+                    ]
+                ]
+            },
+            {
+                "text": "train state-of-the-art recognizers.",
+                "confidence": 0.9795287251472473,
+                "text_region": [
+                    [
+                        307.0,
+                        365.0
+                    ],
+                    [
+                        441.0,
+                        365.0
+                    ],
+                    [
+                        441.0,
+                        379.0
+                    ],
+                    [
+                        307.0,
+                        379.0
+                    ]
+                ]
+            },
+            {
+                "text": "To train scene text detectors, SynthText [6] proposes to",
+                "confidence": 0.9940415024757385,
+                "text_region": [
+                    [
+                        318.0,
+                        377.0
+                    ],
+                    [
+                        547.0,
+                        378.0
+                    ],
+                    [
+                        547.0,
+                        392.0
+                    ],
+                    [
+                        318.0,
+                        391.0
+                    ]
+                ]
+            },
+            {
+                "text": "generate synthetic data by printing text on background im-",
+                "confidence": 0.990828275680542,
+                "text_region": [
+                    [
+                        307.0,
+                        390.0
+                    ],
+                    [
+                        547.0,
+                        390.0
+                    ],
+                    [
+                        547.0,
+                        404.0
+                    ],
+                    [
+                        307.0,
+                        404.0
+                    ]
+                ]
+            },
+            {
+                "text": "ages. It first analyzes images with off-the-shelf models, and",
+                "confidence": 0.980083703994751,
+                "text_region": [
+                    [
+                        306.0,
+                        403.0
+                    ],
+                    [
+                        548.0,
+                        401.0
+                    ],
+                    [
+                        548.0,
+                        415.0
+                    ],
+                    [
+                        306.0,
+                        417.0
+                    ]
+                ]
+            },
+            {
+                "text": "search suitable text regions on semantically consistent re-",
+                "confidence": 0.9634714126586914,
+                "text_region": [
+                    [
+                        307.0,
+                        414.0
+                    ],
+                    [
+                        546.0,
+                        414.0
+                    ],
+                    [
+                        546.0,
+                        427.0
+                    ],
+                    [
+                        307.0,
+                        427.0
+                    ]
+                ]
+            },
+            {
+                "text": "gions. Text are implanted with perspective transformation",
+                "confidence": 0.9905984997749329,
+                "text_region": [
+                    [
+                        307.0,
+                        425.0
+                    ],
+                    [
+                        547.0,
+                        425.0
+                    ],
+                    [
+                        547.0,
+                        439.0
+                    ],
+                    [
+                        307.0,
+                        439.0
+                    ]
+                ]
+            },
+            {
+                "text": "based on estimated depth. To maintain semantic coherency,",
+                "confidence": 0.9968096613883972,
+                "text_region": [
+                    [
+                        307.0,
+                        438.0
+                    ],
+                    [
+                        547.0,
+                        438.0
+                    ],
+                    [
+                        547.0,
+                        450.0
+                    ],
+                    [
+                        307.0,
+                        450.0
+                    ]
+                ]
+            },
+            {
+                "text": "VISD [50] proposes to use semantic segmentation to filter",
+                "confidence": 0.9827806353569031,
+                "text_region": [
+                    [
+                        307.0,
+                        447.0
+                    ],
+                    [
+                        547.0,
+                        448.0
+                    ],
+                    [
+                        547.0,
+                        462.0
+                    ],
+                    [
+                        307.0,
+                        461.0
+                    ]
+                ]
+            },
+            {
+                "text": "out unreasonable surfaces such as human faces. They also",
+                "confidence": 0.9969137907028198,
+                "text_region": [
+                    [
+                        306.0,
+                        461.0
+                    ],
+                    [
+                        546.0,
+                        461.0
+                    ],
+                    [
+                        546.0,
+                        474.0
+                    ],
+                    [
+                        306.0,
+                        474.0
+                    ]
+                ]
+            },
+            {
+                "text": "adopt an adaptive coloring scheme to fit the text into the",
+                "confidence": 0.9980610609054565,
+                "text_region": [
+                    [
+                        307.0,
+                        473.0
+                    ],
+                    [
+                        547.0,
+                        473.0
+                    ],
+                    [
+                        547.0,
+                        487.0
+                    ],
+                    [
+                        307.0,
+                        487.0
+                    ]
+                ]
+            },
+            {
+                "text": "artistic style of backgrounds. However, without consider-",
+                "confidence": 0.9868445992469788,
+                "text_region": [
+                    [
+                        307.0,
+                        485.0
+                    ],
+                    [
+                        547.0,
+                        485.0
+                    ],
+                    [
+                        547.0,
+                        498.0
+                    ],
+                    [
+                        307.0,
+                        498.0
+                    ]
+                ]
+            },
+            {
+                "text": "ing the scene as a whole, these methods fail to render text",
+                "confidence": 0.985923707485199,
+                "text_region": [
+                    [
+                        306.0,
+                        497.0
+                    ],
+                    [
+                        547.0,
+                        496.0
+                    ],
+                    [
+                        547.0,
+                        510.0
+                    ],
+                    [
+                        306.0,
+                        511.0
+                    ]
+                ]
+            },
+            {
+                "text": "instances in a photo-realistic way, and text instances are too",
+                "confidence": 0.9860656261444092,
+                "text_region": [
+                    [
+                        307.0,
+                        510.0
+                    ],
+                    [
+                        547.0,
+                        510.0
+                    ],
+                    [
+                        547.0,
+                        523.0
+                    ],
+                    [
+                        307.0,
+                        523.0
+                    ]
+                ]
+            },
+            {
+                "text": "outstanding from backgrounds. So far, the training of de-",
+                "confidence": 0.9752519130706787,
+                "text_region": [
+                    [
+                        307.0,
+                        522.0
+                    ],
+                    [
+                        546.0,
+                        522.0
+                    ],
+                    [
+                        546.0,
+                        535.0
+                    ],
+                    [
+                        307.0,
+                        535.0
+                    ]
+                ]
+            },
+            {
+                "text": "tectors still relies heavily on real images.",
+                "confidence": 0.9646537899971008,
+                "text_region": [
+                    [
+                        306.0,
+                        533.0
+                    ],
+                    [
+                        473.0,
+                        534.0
+                    ],
+                    [
+                        473.0,
+                        548.0
+                    ],
+                    [
+                        306.0,
+                        546.0
+                    ]
+                ]
+            },
+            {
+                "text": "Although GANs and other learning-based methods have",
+                "confidence": 0.989606499671936,
+                "text_region": [
+                    [
+                        319.0,
+                        545.0
+                    ],
+                    [
+                        547.0,
+                        545.0
+                    ],
+                    [
+                        547.0,
+                        559.0
+                    ],
+                    [
+                        319.0,
+                        559.0
+                    ]
+                ]
+            },
+            {
+                "text": "also shown great potential in generating realistic im-",
+                "confidence": 0.9750895500183105,
+                "text_region": [
+                    [
+                        306.0,
+                        558.0
+                    ],
+                    [
+                        547.0,
+                        558.0
+                    ],
+                    [
+                        547.0,
+                        572.0
+                    ],
+                    [
+                        306.0,
+                        572.0
+                    ]
+                ]
+            },
+            {
+                "text": "ages [48, 17, 12], the generation of scene text images still",
+                "confidence": 0.9903090000152588,
+                "text_region": [
+                    [
+                        306.0,
+                        570.0
+                    ],
+                    [
+                        547.0,
+                        570.0
+                    ],
+                    [
+                        547.0,
+                        584.0
+                    ],
+                    [
+                        306.0,
+                        584.0
+                    ]
+                ]
+            },
+            {
+                "text": "require a large amount of manually labeled data [51]. Fur-",
+                "confidence": 0.9958171248435974,
+                "text_region": [
+                    [
+                        305.0,
+                        582.0
+                    ],
+                    [
+                        547.0,
+                        581.0
+                    ],
+                    [
+                        547.0,
+                        595.0
+                    ],
+                    [
+                        305.0,
+                        596.0
+                    ]
+                ]
+            },
+            {
+                "text": "thermore, such data are sometimes not easy to collect, es-",
+                "confidence": 0.9934700131416321,
+                "text_region": [
+                    [
+                        305.0,
+                        594.0
+                    ],
+                    [
+                        546.0,
+                        594.0
+                    ],
+                    [
+                        546.0,
+                        607.0
+                    ],
+                    [
+                        305.0,
+                        607.0
+                    ]
+                ]
+            },
+            {
+                "text": "pecially for cases such as low resource languages.",
+                "confidence": 0.998049259185791,
+                "text_region": [
+                    [
+                        306.0,
+                        607.0
+                    ],
+                    [
+                        510.0,
+                        607.0
+                    ],
+                    [
+                        510.0,
+                        620.0
+                    ],
+                    [
+                        306.0,
+                        620.0
+                    ]
+                ]
+            },
+            {
+                "text": "More recently. synthesizing images with 3D graph-",
+                "confidence": 0.9858606457710266,
+                "text_region": [
+                    [
+                        316.0,
+                        617.0
+                    ],
+                    [
+                        547.0,
+                        618.0
+                    ],
+                    [
+                        547.0,
+                        633.0
+                    ],
+                    [
+                        316.0,
+                        632.0
+                    ]
+                ]
+            },
+            {
+                "text": "ics engine has become popular in several fields, in-",
+                "confidence": 0.9742237329483032,
+                "text_region": [
+                    [
+                        306.0,
+                        631.0
+                    ],
+                    [
+                        547.0,
+                        631.0
+                    ],
+                    [
+                        547.0,
+                        644.0
+                    ],
+                    [
+                        306.0,
+                        644.0
+                    ]
+                ]
+            },
+            {
+                "text": "cluding human pose estimation [43], scene understand-",
+                "confidence": 0.9951735734939575,
+                "text_region": [
+                    [
+                        306.0,
+                        643.0
+                    ],
+                    [
+                        546.0,
+                        643.0
+                    ],
+                    [
+                        546.0,
+                        656.0
+                    ],
+                    [
+                        306.0,
+                        656.0
+                    ]
+                ]
+            },
+            {
+                "text": "ing/segmentation [28, 24, 33, 35, 37], and object detec-",
+                "confidence": 0.9812397956848145,
+                "text_region": [
+                    [
+                        307.0,
+                        654.0
+                    ],
+                    [
+                        547.0,
+                        654.0
+                    ],
+                    [
+                        547.0,
+                        668.0
+                    ],
+                    [
+                        307.0,
+                        668.0
+                    ]
+                ]
+            },
+            {
+                "text": "tion [29, 42, 8]. However, these methods either consider",
+                "confidence": 0.976786196231842,
+                "text_region": [
+                    [
+                        305.0,
+                        665.0
+                    ],
+                    [
+                        546.0,
+                        665.0
+                    ],
+                    [
+                        546.0,
+                        678.0
+                    ],
+                    [
+                        305.0,
+                        678.0
+                    ]
+                ]
+            },
+            {
+                "text": "simplistic cases, e.g. rendering 3D objects on top of static",
+                "confidence": 0.989698052406311,
+                "text_region": [
+                    [
+                        306.0,
+                        678.0
+                    ],
+                    [
+                        547.0,
+                        678.0
+                    ],
+                    [
+                        547.0,
+                        692.0
+                    ],
+                    [
+                        306.0,
+                        692.0
+                    ]
+                ]
+            },
+            {
+                "text": "background images [29, 43] and randomly arranging scenes",
+                "confidence": 0.9751107096672058,
+                "text_region": [
+                    [
+                        306.0,
+                        690.0
+                    ],
+                    [
+                        547.0,
+                        690.0
+                    ],
+                    [
+                        547.0,
+                        704.0
+                    ],
+                    [
+                        306.0,
+                        704.0
+                    ]
+                ]
+            },
+            {
+                "text": "filled with objects [28, 24, 35, 8], or passively use off-the-",
+                "confidence": 0.9800243377685547,
+                "text_region": [
+                    [
+                        307.0,
+                        702.0
+                    ],
+                    [
+                        546.0,
+                        702.0
+                    ],
+                    [
+                        546.0,
+                        716.0
+                    ],
+                    [
+                        307.0,
+                        716.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9960732460021973
+    },
+    {
+        "type": "text",
+        "bbox": [
+            307,
+            75,
+            545,
+            167
+        ],
+        "res": [
+            {
+                "text": "to carry out comprehensive evaluations, and tend to over-",
+                "confidence": 0.9755054712295532,
+                "text_region": [
+                    [
+                        306.0,
+                        73.0
+                    ],
+                    [
+                        546.0,
+                        73.0
+                    ],
+                    [
+                        546.0,
+                        86.0
+                    ],
+                    [
+                        306.0,
+                        86.0
+                    ]
+                ]
+            },
+            {
+                "text": "estimate the progress of scene text recognition algorithms.",
+                "confidence": 0.9873294234275818,
+                "text_region": [
+                    [
+                        307.0,
+                        85.0
+                    ],
+                    [
+                        546.0,
+                        85.0
+                    ],
+                    [
+                        546.0,
+                        99.0
+                    ],
+                    [
+                        307.0,
+                        99.0
+                    ]
+                ]
+            },
+            {
+                "text": "To address this issue, we re-annotate these datasets to in-",
+                "confidence": 0.9974092841148376,
+                "text_region": [
+                    [
+                        307.0,
+                        97.0
+                    ],
+                    [
+                        546.0,
+                        97.0
+                    ],
+                    [
+                        546.0,
+                        110.0
+                    ],
+                    [
+                        307.0,
+                        110.0
+                    ]
+                ]
+            },
+            {
+                "text": "clude both upper-case and lower-case choracters, digirs,",
+                "confidence": 0.9695170521736145,
+                "text_region": [
+                    [
+                        306.0,
+                        108.0
+                    ],
+                    [
+                        547.0,
+                        109.0
+                    ],
+                    [
+                        547.0,
+                        123.0
+                    ],
+                    [
+                        306.0,
+                        122.0
+                    ]
+                ]
+            },
+            {
+                "text": "puncfuarion marks, and spaces if there are any. We urge",
+                "confidence": 0.9696012139320374,
+                "text_region": [
+                    [
+                        306.0,
+                        122.0
+                    ],
+                    [
+                        547.0,
+                        122.0
+                    ],
+                    [
+                        547.0,
+                        135.0
+                    ],
+                    [
+                        306.0,
+                        135.0
+                    ]
+                ]
+            },
+            {
+                "text": "researchers to use the new annotations and evaluate in such",
+                "confidence": 0.9994366765022278,
+                "text_region": [
+                    [
+                        307.0,
+                        134.0
+                    ],
+                    [
+                        547.0,
+                        134.0
+                    ],
+                    [
+                        547.0,
+                        147.0
+                    ],
+                    [
+                        307.0,
+                        147.0
+                    ]
+                ]
+            },
+            {
+                "text": "a full-symbol mode for better understanding of the advan-",
+                "confidence": 0.989321231842041,
+                "text_region": [
+                    [
+                        307.0,
+                        146.0
+                    ],
+                    [
+                        546.0,
+                        146.0
+                    ],
+                    [
+                        546.0,
+                        158.0
+                    ],
+                    [
+                        307.0,
+                        158.0
+                    ]
+                ]
+            },
+            {
+                "text": "tages and disadvantages of different algorithms.",
+                "confidence": 0.9884646534919739,
+                "text_region": [
+                    [
+                        306.0,
+                        157.0
+                    ],
+                    [
+                        500.0,
+                        156.0
+                    ],
+                    [
+                        500.0,
+                        170.0
+                    ],
+                    [
+                        306.0,
+                        171.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9922075867652893
+    },
+    {
+        "type": "text",
+        "bbox": [
+            48,
+            75,
+            287,
+            711
+        ],
+        "res": [
+            {
+                "text": "tion follow the same paradigm. First, they analyze back-",
+                "confidence": 0.9965978264808655,
+                "text_region": [
+                    [
+                        48.0,
+                        73.0
+                    ],
+                    [
+                        288.0,
+                        73.0
+                    ],
+                    [
+                        288.0,
+                        86.0
+                    ],
+                    [
+                        48.0,
+                        86.0
+                    ]
+                ]
+            },
+            {
+                "text": "ground images, e.g. by performing semantic segmentation",
+                "confidence": 0.9970607161521912,
+                "text_region": [
+                    [
+                        48.0,
+                        85.0
+                    ],
+                    [
+                        289.0,
+                        85.0
+                    ],
+                    [
+                        289.0,
+                        99.0
+                    ],
+                    [
+                        48.0,
+                        99.0
+                    ]
+                ]
+            },
+            {
+                "text": "and depth estimation using off-the-shelf models. Then, po-",
+                "confidence": 0.9912151098251343,
+                "text_region": [
+                    [
+                        48.0,
+                        97.0
+                    ],
+                    [
+                        288.0,
+                        97.0
+                    ],
+                    [
+                        288.0,
+                        111.0
+                    ],
+                    [
+                        48.0,
+                        111.0
+                    ]
+                ]
+            },
+            {
+                "text": "tential locations for text embedding are extracted from the",
+                "confidence": 0.9837561845779419,
+                "text_region": [
+                    [
+                        48.0,
+                        109.0
+                    ],
+                    [
+                        289.0,
+                        109.0
+                    ],
+                    [
+                        289.0,
+                        123.0
+                    ],
+                    [
+                        48.0,
+                        123.0
+                    ]
+                ]
+            },
+            {
+                "text": "segmented regions. Finally, text images (foregrounds) are",
+                "confidence": 0.9797908663749695,
+                "text_region": [
+                    [
+                        48.0,
+                        122.0
+                    ],
+                    [
+                        288.0,
+                        122.0
+                    ],
+                    [
+                        288.0,
+                        135.0
+                    ],
+                    [
+                        48.0,
+                        135.0
+                    ]
+                ]
+            },
+            {
+                "text": "blended into the background images, with perceptive trans-",
+                "confidence": 0.9976982474327087,
+                "text_region": [
+                    [
+                        48.0,
+                        134.0
+                    ],
+                    [
+                        287.0,
+                        134.0
+                    ],
+                    [
+                        287.0,
+                        147.0
+                    ],
+                    [
+                        48.0,
+                        147.0
+                    ]
+                ]
+            },
+            {
+                "text": "formation inferred from estimated depth. However, the",
+                "confidence": 0.9921382069587708,
+                "text_region": [
+                    [
+                        48.0,
+                        146.0
+                    ],
+                    [
+                        288.0,
+                        146.0
+                    ],
+                    [
+                        288.0,
+                        158.0
+                    ],
+                    [
+                        48.0,
+                        158.0
+                    ]
+                ]
+            },
+            {
+                "text": "analysis of background images with off-the-shelf models",
+                "confidence": 0.9975214004516602,
+                "text_region": [
+                    [
+                        48.0,
+                        157.0
+                    ],
+                    [
+                        288.0,
+                        157.0
+                    ],
+                    [
+                        288.0,
+                        170.0
+                    ],
+                    [
+                        48.0,
+                        170.0
+                    ]
+                ]
+            },
+            {
+                "text": "may be rough and imprecise. The errors further propagate",
+                "confidence": 0.9928877949714661,
+                "text_region": [
+                    [
+                        48.0,
+                        169.0
+                    ],
+                    [
+                        288.0,
+                        169.0
+                    ],
+                    [
+                        288.0,
+                        183.0
+                    ],
+                    [
+                        48.0,
+                        183.0
+                    ]
+                ]
+            },
+            {
+                "text": "to text proposal modules and result in text being embedded",
+                "confidence": 0.9899429678916931,
+                "text_region": [
+                    [
+                        47.0,
+                        181.0
+                    ],
+                    [
+                        289.0,
+                        179.0
+                    ],
+                    [
+                        289.0,
+                        193.0
+                    ],
+                    [
+                        47.0,
+                        195.0
+                    ]
+                ]
+            },
+            {
+                "text": "onto unsuitable locations. Moreover, the text embedding",
+                "confidence": 0.9932746887207031,
+                "text_region": [
+                    [
+                        47.0,
+                        192.0
+                    ],
+                    [
+                        289.0,
+                        193.0
+                    ],
+                    [
+                        289.0,
+                        207.0
+                    ],
+                    [
+                        47.0,
+                        206.0
+                    ]
+                ]
+            },
+            {
+                "text": "process is ignorant of the overall image conditions such as",
+                "confidence": 0.9909438490867615,
+                "text_region": [
+                    [
+                        48.0,
+                        205.0
+                    ],
+                    [
+                        288.0,
+                        205.0
+                    ],
+                    [
+                        288.0,
+                        218.0
+                    ],
+                    [
+                        48.0,
+                        218.0
+                    ]
+                ]
+            },
+            {
+                "text": "illumination and occlusions of the scene. These two factors",
+                "confidence": 0.9812189936637878,
+                "text_region": [
+                    [
+                        48.0,
+                        216.0
+                    ],
+                    [
+                        289.0,
+                        216.0
+                    ],
+                    [
+                        289.0,
+                        230.0
+                    ],
+                    [
+                        48.0,
+                        230.0
+                    ]
+                ]
+            },
+            {
+                "text": "make text instances outstanding from backgrounds, leading",
+                "confidence": 0.9981778264045715,
+                "text_region": [
+                    [
+                        47.0,
+                        227.0
+                    ],
+                    [
+                        289.0,
+                        229.0
+                    ],
+                    [
+                        289.0,
+                        243.0
+                    ],
+                    [
+                        47.0,
+                        241.0
+                    ]
+                ]
+            },
+            {
+                "text": "to a gap between synthetic and real images.",
+                "confidence": 0.9842131733894348,
+                "text_region": [
+                    [
+                        48.0,
+                        241.0
+                    ],
+                    [
+                        224.0,
+                        241.0
+                    ],
+                    [
+                        224.0,
+                        254.0
+                    ],
+                    [
+                        48.0,
+                        254.0
+                    ]
+                ]
+            },
+            {
+                "text": "In this paper, we propose a synthetic engine that syn-",
+                "confidence": 0.9902159571647644,
+                "text_region": [
+                    [
+                        59.0,
+                        254.0
+                    ],
+                    [
+                        288.0,
+                        254.0
+                    ],
+                    [
+                        288.0,
+                        268.0
+                    ],
+                    [
+                        59.0,
+                        268.0
+                    ]
+                ]
+            },
+            {
+                "text": "thesizes scene text images from 3D virtual world. The",
+                "confidence": 0.9912709593772888,
+                "text_region": [
+                    [
+                        47.0,
+                        266.0
+                    ],
+                    [
+                        289.0,
+                        266.0
+                    ],
+                    [
+                        289.0,
+                        280.0
+                    ],
+                    [
+                        47.0,
+                        280.0
+                    ]
+                ]
+            },
+            {
+                "text": "proposed engine is based on the famous Unreal Engine 4",
+                "confidence": 0.9887912273406982,
+                "text_region": [
+                    [
+                        48.0,
+                        278.0
+                    ],
+                    [
+                        289.0,
+                        278.0
+                    ],
+                    [
+                        289.0,
+                        292.0
+                    ],
+                    [
+                        48.0,
+                        292.0
+                    ]
+                ]
+            },
+            {
+                "text": "(UE4), and is therefore named as UsreafTexr. Specifically,",
+                "confidence": 0.9675029516220093,
+                "text_region": [
+                    [
+                        47.0,
+                        288.0
+                    ],
+                    [
+                        288.0,
+                        290.0
+                    ],
+                    [
+                        288.0,
+                        304.0
+                    ],
+                    [
+                        47.0,
+                        302.0
+                    ]
+                ]
+            },
+            {
+                "text": "text instances are regarded as planar polygon meshes with",
+                "confidence": 0.9996150732040405,
+                "text_region": [
+                    [
+                        48.0,
+                        302.0
+                    ],
+                    [
+                        289.0,
+                        302.0
+                    ],
+                    [
+                        289.0,
+                        316.0
+                    ],
+                    [
+                        48.0,
+                        316.0
+                    ]
+                ]
+            },
+            {
+                "text": "text foregrounds loaded as texture. These meshes are placed",
+                "confidence": 0.9988114237785339,
+                "text_region": [
+                    [
+                        48.0,
+                        313.0
+                    ],
+                    [
+                        288.0,
+                        313.0
+                    ],
+                    [
+                        288.0,
+                        327.0
+                    ],
+                    [
+                        48.0,
+                        327.0
+                    ]
+                ]
+            },
+            {
+                "text": "in suitable positions in 3D world, and rendered together",
+                "confidence": 0.9984976649284363,
+                "text_region": [
+                    [
+                        48.0,
+                        326.0
+                    ],
+                    [
+                        289.0,
+                        326.0
+                    ],
+                    [
+                        289.0,
+                        340.0
+                    ],
+                    [
+                        48.0,
+                        340.0
+                    ]
+                ]
+            },
+            {
+                "text": "with the scene as a whole.",
+                "confidence": 0.9899066090583801,
+                "text_region": [
+                    [
+                        48.0,
+                        339.0
+                    ],
+                    [
+                        155.0,
+                        339.0
+                    ],
+                    [
+                        155.0,
+                        351.0
+                    ],
+                    [
+                        48.0,
+                        351.0
+                    ]
+                ]
+            },
+            {
+                "text": "As shown in Fig. 1, the proposed synthesis engine, by",
+                "confidence": 0.9963230490684509,
+                "text_region": [
+                    [
+                        59.0,
+                        350.0
+                    ],
+                    [
+                        288.0,
+                        351.0
+                    ],
+                    [
+                        288.0,
+                        365.0
+                    ],
+                    [
+                        59.0,
+                        364.0
+                    ]
+                ]
+            },
+            {
+                "text": "its very nature, enjoys the following advantages over pre-",
+                "confidence": 0.984347939491272,
+                "text_region": [
+                    [
+                        48.0,
+                        364.0
+                    ],
+                    [
+                        288.0,
+                        364.0
+                    ],
+                    [
+                        288.0,
+                        378.0
+                    ],
+                    [
+                        48.0,
+                        378.0
+                    ]
+                ]
+            },
+            {
+                "text": "vious methods: (1) Text and scenes are rendered together, ",
+                "confidence": 0.988578736782074,
+                "text_region": [
+                    [
+                        49.0,
+                        376.0
+                    ],
+                    [
+                        289.0,
+                        376.0
+                    ],
+                    [
+                        289.0,
+                        390.0
+                    ],
+                    [
+                        49.0,
+                        390.0
+                    ]
+                ]
+            },
+            {
+                "text": "achieving realistic visual effects, e.g. ilumination, occlu-",
+                "confidence": 0.9786642789840698,
+                "text_region": [
+                    [
+                        49.0,
+                        387.0
+                    ],
+                    [
+                        288.0,
+                        387.0
+                    ],
+                    [
+                        288.0,
+                        401.0
+                    ],
+                    [
+                        49.0,
+                        401.0
+                    ]
+                ]
+            },
+            {
+                "text": "sion, and perspective transformation. (2) The method has",
+                "confidence": 0.9895631670951843,
+                "text_region": [
+                    [
+                        48.0,
+                        399.0
+                    ],
+                    [
+                        288.0,
+                        399.0
+                    ],
+                    [
+                        288.0,
+                        413.0
+                    ],
+                    [
+                        48.0,
+                        413.0
+                    ]
+                ]
+            },
+            {
+                "text": "access to precise scene information, e.g. normal, depth, and",
+                "confidence": 0.9969545602798462,
+                "text_region": [
+                    [
+                        48.0,
+                        411.0
+                    ],
+                    [
+                        289.0,
+                        410.0
+                    ],
+                    [
+                        289.0,
+                        424.0
+                    ],
+                    [
+                        48.0,
+                        425.0
+                    ]
+                ]
+            },
+            {
+                "text": "object meshes, and therefore can generate better text region",
+                "confidence": 0.9911583662033081,
+                "text_region": [
+                    [
+                        49.0,
+                        424.0
+                    ],
+                    [
+                        288.0,
+                        424.0
+                    ],
+                    [
+                        288.0,
+                        437.0
+                    ],
+                    [
+                        49.0,
+                        437.0
+                    ]
+                ]
+            },
+            {
+                "text": "proposals. These aspects are crucial in training detectors.",
+                "confidence": 0.9886446595191956,
+                "text_region": [
+                    [
+                        47.0,
+                        436.0
+                    ],
+                    [
+                        279.0,
+                        435.0
+                    ],
+                    [
+                        279.0,
+                        448.0
+                    ],
+                    [
+                        47.0,
+                        449.0
+                    ]
+                ]
+            },
+            {
+                "text": "To further exploit the potential of UnrealText, we design",
+                "confidence": 0.9783536195755005,
+                "text_region": [
+                    [
+                        59.0,
+                        448.0
+                    ],
+                    [
+                        289.0,
+                        448.0
+                    ],
+                    [
+                        289.0,
+                        462.0
+                    ],
+                    [
+                        59.0,
+                        462.0
+                    ]
+                ]
+            },
+            {
+                "text": "three key components: (1) A view finding algorithm that",
+                "confidence": 0.9946542978286743,
+                "text_region": [
+                    [
+                        48.0,
+                        461.0
+                    ],
+                    [
+                        289.0,
+                        461.0
+                    ],
+                    [
+                        289.0,
+                        475.0
+                    ],
+                    [
+                        48.0,
+                        475.0
+                    ]
+                ]
+            },
+            {
+                "text": "explores the virtual scenes and generates camera viewpoints",
+                "confidence": 0.9933658242225647,
+                "text_region": [
+                    [
+                        47.0,
+                        473.0
+                    ],
+                    [
+                        289.0,
+                        472.0
+                    ],
+                    [
+                        289.0,
+                        486.0
+                    ],
+                    [
+                        47.0,
+                        487.0
+                    ]
+                ]
+            },
+            {
+                "text": "to obtain more diverse and natural backgrounds. (2) An en-",
+                "confidence": 0.9928752183914185,
+                "text_region": [
+                    [
+                        47.0,
+                        484.0
+                    ],
+                    [
+                        288.0,
+                        485.0
+                    ],
+                    [
+                        288.0,
+                        499.0
+                    ],
+                    [
+                        47.0,
+                        498.0
+                    ]
+                ]
+            },
+            {
+                "text": "vironment randomization module that changes the lighting",
+                "confidence": 0.9986129403114319,
+                "text_region": [
+                    [
+                        47.0,
+                        496.0
+                    ],
+                    [
+                        289.0,
+                        497.0
+                    ],
+                    [
+                        289.0,
+                        511.0
+                    ],
+                    [
+                        47.0,
+                        510.0
+                    ]
+                ]
+            },
+            {
+                "text": "conditions regularly, to simulate real-world variations. (3)",
+                "confidence": 0.9767884612083435,
+                "text_region": [
+                    [
+                        48.0,
+                        509.0
+                    ],
+                    [
+                        289.0,
+                        509.0
+                    ],
+                    [
+                        289.0,
+                        523.0
+                    ],
+                    [
+                        48.0,
+                        523.0
+                    ]
+                ]
+            },
+            {
+                "text": "A mesh-based text region generation method that finds suit-",
+                "confidence": 0.983974277973175,
+                "text_region": [
+                    [
+                        48.0,
+                        522.0
+                    ],
+                    [
+                        288.0,
+                        522.0
+                    ],
+                    [
+                        288.0,
+                        535.0
+                    ],
+                    [
+                        48.0,
+                        535.0
+                    ]
+                ]
+            },
+            {
+                "text": "able positions for text by probing the 3D meshes.",
+                "confidence": 0.9858284592628479,
+                "text_region": [
+                    [
+                        48.0,
+                        534.0
+                    ],
+                    [
+                        247.0,
+                        534.0
+                    ],
+                    [
+                        247.0,
+                        546.0
+                    ],
+                    [
+                        48.0,
+                        546.0
+                    ]
+                ]
+            },
+            {
+                "text": "The contributions of this paper are summarized as fol-",
+                "confidence": 0.974942684173584,
+                "text_region": [
+                    [
+                        57.0,
+                        544.0
+                    ],
+                    [
+                        289.0,
+                        546.0
+                    ],
+                    [
+                        289.0,
+                        562.0
+                    ],
+                    [
+                        57.0,
+                        561.0
+                    ]
+                ]
+            },
+            {
+                "text": "lows: (1) We propose a brand-new scene text image syn-",
+                "confidence": 0.9807353615760803,
+                "text_region": [
+                    [
+                        48.0,
+                        559.0
+                    ],
+                    [
+                        288.0,
+                        559.0
+                    ],
+                    [
+                        288.0,
+                        573.0
+                    ],
+                    [
+                        48.0,
+                        573.0
+                    ]
+                ]
+            },
+            {
+                "text": "thesis engine that renders images from 3D world, which is",
+                "confidence": 0.9780498147010803,
+                "text_region": [
+                    [
+                        48.0,
+                        570.0
+                    ],
+                    [
+                        289.0,
+                        570.0
+                    ],
+                    [
+                        289.0,
+                        584.0
+                    ],
+                    [
+                        48.0,
+                        584.0
+                    ]
+                ]
+            },
+            {
+                "text": "entirely different from previous approaches that embed text",
+                "confidence": 0.9918672442436218,
+                "text_region": [
+                    [
+                        48.0,
+                        582.0
+                    ],
+                    [
+                        289.0,
+                        582.0
+                    ],
+                    [
+                        289.0,
+                        596.0
+                    ],
+                    [
+                        48.0,
+                        596.0
+                    ]
+                ]
+            },
+            {
+                "text": "on 2D background images, termed as UnrealText. The pro-",
+                "confidence": 0.9813212752342224,
+                "text_region": [
+                    [
+                        48.0,
+                        594.0
+                    ],
+                    [
+                        289.0,
+                        594.0
+                    ],
+                    [
+                        289.0,
+                        608.0
+                    ],
+                    [
+                        48.0,
+                        608.0
+                    ]
+                ]
+            },
+            {
+                "text": "posed engine achieves realistic rendering effects and high",
+                "confidence": 0.9889596104621887,
+                "text_region": [
+                    [
+                        48.0,
+                        606.0
+                    ],
+                    [
+                        288.0,
+                        606.0
+                    ],
+                    [
+                        288.0,
+                        619.0
+                    ],
+                    [
+                        48.0,
+                        619.0
+                    ]
+                ]
+            },
+            {
+                "text": "scalability. (2) With the proposed techniques, the synthe-",
+                "confidence": 0.9811328649520874,
+                "text_region": [
+                    [
+                        46.0,
+                        616.0
+                    ],
+                    [
+                        289.0,
+                        617.0
+                    ],
+                    [
+                        289.0,
+                        634.0
+                    ],
+                    [
+                        46.0,
+                        633.0
+                    ]
+                ]
+            },
+            {
+                "text": "sis engine improves the performance of detectors and rec-",
+                "confidence": 0.9971212148666382,
+                "text_region": [
+                    [
+                        48.0,
+                        631.0
+                    ],
+                    [
+                        288.0,
+                        631.0
+                    ],
+                    [
+                        288.0,
+                        643.0
+                    ],
+                    [
+                        48.0,
+                        643.0
+                    ]
+                ]
+            },
+            {
+                "text": "ognizers significantly. (3) We also generate a large scale",
+                "confidence": 0.9898527264595032,
+                "text_region": [
+                    [
+                        48.0,
+                        642.0
+                    ],
+                    [
+                        287.0,
+                        642.0
+                    ],
+                    [
+                        287.0,
+                        655.0
+                    ],
+                    [
+                        48.0,
+                        655.0
+                    ]
+                ]
+            },
+            {
+                "text": "multilingual scene text dataset that will aid further research.",
+                "confidence": 0.9881029725074768,
+                "text_region": [
+                    [
+                        48.0,
+                        654.0
+                    ],
+                    [
+                        288.0,
+                        654.0
+                    ],
+                    [
+                        288.0,
+                        667.0
+                    ],
+                    [
+                        48.0,
+                        667.0
+                    ]
+                ]
+            },
+            {
+                "text": "(4) Additionally, we notice that many of the popular scene",
+                "confidence": 0.9844523072242737,
+                "text_region": [
+                    [
+                        48.0,
+                        666.0
+                    ],
+                    [
+                        289.0,
+                        666.0
+                    ],
+                    [
+                        289.0,
+                        680.0
+                    ],
+                    [
+                        48.0,
+                        680.0
+                    ]
+                ]
+            },
+            {
+                "text": "text recognition datasets are only annotated in an incom-",
+                "confidence": 0.981124997138977,
+                "text_region": [
+                    [
+                        48.0,
+                        678.0
+                    ],
+                    [
+                        288.0,
+                        678.0
+                    ],
+                    [
+                        288.0,
+                        692.0
+                    ],
+                    [
+                        48.0,
+                        692.0
+                    ]
+                ]
+            },
+            {
+                "text": "plete way, providing only case-insensitive word annota-",
+                "confidence": 0.9833568930625916,
+                "text_region": [
+                    [
+                        48.0,
+                        689.0
+                    ],
+                    [
+                        286.0,
+                        689.0
+                    ],
+                    [
+                        286.0,
+                        703.0
+                    ],
+                    [
+                        48.0,
+                        703.0
+                    ]
+                ]
+            },
+            {
+                "text": "tions. With such limited annotations, researchers are unable",
+                "confidence": 0.9906498789787292,
+                "text_region": [
+                    [
+                        48.0,
+                        702.0
+                    ],
+                    [
+                        289.0,
+                        702.0
+                    ],
+                    [
+                        289.0,
+                        715.0
+                    ],
+                    [
+                        48.0,
+                        715.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9920480847358704
+    },
+    {
+        "type": "title",
+        "bbox": [
+            308,
+            204,
+            408,
+            214
+        ],
+        "res": [
+            {
+                "text": "2.1. Synthetic Images",
+                "confidence": 0.955917477607727,
+                "text_region": [
+                    [
+                        306.0,
+                        201.0
+                    ],
+                    [
+                        410.0,
+                        203.0
+                    ],
+                    [
+                        409.0,
+                        217.0
+                    ],
+                    [
+                        306.0,
+                        215.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9473922848701477
+    },
+    {
+        "type": "title",
+        "bbox": [
+            308,
+            183,
+            392,
+            192
+        ],
+        "res": [
+            {
+                "text": "2.Related Work",
+                "confidence": 0.9846779108047485,
+                "text_region": [
+                    [
+                        307.0,
+                        182.0
+                    ],
+                    [
+                        394.0,
+                        182.0
+                    ],
+                    [
+                        394.0,
+                        195.0
+                    ],
+                    [
+                        307.0,
+                        195.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9390488862991333
+    }
+]

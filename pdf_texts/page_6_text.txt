@@ -1,0 +1,130 @@
+accurate. EAST also forms the basis of several widely rec-
+ognized end-to-end text spotting models [18, 7]. We adopt
+an opensource implementation3. In all experiments, models
+are trained on 4 GPU with a batch size of 56. During the
+evaluation, the test images are resized to match a short side
+length of 800 pixels. For each experiment setting, we report
+the mean performance in 5 independent trials.
+Benchmark Datasets We use the following scene text
+detection datasets for evaluation:
+(1) ICDAR 2013 Fo-
+cused Scene Text (IC13) [14] containing horizontal text with
+zoomed-in views. (2) ICDAR 2015 Incidental Scene Text
+(IC15) [13] consisting of images taken without carefulness
+with Google Glass. Images are blurred and text are small.
+(3) MLT 2017 [27] for multilingual scene text detection,
+which is composed of scene text images of 9 languages.
+Note that the images in IC13 and MLT17 have varying res-
+olutions. Therefore, it is necessary to resize them to the
+same level of resolutions before evaluation.
+4.2. Experiments Results
+Pure Synthetic Data We ﬁrst train the EAST models on
+different synthetic datasets alone, to compare our method
+with previous ones in a direct and quantitative way. Note
+that UnrealText, SynthText3D, SynthText, and VISD have
+different numbers of images, so we also need to control the
+number of images used in experiments. Results are summa-
+rized in Tab. 1.
+Firstly, we control the total number of images to
+10K, which is also the full size of the smallest synthetic
+datasets, VISD and SynthText3D. We observe a consider-
+able improvement on IC15 over previous state-of-the-art by
++0.9% in F1-score, and signiﬁcant improvements on IC13
+(+2.7%) and MLT 2017 (+2.8%). Secondly, we also train
+models on the full set of SynthText and ours, since scalabil-
+ity is also an important factor for synthetic scene text im-
+ages, especially when considering the demand to train rec-
+ognizers. Extra training images further improve F1 scores
+on IC15, IC13, and MLT by +2.6%, +2.3%, and +2.1%.
+Models trained with our UnrealText data outperform all
+other synthetic datasets. Besides, the subset of 10K images
+with our method even surpasses 800K SynthText images
+signiﬁcantly on all datasets. The experiment results demon-
+strate the effectiveness of our proposed synthetic engine and
+datasets.
+Complementary Synthetic Data One unique characteristic
+of the proposed UnrealText is that, the images are generated
+from 3D scene models, instead of real background images,
+resulting in potential domain gap due to different artistic
+styles. We conduct experiments by training on both Unre-
+alText data (5K) and VISD (5K), as also shown in Tab. 1
+(last row, marked with italics), which achieves better perfor-
+mance than other 10K synthetic datasets. The combination
+3https://github.com/argman/EAST
+Training Data
+IC15
+IC13
+MLT 2017
+SynthText 10K
+46.3
+60.8
+38.9
+VISD 10K (full)
+64.3
+74.8
+51.4
+SynthText3D 10K (full)
+63.4
+75.6
+48.3
+UnrealText 10K
+65.2
+78.3
+54.2
+SynthText 800K (full)
+58.0
+67.7
+44.8
+UnrealText 600K (full)
+67.8
+80.6
+56.3
+SynthText3D 5K + VISD 5K
+65.4
+78.6
+52.2
+UnrealText 5K + VISD 5K
+66.9
+80.4
+55.7
+Table 1: Detection results (F1-scores) of EAST models
+trained on different synthetic data.
+of UnrealText and VISD is also superior to the combina-
+tion of SynthText3D and VISD. This result demonstrates
+that, our UnrealText is complementary to existing syn-
+thetic datasets that use real images as backgrounds. While
+UnrealText simulates photo-realistic effects, synthetic data
+with real background images can help adapt to real-world
+datasets.
+Combining Synthetic and Real Data One important role
+of synthetic data is to serve as data for pretraining, and to
+further improve the performance on domain speciﬁc real
+datasets. We ﬁrst pretrain the EAST models with differ-
+ent synthetic data, and then use domain data to ﬁnetune the
+models. The results are summarized in Tab. 2. On all
+domain-speciﬁc datasets, models pretrained with our syn-
+thetic dataset surpasses others by considerable margins, ver-
+ifying the effectiveness of our synthesis method in the con-
+text of boosting performance on domain speciﬁc datasets.
+Pretraining on Full Dataset As shown in the last rows
+of Tab. 2, when we pretrain the detector models with our
+full dataset, the performances are improved signiﬁcantly,
+demonstrating the advantage of the scalability of our en-
+gine. Especially, The EAST model achieves an F1 score
+of 74.1 on MLT17, which is even better than recent state-
+of-the-art results, including 73.9 by CRAFT[2] and 73.1 by
+LOMO [52]. Although the margin is not great, it sufﬁces
+to claim that the EAST model revives and reclaims state-of-
+the-art performance with the help of our synthetic dataset.
+Results with Mask-RCNN As the EAST algorithm we use
+above is speciﬁcally designed for scene text and that the
+evaluation with F1 scores may not be comprehensive, we
+provide results with Mask-RCNN [?] which is a general
+object detector. We evaluate the models using the Average
+Precision (AP) metrics which are more comprehensive and
+less affected by the tricky choice of threshold values. We
+use the opensource implementation Detectron2 4. The ro-
+tated bounding boxes of text instances are used as the mask
+annotations. We select a default Mask-RCNN conﬁguration
+with ResNet-50+FPN as the backbone and train the model
+4https://github.com/facebookresearch/detectron2

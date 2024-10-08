@@ -1,0 +1,1524 @@
+[
+    {
+        "type": "reference",
+        "bbox": [
+            49,
+            75,
+            287,
+            714
+        ],
+        "res": [
+            {
+                "text": "[38] Baoguang Shi, Xiang Bai, and Serge Belongie. Detecting",
+                "confidence": 0.9745620489120483,
+                "text_region": [
+                    [
+                        48.0,
+                        73.0
+                    ],
+                    [
+                        289.0,
+                        73.0
+                    ],
+                    [
+                        289.0,
+                        87.0
+                    ],
+                    [
+                        48.0,
+                        87.0
+                    ]
+                ]
+            },
+            {
+                "text": "oriented text in natural images by linking segments. In The",
+                "confidence": 0.9760746955871582,
+                "text_region": [
+                    [
+                        68.0,
+                        85.0
+                    ],
+                    [
+                        289.0,
+                        85.0
+                    ],
+                    [
+                        289.0,
+                        98.0
+                    ],
+                    [
+                        68.0,
+                        98.0
+                    ]
+                ]
+            },
+            {
+                "text": "IEEE Conference on Conputer Visiom and Pattern Recogni-",
+                "confidence": 0.9355489611625671,
+                "text_region": [
+                    [
+                        68.0,
+                        96.0
+                    ],
+                    [
+                        289.0,
+                        96.0
+                    ],
+                    [
+                        289.0,
+                        109.0
+                    ],
+                    [
+                        68.0,
+                        109.0
+                    ]
+                ]
+            },
+            {
+                "text": "tion (CVPR), 2017.",
+                "confidence": 0.9776224493980408,
+                "text_region": [
+                    [
+                        68.0,
+                        108.0
+                    ],
+                    [
+                        139.0,
+                        108.0
+                    ],
+                    [
+                        139.0,
+                        119.0
+                    ],
+                    [
+                        68.0,
+                        119.0
+                    ]
+                ]
+            },
+            {
+                "text": "[39] Baoguang Shi, Mingkun Yang, XingGang Wang, Pengyuan",
+                "confidence": 0.9854736328125,
+                "text_region": [
+                    [
+                        47.0,
+                        118.0
+                    ],
+                    [
+                        289.0,
+                        119.0
+                    ],
+                    [
+                        289.0,
+                        133.0
+                    ],
+                    [
+                        47.0,
+                        132.0
+                    ]
+                ]
+            },
+            {
+                "text": "Lyu, Xiang Bai, and Cong Yao. Aster: An attentional scene",
+                "confidence": 0.9946401119232178,
+                "text_region": [
+                    [
+                        67.0,
+                        131.0
+                    ],
+                    [
+                        289.0,
+                        131.0
+                    ],
+                    [
+                        289.0,
+                        144.0
+                    ],
+                    [
+                        67.0,
+                        144.0
+                    ]
+                ]
+            },
+            {
+                "text": "text recognizer with fexible rectification. IEEE fransactions",
+                "confidence": 0.9561318159103394,
+                "text_region": [
+                    [
+                        67.0,
+                        141.0
+                    ],
+                    [
+                        289.0,
+                        140.0
+                    ],
+                    [
+                        289.0,
+                        153.0
+                    ],
+                    [
+                        67.0,
+                        154.0
+                    ]
+                ]
+            },
+            {
+                "text": "on partere analysis and machine inteligence, 31(11):855",
+                "confidence": 0.9292263984680176,
+                "text_region": [
+                    [
+                        67.0,
+                        151.0
+                    ],
+                    [
+                        289.0,
+                        150.0
+                    ],
+                    [
+                        289.0,
+                        164.0
+                    ],
+                    [
+                        67.0,
+                        165.0
+                    ]
+                ]
+            },
+            {
+                "text": "868, 2018.",
+                "confidence": 0.9982080459594727,
+                "text_region": [
+                    [
+                        69.0,
+                        163.0
+                    ],
+                    [
+                        110.0,
+                        163.0
+                    ],
+                    [
+                        110.0,
+                        174.0
+                    ],
+                    [
+                        69.0,
+                        174.0
+                    ]
+                ]
+            },
+            {
+                "text": "[40] Zhuotao Tian, Michelle Shu, Pengyuan Lyu, Ruiyu Li, Chao",
+                "confidence": 0.9951183795928955,
+                "text_region": [
+                    [
+                        48.0,
+                        175.0
+                    ],
+                    [
+                        288.0,
+                        175.0
+                    ],
+                    [
+                        288.0,
+                        188.0
+                    ],
+                    [
+                        48.0,
+                        188.0
+                    ]
+                ]
+            },
+            {
+                "text": "Zhou, Xiaoyong Shen, and Jiaya Jia. Learning shape-aware",
+                "confidence": 0.9954102635383606,
+                "text_region": [
+                    [
+                        68.0,
+                        186.0
+                    ],
+                    [
+                        289.0,
+                        186.0
+                    ],
+                    [
+                        289.0,
+                        199.0
+                    ],
+                    [
+                        68.0,
+                        199.0
+                    ]
+                ]
+            },
+            {
+                "text": "embedding for scene text detection. In Proceedingz of the",
+                "confidence": 0.9830300211906433,
+                "text_region": [
+                    [
+                        68.0,
+                        197.0
+                    ],
+                    [
+                        288.0,
+                        197.0
+                    ],
+                    [
+                        288.0,
+                        210.0
+                    ],
+                    [
+                        68.0,
+                        210.0
+                    ]
+                ]
+            },
+            {
+                "text": "IEEE Conference on Compater Vision and Parterm Recogni-",
+                "confidence": 0.9527097940444946,
+                "text_region": [
+                    [
+                        68.0,
+                        206.0
+                    ],
+                    [
+                        288.0,
+                        208.0
+                    ],
+                    [
+                        288.0,
+                        222.0
+                    ],
+                    [
+                        67.0,
+                        220.0
+                    ]
+                ]
+            },
+            {
+                "text": "tion, pages 42344243, 2019.",
+                "confidence": 0.9688969254493713,
+                "text_region": [
+                    [
+                        67.0,
+                        219.0
+                    ],
+                    [
+                        178.0,
+                        217.0
+                    ],
+                    [
+                        178.0,
+                        231.0
+                    ],
+                    [
+                        68.0,
+                        233.0
+                    ]
+                ]
+            },
+            {
+                "text": "[41] Josh Tobin, Rachel Fong, Alex Ray, Jonas Schneider, Woj-",
+                "confidence": 0.9754605293273926,
+                "text_region": [
+                    [
+                        48.0,
+                        231.0
+                    ],
+                    [
+                        288.0,
+                        231.0
+                    ],
+                    [
+                        288.0,
+                        245.0
+                    ],
+                    [
+                        48.0,
+                        245.0
+                    ]
+                ]
+            },
+            {
+                "text": "ciech Zaremba, and Pieter Abbeel. Domain randomization",
+                "confidence": 0.9812608361244202,
+                "text_region": [
+                    [
+                        67.0,
+                        242.0
+                    ],
+                    [
+                        289.0,
+                        242.0
+                    ],
+                    [
+                        289.0,
+                        254.0
+                    ],
+                    [
+                        67.0,
+                        254.0
+                    ]
+                ]
+            },
+            {
+                "text": "real world. In 2017 IEEE/RSJ International Conference on",
+                "confidence": 0.9671157002449036,
+                "text_region": [
+                    [
+                        67.0,
+                        262.0
+                    ],
+                    [
+                        288.0,
+                        262.0
+                    ],
+                    [
+                        288.0,
+                        275.0
+                    ],
+                    [
+                        67.0,
+                        275.0
+                    ]
+                ]
+            },
+            {
+                "text": "for transferring deep neural networks from simulation to the",
+                "confidence": 0.9906922578811646,
+                "text_region": [
+                    [
+                        68.0,
+                        253.0
+                    ],
+                    [
+                        289.0,
+                        253.0
+                    ],
+                    [
+                        289.0,
+                        266.0
+                    ],
+                    [
+                        68.0,
+                        266.0
+                    ]
+                ]
+            },
+            {
+                "text": "ntelligeer Robots and Syxtemx (IROS), pages 2330. IEEE,",
+                "confidence": 0.946628212928772,
+                "text_region": [
+                    [
+                        67.0,
+                        273.0
+                    ],
+                    [
+                        288.0,
+                        274.0
+                    ],
+                    [
+                        288.0,
+                        288.0
+                    ],
+                    [
+                        67.0,
+                        287.0
+                    ]
+                ]
+            },
+            {
+                "text": "2017.",
+                "confidence": 0.9967435598373413,
+                "text_region": [
+                    [
+                        68.0,
+                        286.0
+                    ],
+                    [
+                        94.0,
+                        286.0
+                    ],
+                    [
+                        94.0,
+                        297.0
+                    ],
+                    [
+                        68.0,
+                        297.0
+                    ]
+                ]
+            },
+            {
+                "text": "[42] Jonathan Tremblay, Thang To, and Stan Birchfield. Falling",
+                "confidence": 0.9768566489219666,
+                "text_region": [
+                    [
+                        47.0,
+                        297.0
+                    ],
+                    [
+                        289.0,
+                        298.0
+                    ],
+                    [
+                        289.0,
+                        312.0
+                    ],
+                    [
+                        47.0,
+                        311.0
+                    ]
+                ]
+            },
+            {
+                "text": "things: A synthetic dataset for 3d object detection and pose",
+                "confidence": 0.9732689261436462,
+                "text_region": [
+                    [
+                        67.0,
+                        309.0
+                    ],
+                    [
+                        289.0,
+                        308.0
+                    ],
+                    [
+                        289.0,
+                        322.0
+                    ],
+                    [
+                        67.0,
+                        323.0
+                    ]
+                ]
+            },
+            {
+                "text": "estimation. In Proc. CVPR Workshopz, pages 20382041,",
+                "confidence": 0.9730075001716614,
+                "text_region": [
+                    [
+                        68.0,
+                        320.0
+                    ],
+                    [
+                        288.0,
+                        320.0
+                    ],
+                    [
+                        288.0,
+                        334.0
+                    ],
+                    [
+                        68.0,
+                        334.0
+                    ]
+                ]
+            },
+            {
+                "text": "2018.",
+                "confidence": 0.9990310668945312,
+                "text_region": [
+                    [
+                        69.0,
+                        332.0
+                    ],
+                    [
+                        92.0,
+                        332.0
+                    ],
+                    [
+                        92.0,
+                        343.0
+                    ],
+                    [
+                        69.0,
+                        343.0
+                    ]
+                ]
+            },
+            {
+                "text": "[43] Gul Varol, Javier Romero, Xavier Martin, Naureen Mah-",
+                "confidence": 0.9919037818908691,
+                "text_region": [
+                    [
+                        48.0,
+                        342.0
+                    ],
+                    [
+                        286.0,
+                        342.0
+                    ],
+                    [
+                        286.0,
+                        354.0
+                    ],
+                    [
+                        48.0,
+                        354.0
+                    ]
+                ]
+            },
+            {
+                "text": "mood, Michael J Black, Ivan Laptey, and Cordelia Schmid.",
+                "confidence": 0.987470805644989,
+                "text_region": [
+                    [
+                        68.0,
+                        354.0
+                    ],
+                    [
+                        288.0,
+                        354.0
+                    ],
+                    [
+                        288.0,
+                        367.0
+                    ],
+                    [
+                        68.0,
+                        367.0
+                    ]
+                ]
+            },
+            {
+                "text": "Learming from synthetic humans. In Proc. CVPR, pages 109",
+                "confidence": 0.9776943922042847,
+                "text_region": [
+                    [
+                        68.0,
+                        365.0
+                    ],
+                    [
+                        289.0,
+                        365.0
+                    ],
+                    [
+                        289.0,
+                        378.0
+                    ],
+                    [
+                        68.0,
+                        378.0
+                    ]
+                ]
+            },
+            {
+                "text": "117, 2017.",
+                "confidence": 0.9731341600418091,
+                "text_region": [
+                    [
+                        69.0,
+                        375.0
+                    ],
+                    [
+                        108.0,
+                        377.0
+                    ],
+                    [
+                        107.0,
+                        388.0
+                    ],
+                    [
+                        68.0,
+                        386.0
+                    ]
+                ]
+            },
+            {
+                "text": "[44]  Ashish Vaswani, Noam Shazer, Niki Parmat, Jakob Uszko-",
+                "confidence": 0.9628439545631409,
+                "text_region": [
+                    [
+                        47.0,
+                        387.0
+                    ],
+                    [
+                        287.0,
+                        386.0
+                    ],
+                    [
+                        287.0,
+                        400.0
+                    ],
+                    [
+                        47.0,
+                        401.0
+                    ]
+                ]
+            },
+            {
+                "text": "reit, Llion Jones, Aidan N Gomez, Lukasz Kaiset, and Illia",
+                "confidence": 0.9619813561439514,
+                "text_region": [
+                    [
+                        67.0,
+                        399.0
+                    ],
+                    [
+                        289.0,
+                        399.0
+                    ],
+                    [
+                        289.0,
+                        412.0
+                    ],
+                    [
+                        67.0,
+                        412.0
+                    ]
+                ]
+            },
+            {
+                "text": "Polosukhin. Attention is all you need. In Proc. NIPS, pages",
+                "confidence": 0.9649826288223267,
+                "text_region": [
+                    [
+                        68.0,
+                        408.0
+                    ],
+                    [
+                        289.0,
+                        410.0
+                    ],
+                    [
+                        289.0,
+                        424.0
+                    ],
+                    [
+                        67.0,
+                        422.0
+                    ]
+                ]
+            },
+            {
+                "text": "59986008, 2017.",
+                "confidence": 0.9989871382713318,
+                "text_region": [
+                    [
+                        68.0,
+                        422.0
+                    ],
+                    [
+                        136.0,
+                        422.0
+                    ],
+                    [
+                        136.0,
+                        432.0
+                    ],
+                    [
+                        68.0,
+                        432.0
+                    ]
+                ]
+            },
+            {
+                "text": "[45] Kai Wang, Boris Babenko, and Serge Belongie. End-to-end",
+                "confidence": 0.9859627485275269,
+                "text_region": [
+                    [
+                        48.0,
+                        433.0
+                    ],
+                    [
+                        289.0,
+                        433.0
+                    ],
+                    [
+                        289.0,
+                        446.0
+                    ],
+                    [
+                        48.0,
+                        446.0
+                    ]
+                ]
+            },
+            {
+                "text": "scene text recognition. In 20J IEEE International Confer-",
+                "confidence": 0.9551094174385071,
+                "text_region": [
+                    [
+                        67.0,
+                        444.0
+                    ],
+                    [
+                        288.0,
+                        443.0
+                    ],
+                    [
+                        288.0,
+                        456.0
+                    ],
+                    [
+                        67.0,
+                        457.0
+                    ]
+                ]
+            },
+            {
+                "text": "ence on Compufer Vision (/CCV)., pages 14571464. IEEE,",
+                "confidence": 0.9623951315879822,
+                "text_region": [
+                    [
+                        68.0,
+                        455.0
+                    ],
+                    [
+                        288.0,
+                        455.0
+                    ],
+                    [
+                        288.0,
+                        468.0
+                    ],
+                    [
+                        68.0,
+                        468.0
+                    ]
+                ]
+            },
+            {
+                "text": "2011.",
+                "confidence": 0.9977160692214966,
+                "text_region": [
+                    [
+                        69.0,
+                        466.0
+                    ],
+                    [
+                        93.0,
+                        466.0
+                    ],
+                    [
+                        93.0,
+                        477.0
+                    ],
+                    [
+                        69.0,
+                        477.0
+                    ]
+                ]
+            },
+            {
+                "text": "[46] Tao Wang, David J Wu, Adam Coates, and Andrew Y Ng.",
+                "confidence": 0.9820723533630371,
+                "text_region": [
+                    [
+                        48.0,
+                        478.0
+                    ],
+                    [
+                        287.0,
+                        478.0
+                    ],
+                    [
+                        287.0,
+                        491.0
+                    ],
+                    [
+                        48.0,
+                        491.0
+                    ]
+                ]
+            },
+            {
+                "text": "End-to-end text recognition with convolutional neural net-",
+                "confidence": 0.9956190586090088,
+                "text_region": [
+                    [
+                        67.0,
+                        489.0
+                    ],
+                    [
+                        288.0,
+                        489.0
+                    ],
+                    [
+                        288.0,
+                        502.0
+                    ],
+                    [
+                        67.0,
+                        502.0
+                    ]
+                ]
+            },
+            {
+                "text": "works. In 2012 21sr Intermational Conference on Pattern",
+                "confidence": 0.9569113850593567,
+                "text_region": [
+                    [
+                        68.0,
+                        500.0
+                    ],
+                    [
+                        289.0,
+                        500.0
+                    ],
+                    [
+                        289.0,
+                        513.0
+                    ],
+                    [
+                        68.0,
+                        513.0
+                    ]
+                ]
+            },
+            {
+                "text": "Recognirioe (ICPR), pages 33043308. IEEE, 2012.",
+                "confidence": 0.9695272445678711,
+                "text_region": [
+                    [
+                        68.0,
+                        511.0
+                    ],
+                    [
+                        259.0,
+                        511.0
+                    ],
+                    [
+                        259.0,
+                        525.0
+                    ],
+                    [
+                        68.0,
+                        525.0
+                    ]
+                ]
+            },
+            {
+                "text": "[47] Xiaobing Wang, Yingying Jiang, Zhenbo Luo, Cheng-Lin",
+                "confidence": 0.9838667511940002,
+                "text_region": [
+                    [
+                        48.0,
+                        523.0
+                    ],
+                    [
+                        289.0,
+                        523.0
+                    ],
+                    [
+                        289.0,
+                        537.0
+                    ],
+                    [
+                        48.0,
+                        537.0
+                    ]
+                ]
+            },
+            {
+                "text": "Liu, Hyunsoo Choi, and Sungjin Kim. Arbitrary shape scene",
+                "confidence": 0.9978289604187012,
+                "text_region": [
+                    [
+                        66.0,
+                        533.0
+                    ],
+                    [
+                        288.0,
+                        534.0
+                    ],
+                    [
+                        288.0,
+                        547.0
+                    ],
+                    [
+                        66.0,
+                        546.0
+                    ]
+                ]
+            },
+            {
+                "text": "text detection with adaptive text region representation.",
+                "confidence": 0.9749916195869446,
+                "text_region": [
+                    [
+                        67.0,
+                        543.0
+                    ],
+                    [
+                        276.0,
+                        545.0
+                    ],
+                    [
+                        276.0,
+                        558.0
+                    ],
+                    [
+                        67.0,
+                        557.0
+                    ]
+                ]
+            },
+            {
+                "text": "In",
+                "confidence": 0.9979521036148071,
+                "text_region": [
+                    [
+                        271.0,
+                        545.0
+                    ],
+                    [
+                        288.0,
+                        545.0
+                    ],
+                    [
+                        288.0,
+                        556.0
+                    ],
+                    [
+                        271.0,
+                        556.0
+                    ]
+                ]
+            },
+            {
+                "text": "Proceedings of the IEEE Conference on Computer Vision",
+                "confidence": 0.9700781106948853,
+                "text_region": [
+                    [
+                        68.0,
+                        555.0
+                    ],
+                    [
+                        289.0,
+                        555.0
+                    ],
+                    [
+                        289.0,
+                        569.0
+                    ],
+                    [
+                        68.0,
+                        569.0
+                    ]
+                ]
+            },
+            {
+                "text": "and Putter Recognition, pages 64496458, 2019.",
+                "confidence": 0.9467185139656067,
+                "text_region": [
+                    [
+                        67.0,
+                        566.0
+                    ],
+                    [
+                        252.0,
+                        565.0
+                    ],
+                    [
+                        252.0,
+                        579.0
+                    ],
+                    [
+                        67.0,
+                        580.0
+                    ]
+                ]
+            },
+            {
+                "text": "[48] Xinlong Wang, Zhipeng Man, Mingyu You, and Chunhua",
+                "confidence": 0.9908677339553833,
+                "text_region": [
+                    [
+                        48.0,
+                        579.0
+                    ],
+                    [
+                        289.0,
+                        579.0
+                    ],
+                    [
+                        289.0,
+                        592.0
+                    ],
+                    [
+                        48.0,
+                        592.0
+                    ]
+                ]
+            },
+            {
+                "text": "Shen. Adversarial generation of training examples: Appli-",
+                "confidence": 0.995236337184906,
+                "text_region": [
+                    [
+                        67.0,
+                        590.0
+                    ],
+                    [
+                        288.0,
+                        590.0
+                    ],
+                    [
+                        288.0,
+                        603.0
+                    ],
+                    [
+                        67.0,
+                        603.0
+                    ]
+                ]
+            },
+            {
+                "text": "cations to moving vehicle license plate recognition. arXiv",
+                "confidence": 0.9798239469528198,
+                "text_region": [
+                    [
+                        68.0,
+                        601.0
+                    ],
+                    [
+                        289.0,
+                        601.0
+                    ],
+                    [
+                        289.0,
+                        615.0
+                    ],
+                    [
+                        68.0,
+                        615.0
+                    ]
+                ]
+            },
+            {
+                "text": "preprint arXiv:1707.03124, 2017.",
+                "confidence": 0.9568724632263184,
+                "text_region": [
+                    [
+                        67.0,
+                        612.0
+                    ],
+                    [
+                        193.0,
+                        610.0
+                    ],
+                    [
+                        193.0,
+                        624.0
+                    ],
+                    [
+                        68.0,
+                        626.0
+                    ]
+                ]
+            },
+            {
+                "text": "[49]  Qixiang Ye and David Doermann. Text detection and recog-",
+                "confidence": 0.9741866588592529,
+                "text_region": [
+                    [
+                        47.0,
+                        623.0
+                    ],
+                    [
+                        287.0,
+                        624.0
+                    ],
+                    [
+                        287.0,
+                        638.0
+                    ],
+                    [
+                        47.0,
+                        637.0
+                    ]
+                ]
+            },
+            {
+                "text": "nition in imagery: A survey. IEEE transacrions omn paftern",
+                "confidence": 0.9467034935951233,
+                "text_region": [
+                    [
+                        68.0,
+                        635.0
+                    ],
+                    [
+                        289.0,
+                        635.0
+                    ],
+                    [
+                        289.0,
+                        648.0
+                    ],
+                    [
+                        68.0,
+                        648.0
+                    ]
+                ]
+            },
+            {
+                "text": "analysis and machine intefligence, 37(7):14801500, 2015. ",
+                "confidence": 0.9647452235221863,
+                "text_region": [
+                    [
+                        68.0,
+                        645.0
+                    ],
+                    [
+                        286.0,
+                        645.0
+                    ],
+                    [
+                        286.0,
+                        658.0
+                    ],
+                    [
+                        68.0,
+                        658.0
+                    ]
+                ]
+            },
+            {
+                "text": "[50] Fangneng Zhan, Shijian Lu, and Chuhui Xue. Verisimilar",
+                "confidence": 0.9710620045661926,
+                "text_region": [
+                    [
+                        48.0,
+                        658.0
+                    ],
+                    [
+                        289.0,
+                        658.0
+                    ],
+                    [
+                        289.0,
+                        671.0
+                    ],
+                    [
+                        48.0,
+                        671.0
+                    ]
+                ]
+            },
+            {
+                "text": "image synthesis for accurate detection and recognition of",
+                "confidence": 0.9989850521087646,
+                "text_region": [
+                    [
+                        68.0,
+                        669.0
+                    ],
+                    [
+                        289.0,
+                        669.0
+                    ],
+                    [
+                        289.0,
+                        682.0
+                    ],
+                    [
+                        68.0,
+                        682.0
+                    ]
+                ]
+            },
+            {
+                "text": "texts in scenes. In Proc. ECCV, 2018.",
+                "confidence": 0.9841989874839783,
+                "text_region": [
+                    [
+                        68.0,
+                        679.0
+                    ],
+                    [
+                        208.0,
+                        679.0
+                    ],
+                    [
+                        208.0,
+                        692.0
+                    ],
+                    [
+                        68.0,
+                        692.0
+                    ]
+                ]
+            },
+            {
+                "text": "[51] Fangneng Zhan, Hongyuan Zhu, and Shijian Lu. Spatial fu-",
+                "confidence": 0.9858462810516357,
+                "text_region": [
+                    [
+                        48.0,
+                        692.0
+                    ],
+                    [
+                        287.0,
+                        692.0
+                    ],
+                    [
+                        287.0,
+                        705.0
+                    ],
+                    [
+                        48.0,
+                        705.0
+                    ]
+                ]
+            },
+            {
+                "text": "sion gan for image synthesis. In Proceedings of the IEEE",
+                "confidence": 0.979291558265686,
+                "text_region": [
+                    [
+                        68.0,
+                        703.0
+                    ],
+                    [
+                        289.0,
+                        703.0
+                    ],
+                    [
+                        289.0,
+                        716.0
+                    ],
+                    [
+                        68.0,
+                        716.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9846657514572144
+    },
+    {
+        "type": "reference",
+        "bbox": [
+            310,
+            75,
+            546,
+            183
+        ],
+        "res": [
+            {
+                "text": "Conference on Computer Vision and Patterm Recognition,",
+                "confidence": 0.9597960114479065,
+                "text_region": [
+                    [
+                        327.0,
+                        73.0
+                    ],
+                    [
+                        547.0,
+                        73.0
+                    ],
+                    [
+                        547.0,
+                        86.0
+                    ],
+                    [
+                        327.0,
+                        86.0
+                    ]
+                ]
+            },
+            {
+                "text": "pages 36533662, 2019.",
+                "confidence": 0.9745436906814575,
+                "text_region": [
+                    [
+                        325.0,
+                        84.0
+                    ],
+                    [
+                        418.0,
+                        83.0
+                    ],
+                    [
+                        418.0,
+                        97.0
+                    ],
+                    [
+                        325.0,
+                        98.0
+                    ]
+                ]
+            },
+            {
+                "text": "[52] Chengquan Zhang, Borong Liang, Zuming Huang, Mengyi",
+                "confidence": 0.9879598021507263,
+                "text_region": [
+                    [
+                        306.0,
+                        97.0
+                    ],
+                    [
+                        547.0,
+                        97.0
+                    ],
+                    [
+                        547.0,
+                        110.0
+                    ],
+                    [
+                        306.0,
+                        110.0
+                    ]
+                ]
+            },
+            {
+                "text": "En, Junyu Han, Errui Ding, and Xinghao Ding. Look more",
+                "confidence": 0.9859068989753723,
+                "text_region": [
+                    [
+                        327.0,
+                        108.0
+                    ],
+                    [
+                        548.0,
+                        108.0
+                    ],
+                    [
+                        548.0,
+                        122.0
+                    ],
+                    [
+                        327.0,
+                        122.0
+                    ]
+                ]
+            },
+            {
+                "text": "than once: An accurate detector for text of arbitrary shapes.",
+                "confidence": 0.9748474955558777,
+                "text_region": [
+                    [
+                        326.0,
+                        118.0
+                    ],
+                    [
+                        547.0,
+                        119.0
+                    ],
+                    [
+                        547.0,
+                        133.0
+                    ],
+                    [
+                        326.0,
+                        132.0
+                    ]
+                ]
+            },
+            {
+                "text": "Proceedings of the IEEE Conference on Computer Vision",
+                "confidence": 0.9614995121955872,
+                "text_region": [
+                    [
+                        327.0,
+                        130.0
+                    ],
+                    [
+                        548.0,
+                        130.0
+                    ],
+                    [
+                        548.0,
+                        143.0
+                    ],
+                    [
+                        327.0,
+                        143.0
+                    ]
+                ]
+            },
+            {
+                "text": "and Pattern Recognition (CVPR), 2019.",
+                "confidence": 0.9435662031173706,
+                "text_region": [
+                    [
+                        327.0,
+                        141.0
+                    ],
+                    [
+                        474.0,
+                        141.0
+                    ],
+                    [
+                        474.0,
+                        154.0
+                    ],
+                    [
+                        327.0,
+                        154.0
+                    ]
+                ]
+            },
+            {
+                "text": "[53] Xinyu Zhou, Cong Yao, He Wen, Yuzhi Wang, Shuchang",
+                "confidence": 0.971993088722229,
+                "text_region": [
+                    [
+                        305.0,
+                        152.0
+                    ],
+                    [
+                        547.0,
+                        151.0
+                    ],
+                    [
+                        547.0,
+                        165.0
+                    ],
+                    [
+                        305.0,
+                        166.0
+                    ]
+                ]
+            },
+            {
+                "text": "Zhou, Weiran He, and Jiajun Liang. EAST: An efficient and",
+                "confidence": 0.9843950271606445,
+                "text_region": [
+                    [
+                        327.0,
+                        164.0
+                    ],
+                    [
+                        548.0,
+                        164.0
+                    ],
+                    [
+                        548.0,
+                        177.0
+                    ],
+                    [
+                        327.0,
+                        177.0
+                    ]
+                ]
+            },
+            {
+                "text": "accurate scene text detector. In Proc. CVPR, 2017.",
+                "confidence": 0.9814721941947937,
+                "text_region": [
+                    [
+                        326.0,
+                        175.0
+                    ],
+                    [
+                        511.0,
+                        174.0
+                    ],
+                    [
+                        511.0,
+                        187.0
+                    ],
+                    [
+                        326.0,
+                        188.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9842106103897095
+    }
+]

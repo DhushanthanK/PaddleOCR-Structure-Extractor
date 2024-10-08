@@ -1,0 +1,67 @@
+UnrealText: Synthesizing Realistic Scene Text Images from the Unreal World
+Shangbang Long
+Carnegie Mellon University
+shangbal@cs.cmu.edu
+Cong Yao
+Megvii (Face++) Technology Inc.
+yaocong2010@gmail.com
+Figure 1: Demonstration of the proposed UnrealText synthesis engine, which achieves photo-realistic lighting conditions,
+ﬁnds suitable text regions, and realizes natural occlusion (from left to right, zoomed-in views marked with green squares).
+Abstract
+Synthetic data has been a critical tool for training scene
+text detection and recognition models. On the one hand,
+synthetic word images have proven to be a successful sub-
+stitute for real images in training scene text recognizers. On
+the other hand, however, scene text detectors still heavily
+rely on a large amount of manually annotated real-world
+images, which are expensive. In this paper, we introduce
+UnrealText, an efﬁcient image synthesis method that ren-
+ders realistic images via a 3D graphics engine. 3D syn-
+thetic engine provides realistic appearance by rendering
+scene and text as a whole, and allows for better text re-
+gion proposals with access to precise scene information,
+e.g. normal and even object meshes. The comprehensive
+experiments verify its effectiveness on both scene text de-
+tection and recognition. We also generate a multilingual
+version for future research into multilingual scene text de-
+tection and recognition. Additionally, we re-annotate scene
+text recognition datasets in a case-sensitive way and in-
+clude punctuation marks for more comprehensive evalua-
+tions. The code and the generated datasets are released at:
+https://jyouhou.github.io/UnrealText/.
+1. Introduction
+With the resurgence of neural networks, the past few
+years have witnessed signiﬁcant progress in the ﬁeld of
+scene text detection and recognition. However, these mod-
+els are data-thirsty, and it is expensive and sometimes dif-
+ﬁcult, if not impossible, to collect enough data.
+More-
+over, the various applications, from trafﬁc sign reading in
+autonomous vehicles to instant translation, require a large
+amount of data speciﬁcally for each domain, further es-
+calating this issue. Therefore, synthetic data and synthe-
+sis algorithms are important for scene text tasks. Further-
+more, synthetic data can provide detailed annotations, such
+as character-level or even pixel-level ground truths that are
+rare for real images due to high cost.
+Currently, there exist several synthesis algorithms [46,
+10, 6, 50] that have proven beneﬁcial. Especially, in scene
+text recognition, training on synthetic data [10, 6] alone
+has become a widely accepted standard practice. Some re-
+searchers that attempt training on both synthetic and real
+data only report marginal improvements [15, 20] on most
+datasets. Mixing synthetic and real data is only improving
+performance on a few difﬁcult cases that are not yet well
+covered by existing synthetic datasets, such as seriously
+blurred or curved text. This is reasonable, since cropped
+text images have much simpler background, and synthetic
+data enjoys advantages in larger vocabulary size and diver-
+sity of backgrounds, fonts, and lighting conditions, as well
+as thousands of times more data samples.
+On the contrary, however, scene text detection is still
+heavily dependent on real-world data. Synthetic data [6, 50]
+plays a less signiﬁcant role, and only brings marginal im-
+provements.
+Existing synthesizers for scene text detec-
+1
+arXiv:2003.10608v6  [cs.CV]  18 Aug 2020

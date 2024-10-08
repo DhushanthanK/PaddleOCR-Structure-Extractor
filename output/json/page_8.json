@@ -1,0 +1,2050 @@
+[
+    {
+        "type": "text",
+        "bbox": [
+            307,
+            427,
+            546,
+            683
+        ],
+        "res": [
+            {
+                "text": "Although MLT 2017 has been widely used as a benchmark",
+                "confidence": 0.9738463759422302,
+                "text_region": [
+                    [
+                        306.0,
+                        426.0
+                    ],
+                    [
+                        546.0,
+                        426.0
+                    ],
+                    [
+                        546.0,
+                        439.0
+                    ],
+                    [
+                        306.0,
+                        439.0
+                    ]
+                ]
+            },
+            {
+                "text": "for detection, the task of recognizing multilingual scene text",
+                "confidence": 0.9919605255126953,
+                "text_region": [
+                    [
+                        307.0,
+                        439.0
+                    ],
+                    [
+                        548.0,
+                        439.0
+                    ],
+                    [
+                        548.0,
+                        451.0
+                    ],
+                    [
+                        307.0,
+                        451.0
+                    ]
+                ]
+            },
+            {
+                "text": "still remains largely untouched, mainly due to lack of a",
+                "confidence": 0.9675112962722778,
+                "text_region": [
+                    [
+                        306.0,
+                        450.0
+                    ],
+                    [
+                        547.0,
+                        450.0
+                    ],
+                    [
+                        547.0,
+                        463.0
+                    ],
+                    [
+                        306.0,
+                        463.0
+                    ]
+                ]
+            },
+            {
+                "text": "proper training dataset. To pave the way for future research,",
+                "confidence": 0.9950972199440002,
+                "text_region": [
+                    [
+                        306.0,
+                        462.0
+                    ],
+                    [
+                        546.0,
+                        462.0
+                    ],
+                    [
+                        546.0,
+                        476.0
+                    ],
+                    [
+                        306.0,
+                        476.0
+                    ]
+                ]
+            },
+            {
+                "text": "we also generate a multilingual version with 600K images",
+                "confidence": 0.9922371506690979,
+                "text_region": [
+                    [
+                        307.0,
+                        474.0
+                    ],
+                    [
+                        547.0,
+                        474.0
+                    ],
+                    [
+                        547.0,
+                        488.0
+                    ],
+                    [
+                        307.0,
+                        488.0
+                    ]
+                ]
+            },
+            {
+                "text": "containing 10 languages as included in MLT 2019 [26]:",
+                "confidence": 0.9963791966438293,
+                "text_region": [
+                    [
+                        307.0,
+                        486.0
+                    ],
+                    [
+                        547.0,
+                        486.0
+                    ],
+                    [
+                        547.0,
+                        500.0
+                    ],
+                    [
+                        307.0,
+                        500.0
+                    ]
+                ]
+            },
+            {
+                "text": "Arabic, Bangla, Chinese, English, French, German, Hindi,",
+                "confidence": 0.9734271168708801,
+                "text_region": [
+                    [
+                        307.0,
+                        498.0
+                    ],
+                    [
+                        547.0,
+                        498.0
+                    ],
+                    [
+                        547.0,
+                        511.0
+                    ],
+                    [
+                        307.0,
+                        511.0
+                    ]
+                ]
+            },
+            {
+                "text": "Italian, Japanese, and Korean. Text contents are sampled",
+                "confidence": 0.9627313613891602,
+                "text_region": [
+                    [
+                        307.0,
+                        510.0
+                    ],
+                    [
+                        548.0,
+                        510.0
+                    ],
+                    [
+                        548.0,
+                        524.0
+                    ],
+                    [
+                        307.0,
+                        524.0
+                    ]
+                ]
+            },
+            {
+                "text": "from corpus extracted from the Wikimedia dump",
+                "confidence": 0.995951235294342,
+                "text_region": [
+                    [
+                        307.0,
+                        522.0
+                    ],
+                    [
+                        510.0,
+                        522.0
+                    ],
+                    [
+                        510.0,
+                        536.0
+                    ],
+                    [
+                        307.0,
+                        536.0
+                    ]
+                ]
+            },
+            {
+                "text": "Model We use the same model and implementation as Sec-",
+                "confidence": 0.991923987865448,
+                "text_region": [
+                    [
+                        306.0,
+                        536.0
+                    ],
+                    [
+                        546.0,
+                        537.0
+                    ],
+                    [
+                        546.0,
+                        550.0
+                    ],
+                    [
+                        306.0,
+                        549.0
+                    ]
+                ]
+            },
+            {
+                "text": "tion 5.1, except that the symbols to recognize are expanded",
+                "confidence": 0.9996329545974731,
+                "text_region": [
+                    [
+                        305.0,
+                        548.0
+                    ],
+                    [
+                        547.0,
+                        548.0
+                    ],
+                    [
+                        547.0,
+                        561.0
+                    ],
+                    [
+                        305.0,
+                        561.0
+                    ]
+                ]
+            },
+            {
+                "text": "to all characters that appear in the generated dataset.",
+                "confidence": 0.9897172451019287,
+                "text_region": [
+                    [
+                        306.0,
+                        561.0
+                    ],
+                    [
+                        518.0,
+                        561.0
+                    ],
+                    [
+                        518.0,
+                        575.0
+                    ],
+                    [
+                        306.0,
+                        575.0
+                    ]
+                ]
+            },
+            {
+                "text": "Training and Evaluation Data We crop from the proposed",
+                "confidence": 0.9981088042259216,
+                "text_region": [
+                    [
+                        307.0,
+                        576.0
+                    ],
+                    [
+                        548.0,
+                        576.0
+                    ],
+                    [
+                        548.0,
+                        590.0
+                    ],
+                    [
+                        307.0,
+                        590.0
+                    ]
+                ]
+            },
+            {
+                "text": "multilingual dataset. We discard images with widths shorter",
+                "confidence": 0.9921847581863403,
+                "text_region": [
+                    [
+                        306.0,
+                        587.0
+                    ],
+                    [
+                        546.0,
+                        587.0
+                    ],
+                    [
+                        546.0,
+                        601.0
+                    ],
+                    [
+                        306.0,
+                        601.0
+                    ]
+                ]
+            },
+            {
+                "text": "than 32 pixels as they are too blurry, and obtain 4.1Af word",
+                "confidence": 0.9801433682441711,
+                "text_region": [
+                    [
+                        306.0,
+                        600.0
+                    ],
+                    [
+                        548.0,
+                        600.0
+                    ],
+                    [
+                        548.0,
+                        614.0
+                    ],
+                    [
+                        306.0,
+                        614.0
+                    ]
+                ]
+            },
+            {
+                "text": "images in total. We compare with the multilingual version",
+                "confidence": 0.9916183948516846,
+                "text_region": [
+                    [
+                        307.0,
+                        612.0
+                    ],
+                    [
+                        547.0,
+                        612.0
+                    ],
+                    [
+                        547.0,
+                        626.0
+                    ],
+                    [
+                        307.0,
+                        626.0
+                    ]
+                ]
+            },
+            {
+                "text": "of SynthText provided by AMLT 20/9 competition that con-",
+                "confidence": 0.9744235873222351,
+                "text_region": [
+                    [
+                        307.0,
+                        624.0
+                    ],
+                    [
+                        546.0,
+                        624.0
+                    ],
+                    [
+                        546.0,
+                        638.0
+                    ],
+                    [
+                        307.0,
+                        638.0
+                    ]
+                ]
+            },
+            {
+                "text": "tains a total number 1.2Af images. For evaluation, we ran-",
+                "confidence": 0.987335205078125,
+                "text_region": [
+                    [
+                        307.0,
+                        637.0
+                    ],
+                    [
+                        545.0,
+                        637.0
+                    ],
+                    [
+                        545.0,
+                        649.0
+                    ],
+                    [
+                        307.0,
+                        649.0
+                    ]
+                ]
+            },
+            {
+                "text": "domly split 1500 images for each language (including sym-",
+                "confidence": 0.9841212034225464,
+                "text_region": [
+                    [
+                        307.0,
+                        648.0
+                    ],
+                    [
+                        546.0,
+                        648.0
+                    ],
+                    [
+                        546.0,
+                        662.0
+                    ],
+                    [
+                        307.0,
+                        662.0
+                    ]
+                ]
+            },
+            {
+                "text": "bols and mixed) from the training set of MLT 2019. The",
+                "confidence": 0.9840384125709534,
+                "text_region": [
+                    [
+                        307.0,
+                        660.0
+                    ],
+                    [
+                        547.0,
+                        660.0
+                    ],
+                    [
+                        547.0,
+                        674.0
+                    ],
+                    [
+                        307.0,
+                        674.0
+                    ]
+                ]
+            },
+            {
+                "text": "rest of the training set is used for training.",
+                "confidence": 0.9960964918136597,
+                "text_region": [
+                    [
+                        306.0,
+                        672.0
+                    ],
+                    [
+                        477.0,
+                        673.0
+                    ],
+                    [
+                        477.0,
+                        687.0
+                    ],
+                    [
+                        306.0,
+                        686.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9928197264671326
+    },
+    {
+        "type": "text",
+        "bbox": [
+            307,
+            99,
+            546,
+            363
+        ],
+        "res": [
+            {
+                "text": "Experiment results are summarized in Tab. 7. First, we",
+                "confidence": 0.9900084137916565,
+                "text_region": [
+                    [
+                        306.0,
+                        98.0
+                    ],
+                    [
+                        546.0,
+                        98.0
+                    ],
+                    [
+                        546.0,
+                        111.0
+                    ],
+                    [
+                        306.0,
+                        111.0
+                    ]
+                ]
+            },
+            {
+                "text": "compare our method with previous synthetic datasets. We",
+                "confidence": 0.9830741882324219,
+                "text_region": [
+                    [
+                        307.0,
+                        109.0
+                    ],
+                    [
+                        547.0,
+                        108.0
+                    ],
+                    [
+                        547.0,
+                        122.0
+                    ],
+                    [
+                        307.0,
+                        123.0
+                    ]
+                ]
+            },
+            {
+                "text": "have to limit the size of training datasets to 1Mf since",
+                "confidence": 0.9721863865852356,
+                "text_region": [
+                    [
+                        306.0,
+                        121.0
+                    ],
+                    [
+                        546.0,
+                        121.0
+                    ],
+                    [
+                        546.0,
+                        135.0
+                    ],
+                    [
+                        306.0,
+                        135.0
+                    ]
+                ]
+            },
+            {
+                "text": "VISD only publishes 1Mf word images. Our synthetic data",
+                "confidence": 0.9800271987915039,
+                "text_region": [
+                    [
+                        307.0,
+                        133.0
+                    ],
+                    [
+                        547.0,
+                        133.0
+                    ],
+                    [
+                        547.0,
+                        147.0
+                    ],
+                    [
+                        307.0,
+                        147.0
+                    ]
+                ]
+            },
+            {
+                "text": "achieves consistent improvements on all datasets. Espe-",
+                "confidence": 0.9859055280685425,
+                "text_region": [
+                    [
+                        307.0,
+                        146.0
+                    ],
+                    [
+                        546.0,
+                        146.0
+                    ],
+                    [
+                        546.0,
+                        158.0
+                    ],
+                    [
+                        307.0,
+                        158.0
+                    ]
+                ]
+            },
+            {
+                "text": "cially, it surpasses other synthetic datasets by a consider-",
+                "confidence": 0.9961780905723572,
+                "text_region": [
+                    [
+                        307.0,
+                        157.0
+                    ],
+                    [
+                        546.0,
+                        157.0
+                    ],
+                    [
+                        546.0,
+                        171.0
+                    ],
+                    [
+                        307.0,
+                        171.0
+                    ]
+                ]
+            },
+            {
+                "text": "able margin on datasets with diverse text styles and complex",
+                "confidence": 0.9949527978897095,
+                "text_region": [
+                    [
+                        306.0,
+                        168.0
+                    ],
+                    [
+                        547.0,
+                        169.0
+                    ],
+                    [
+                        547.0,
+                        183.0
+                    ],
+                    [
+                        306.0,
+                        182.0
+                    ]
+                ]
+            },
+            {
+                "text": "backgrounds such as SVTP (+2.4%). The experiments ver-",
+                "confidence": 0.9939205646514893,
+                "text_region": [
+                    [
+                        306.0,
+                        180.0
+                    ],
+                    [
+                        547.0,
+                        181.0
+                    ],
+                    [
+                        547.0,
+                        195.0
+                    ],
+                    [
+                        306.0,
+                        194.0
+                    ]
+                ]
+            },
+            {
+                "text": "ify the effectiveness of our synthesis method in scene text",
+                "confidence": 0.9730149507522583,
+                "text_region": [
+                    [
+                        307.0,
+                        193.0
+                    ],
+                    [
+                        548.0,
+                        193.0
+                    ],
+                    [
+                        548.0,
+                        207.0
+                    ],
+                    [
+                        307.0,
+                        207.0
+                    ]
+                ]
+            },
+            {
+                "text": "recognition especially in the complex cases.",
+                "confidence": 0.993889570236206,
+                "text_region": [
+                    [
+                        306.0,
+                        206.0
+                    ],
+                    [
+                        485.0,
+                        206.0
+                    ],
+                    [
+                        485.0,
+                        219.0
+                    ],
+                    [
+                        306.0,
+                        219.0
+                    ]
+                ]
+            },
+            {
+                "text": "Since small scale experiments are not very helpful in",
+                "confidence": 0.9961662888526917,
+                "text_region": [
+                    [
+                        318.0,
+                        219.0
+                    ],
+                    [
+                        547.0,
+                        220.0
+                    ],
+                    [
+                        547.0,
+                        234.0
+                    ],
+                    [
+                        318.0,
+                        233.0
+                    ]
+                ]
+            },
+            {
+                "text": "how researchers should utilize these datasets, we further",
+                "confidence": 0.9893373847007751,
+                "text_region": [
+                    [
+                        307.0,
+                        233.0
+                    ],
+                    [
+                        547.0,
+                        233.0
+                    ],
+                    [
+                        547.0,
+                        246.0
+                    ],
+                    [
+                        307.0,
+                        246.0
+                    ]
+                ]
+            },
+            {
+                "text": "train models on combinations of Synth90K, SynthText, and",
+                "confidence": 0.9929179549217224,
+                "text_region": [
+                    [
+                        308.0,
+                        245.0
+                    ],
+                    [
+                        548.0,
+                        245.0
+                    ],
+                    [
+                        548.0,
+                        257.0
+                    ],
+                    [
+                        308.0,
+                        257.0
+                    ]
+                ]
+            },
+            {
+                "text": "ours. We first limit the total number of training images to",
+                "confidence": 0.9894679188728333,
+                "text_region": [
+                    [
+                        306.0,
+                        255.0
+                    ],
+                    [
+                        548.0,
+                        256.0
+                    ],
+                    [
+                        548.0,
+                        270.0
+                    ],
+                    [
+                        306.0,
+                        269.0
+                    ]
+                ]
+            },
+            {
+                "text": "9Mf. When we train on a combination of all 3 synthetic",
+                "confidence": 0.988747775554657,
+                "text_region": [
+                    [
+                        306.0,
+                        267.0
+                    ],
+                    [
+                        546.0,
+                        267.0
+                    ],
+                    [
+                        546.0,
+                        280.0
+                    ],
+                    [
+                        306.0,
+                        280.0
+                    ]
+                ]
+            },
+            {
+                "text": "datasets, with 3.Mf each, the model performs better than the",
+                "confidence": 0.9807155728340149,
+                "text_region": [
+                    [
+                        306.0,
+                        279.0
+                    ],
+                    [
+                        546.0,
+                        279.0
+                    ],
+                    [
+                        546.0,
+                        292.0
+                    ],
+                    [
+                        306.0,
+                        292.0
+                    ]
+                ]
+            },
+            {
+                "text": "model trained on 4.5M × 2 datasets only. We further ob-",
+                "confidence": 0.9947167038917542,
+                "text_region": [
+                    [
+                        308.0,
+                        292.0
+                    ],
+                    [
+                        546.0,
+                        292.0
+                    ],
+                    [
+                        546.0,
+                        305.0
+                    ],
+                    [
+                        308.0,
+                        305.0
+                    ]
+                ]
+            },
+            {
+                "text": "serve that training on 3Mf × 3 synthetic datasets is com-",
+                "confidence": 0.9854934215545654,
+                "text_region": [
+                    [
+                        307.0,
+                        304.0
+                    ],
+                    [
+                        546.0,
+                        304.0
+                    ],
+                    [
+                        546.0,
+                        318.0
+                    ],
+                    [
+                        307.0,
+                        318.0
+                    ]
+                ]
+            },
+            {
+                "text": "parable to training on the whole Synth90K and SynthText,",
+                "confidence": 0.98881596326828,
+                "text_region": [
+                    [
+                        306.0,
+                        315.0
+                    ],
+                    [
+                        546.0,
+                        315.0
+                    ],
+                    [
+                        546.0,
+                        329.0
+                    ],
+                    [
+                        306.0,
+                        329.0
+                    ]
+                ]
+            },
+            {
+                "text": "while using much fewer training data. This result suggests",
+                "confidence": 0.9813666939735413,
+                "text_region": [
+                    [
+                        308.0,
+                        329.0
+                    ],
+                    [
+                        547.0,
+                        329.0
+                    ],
+                    [
+                        547.0,
+                        343.0
+                    ],
+                    [
+                        308.0,
+                        343.0
+                    ]
+                ]
+            },
+            {
+                "text": "that the best practice is to combine the proposed synthetic",
+                "confidence": 0.9879676103591919,
+                "text_region": [
+                    [
+                        307.0,
+                        341.0
+                    ],
+                    [
+                        547.0,
+                        341.0
+                    ],
+                    [
+                        547.0,
+                        354.0
+                    ],
+                    [
+                        307.0,
+                        354.0
+                    ]
+                ]
+            },
+            {
+                "text": "dataset with previous ones.",
+                "confidence": 0.9988421201705933,
+                "text_region": [
+                    [
+                        307.0,
+                        352.0
+                    ],
+                    [
+                        418.0,
+                        352.0
+                    ],
+                    [
+                        418.0,
+                        365.0
+                    ],
+                    [
+                        307.0,
+                        365.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9901617765426636
+    },
+    {
+        "type": "text",
+        "bbox": [
+            48,
+            264,
+            287,
+            297
+        ],
+        "res": [
+            {
+                "text": "In addition to the superior performances in training scene",
+                "confidence": 0.9968017339706421,
+                "text_region": [
+                    [
+                        59.0,
+                        262.0
+                    ],
+                    [
+                        288.0,
+                        262.0
+                    ],
+                    [
+                        288.0,
+                        276.0
+                    ],
+                    [
+                        59.0,
+                        276.0
+                    ]
+                ]
+            },
+            {
+                "text": "text detection models, we also verify its effectiveness in the",
+                "confidence": 0.9943392872810364,
+                "text_region": [
+                    [
+                        48.0,
+                        274.0
+                    ],
+                    [
+                        289.0,
+                        274.0
+                    ],
+                    [
+                        289.0,
+                        287.0
+                    ],
+                    [
+                        48.0,
+                        287.0
+                    ]
+                ]
+            },
+            {
+                "text": "task of scene text recognition.",
+                "confidence": 0.9934934973716736,
+                "text_region": [
+                    [
+                        46.0,
+                        285.0
+                    ],
+                    [
+                        171.0,
+                        286.0
+                    ],
+                    [
+                        171.0,
+                        300.0
+                    ],
+                    [
+                        46.0,
+                        299.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9632988572120667
+    },
+    {
+        "type": "text",
+        "bbox": [
+            49,
+            329,
+            114,
+            338
+        ],
+        "res": [
+            {
+                "text": "5.1.1 Settings",
+                "confidence": 0.9741301536560059,
+                "text_region": [
+                    [
+                        47.0,
+                        326.0
+                    ],
+                    [
+                        116.0,
+                        328.0
+                    ],
+                    [
+                        115.0,
+                        342.0
+                    ],
+                    [
+                        46.0,
+                        339.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.7943232655525208
+    },
+    {
+        "type": "text",
+        "bbox": [
+            49,
+            348,
+            287,
+            684
+        ],
+        "res": [
+            {
+                "text": "Model We select a widely accepted baseline method,",
+                "confidence": 0.9801586270332336,
+                "text_region": [
+                    [
+                        48.0,
+                        347.0
+                    ],
+                    [
+                        287.0,
+                        347.0
+                    ],
+                    [
+                        287.0,
+                        361.0
+                    ],
+                    [
+                        48.0,
+                        361.0
+                    ]
+                ]
+            },
+            {
+                "text": "ASTER [39], and adopt the implementation? that ranks top-",
+                "confidence": 0.9895909428596497,
+                "text_region": [
+                    [
+                        47.0,
+                        359.0
+                    ],
+                    [
+                        288.0,
+                        360.0
+                    ],
+                    [
+                        288.0,
+                        374.0
+                    ],
+                    [
+                        47.0,
+                        373.0
+                    ]
+                ]
+            },
+            {
+                "text": "1 on the ICDAR 2019 ArT competition on curved scene text",
+                "confidence": 0.991445004940033,
+                "text_region": [
+                    [
+                        48.0,
+                        372.0
+                    ],
+                    [
+                        289.0,
+                        372.0
+                    ],
+                    [
+                        289.0,
+                        385.0
+                    ],
+                    [
+                        48.0,
+                        385.0
+                    ]
+                ]
+            },
+            {
+                "text": "recognition (Latin) by [20]. The models are trained with a",
+                "confidence": 0.9864832162857056,
+                "text_region": [
+                    [
+                        47.0,
+                        384.0
+                    ],
+                    [
+                        289.0,
+                        383.0
+                    ],
+                    [
+                        289.0,
+                        397.0
+                    ],
+                    [
+                        47.0,
+                        398.0
+                    ]
+                ]
+            },
+            {
+                "text": "batch size of 512. A total of 95 symbols are recognized,",
+                "confidence": 0.9742652177810669,
+                "text_region": [
+                    [
+                        47.0,
+                        395.0
+                    ],
+                    [
+                        288.0,
+                        396.0
+                    ],
+                    [
+                        288.0,
+                        410.0
+                    ],
+                    [
+                        47.0,
+                        409.0
+                    ]
+                ]
+            },
+            {
+                "text": "including an End-of-Sentence mark, 52 case sensitive al-",
+                "confidence": 0.992189884185791,
+                "text_region": [
+                    [
+                        48.0,
+                        408.0
+                    ],
+                    [
+                        288.0,
+                        408.0
+                    ],
+                    [
+                        288.0,
+                        422.0
+                    ],
+                    [
+                        48.0,
+                        422.0
+                    ]
+                ]
+            },
+            {
+                "text": "phabets, 10 digits, and 32 printable punctuation symbols.",
+                "confidence": 0.9903286099433899,
+                "text_region": [
+                    [
+                        48.0,
+                        421.0
+                    ],
+                    [
+                        281.0,
+                        421.0
+                    ],
+                    [
+                        281.0,
+                        434.0
+                    ],
+                    [
+                        48.0,
+                        434.0
+                    ]
+                ]
+            },
+            {
+                "text": "Training Datasets From the 600K English synthetic im-",
+                "confidence": 0.9846645593643188,
+                "text_region": [
+                    [
+                        48.0,
+                        433.0
+                    ],
+                    [
+                        288.0,
+                        433.0
+                    ],
+                    [
+                        288.0,
+                        446.0
+                    ],
+                    [
+                        48.0,
+                        446.0
+                    ]
+                ]
+            },
+            {
+                "text": "ages, we obtain a total number of 12.M word-level image",
+                "confidence": 0.9816187024116516,
+                "text_region": [
+                    [
+                        47.0,
+                        443.0
+                    ],
+                    [
+                        289.0,
+                        443.0
+                    ],
+                    [
+                        289.0,
+                        459.0
+                    ],
+                    [
+                        47.0,
+                        459.0
+                    ]
+                ]
+            },
+            {
+                "text": "regions to make our training dataset. Also note that, our",
+                "confidence": 0.9851558208465576,
+                "text_region": [
+                    [
+                        48.0,
+                        456.0
+                    ],
+                    [
+                        289.0,
+                        456.0
+                    ],
+                    [
+                        289.0,
+                        470.0
+                    ],
+                    [
+                        48.0,
+                        470.0
+                    ]
+                ]
+            },
+            {
+                "text": "synthetic dataset provide character level annotations, which",
+                "confidence": 0.9981157183647156,
+                "text_region": [
+                    [
+                        48.0,
+                        468.0
+                    ],
+                    [
+                        289.0,
+                        468.0
+                    ],
+                    [
+                        289.0,
+                        482.0
+                    ],
+                    [
+                        48.0,
+                        482.0
+                    ]
+                ]
+            },
+            {
+                "text": "will be useful in some recognition algorithms.",
+                "confidence": 0.9815919995307922,
+                "text_region": [
+                    [
+                        49.0,
+                        480.0
+                    ],
+                    [
+                        235.0,
+                        480.0
+                    ],
+                    [
+                        235.0,
+                        493.0
+                    ],
+                    [
+                        49.0,
+                        493.0
+                    ]
+                ]
+            },
+            {
+                "text": "Evaluation Datasets We evaluate models trained on dif-",
+                "confidence": 0.9782745242118835,
+                "text_region": [
+                    [
+                        48.0,
+                        493.0
+                    ],
+                    [
+                        289.0,
+                        493.0
+                    ],
+                    [
+                        289.0,
+                        506.0
+                    ],
+                    [
+                        48.0,
+                        506.0
+                    ]
+                ]
+            },
+            {
+                "text": "ferent synthetic datasets on several widely used real image",
+                "confidence": 0.989334225654602,
+                "text_region": [
+                    [
+                        48.0,
+                        505.0
+                    ],
+                    [
+                        288.0,
+                        505.0
+                    ],
+                    [
+                        288.0,
+                        519.0
+                    ],
+                    [
+                        48.0,
+                        519.0
+                    ]
+                ]
+            },
+            {
+                "text": "datasets: IIT [25], SVT [45], ICDAR 2015 (IC15) [13],",
+                "confidence": 0.9640753865242004,
+                "text_region": [
+                    [
+                        48.0,
+                        517.0
+                    ],
+                    [
+                        288.0,
+                        517.0
+                    ],
+                    [
+                        288.0,
+                        530.0
+                    ],
+                    [
+                        48.0,
+                        530.0
+                    ]
+                ]
+            },
+            {
+                "text": "SVTP [32], CUTE [34], and Toral-Texr[4].",
+                "confidence": 0.9841947555541992,
+                "text_region": [
+                    [
+                        48.0,
+                        529.0
+                    ],
+                    [
+                        218.0,
+                        529.0
+                    ],
+                    [
+                        218.0,
+                        543.0
+                    ],
+                    [
+                        48.0,
+                        543.0
+                    ]
+                ]
+            },
+            {
+                "text": "Some of these datasets, however, have inconsplete an-",
+                "confidence": 0.9766560792922974,
+                "text_region": [
+                    [
+                        58.0,
+                        540.0
+                    ],
+                    [
+                        288.0,
+                        543.0
+                    ],
+                    [
+                        288.0,
+                        556.0
+                    ],
+                    [
+                        58.0,
+                        554.0
+                    ]
+                ]
+            },
+            {
+                "text": "notations, including IIT, SVT, SVTP, CUTE. While the",
+                "confidence": 0.9716559052467346,
+                "text_region": [
+                    [
+                        48.0,
+                        553.0
+                    ],
+                    [
+                        287.0,
+                        553.0
+                    ],
+                    [
+                        287.0,
+                        566.0
+                    ],
+                    [
+                        48.0,
+                        566.0
+                    ]
+                ]
+            },
+            {
+                "text": "word images in these datasets contain punctuation symbols,",
+                "confidence": 0.987801194190979,
+                "text_region": [
+                    [
+                        48.0,
+                        566.0
+                    ],
+                    [
+                        288.0,
+                        566.0
+                    ],
+                    [
+                        288.0,
+                        580.0
+                    ],
+                    [
+                        48.0,
+                        580.0
+                    ]
+                ]
+            },
+            {
+                "text": "digits, upper-case and lower-case characters, the aforemen-",
+                "confidence": 0.9859819412231445,
+                "text_region": [
+                    [
+                        48.0,
+                        577.0
+                    ],
+                    [
+                        287.0,
+                        577.0
+                    ],
+                    [
+                        287.0,
+                        591.0
+                    ],
+                    [
+                        48.0,
+                        591.0
+                    ]
+                ]
+            },
+            {
+                "text": "tioned datasets, in their current forms, only provide case-",
+                "confidence": 0.9956179261207581,
+                "text_region": [
+                    [
+                        48.0,
+                        590.0
+                    ],
+                    [
+                        287.0,
+                        590.0
+                    ],
+                    [
+                        287.0,
+                        603.0
+                    ],
+                    [
+                        48.0,
+                        603.0
+                    ]
+                ]
+            },
+            {
+                "text": "insensitive annotations and ignore all punctuation symbols.",
+                "confidence": 0.9883295893669128,
+                "text_region": [
+                    [
+                        48.0,
+                        601.0
+                    ],
+                    [
+                        287.0,
+                        601.0
+                    ],
+                    [
+                        287.0,
+                        615.0
+                    ],
+                    [
+                        48.0,
+                        615.0
+                    ]
+                ]
+            },
+            {
+                "text": "In order for more comprehensive evaluation of scene text",
+                "confidence": 0.9802382588386536,
+                "text_region": [
+                    [
+                        47.0,
+                        612.0
+                    ],
+                    [
+                        289.0,
+                        613.0
+                    ],
+                    [
+                        289.0,
+                        627.0
+                    ],
+                    [
+                        47.0,
+                        626.0
+                    ]
+                ]
+            },
+            {
+                "text": "recognition, we re-annotate these 4 datasets in a case-",
+                "confidence": 0.9792858362197876,
+                "text_region": [
+                    [
+                        48.0,
+                        625.0
+                    ],
+                    [
+                        286.0,
+                        625.0
+                    ],
+                    [
+                        286.0,
+                        638.0
+                    ],
+                    [
+                        48.0,
+                        638.0
+                    ]
+                ]
+            },
+            {
+                "text": "sensitive way and also include punctuation symbols. We",
+                "confidence": 0.9768661856651306,
+                "text_region": [
+                    [
+                        48.0,
+                        638.0
+                    ],
+                    [
+                        288.0,
+                        638.0
+                    ],
+                    [
+                        288.0,
+                        650.0
+                    ],
+                    [
+                        48.0,
+                        650.0
+                    ]
+                ]
+            },
+            {
+                "text": "also release the new annotations and we believe that they",
+                "confidence": 0.9773733615875244,
+                "text_region": [
+                    [
+                        48.0,
+                        649.0
+                    ],
+                    [
+                        288.0,
+                        649.0
+                    ],
+                    [
+                        288.0,
+                        663.0
+                    ],
+                    [
+                        48.0,
+                        663.0
+                    ]
+                ]
+            },
+            {
+                "text": "will become better benchmarks for scene text recognition",
+                "confidence": 0.9917475581169128,
+                "text_region": [
+                    [
+                        47.0,
+                        660.0
+                    ],
+                    [
+                        289.0,
+                        661.0
+                    ],
+                    [
+                        289.0,
+                        675.0
+                    ],
+                    [
+                        47.0,
+                        674.0
+                    ]
+                ]
+            },
+            {
+                "text": "in the future.",
+                "confidence": 0.995564877986908,
+                "text_region": [
+                    [
+                        48.0,
+                        674.0
+                    ],
+                    [
+                        102.0,
+                        674.0
+                    ],
+                    [
+                        102.0,
+                        685.0
+                    ],
+                    [
+                        48.0,
+                        685.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.746080756187439
+    },
+    {
+        "type": "title",
+        "bbox": [
+            308,
+            382,
+            499,
+            412
+        ],
+        "res": [
+            {
+                "text": "5.2. Recognizing Multilingual Scene Text",
+                "confidence": 0.971645712852478,
+                "text_region": [
+                    [
+                        307.0,
+                        379.0
+                    ],
+                    [
+                        501.0,
+                        380.0
+                    ],
+                    [
+                        501.0,
+                        394.0
+                    ],
+                    [
+                        307.0,
+                        393.0
+                    ]
+                ]
+            },
+            {
+                "text": "5.2.1 Settings",
+                "confidence": 0.9797366857528687,
+                "text_region": [
+                    [
+                        305.0,
+                        399.0
+                    ],
+                    [
+                        376.0,
+                        402.0
+                    ],
+                    [
+                        375.0,
+                        416.0
+                    ],
+                    [
+                        305.0,
+                        413.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9520162343978882
+    },
+    {
+        "type": "title",
+        "bbox": [
+            309,
+            74,
+            422,
+            83
+        ],
+        "res": [
+            {
+                "text": "5.1.2 Experiment Results",
+                "confidence": 0.9846270680427551,
+                "text_region": [
+                    [
+                        307.0,
+                        72.0
+                    ],
+                    [
+                        425.0,
+                        72.0
+                    ],
+                    [
+                        425.0,
+                        86.0
+                    ],
+                    [
+                        307.0,
+                        86.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9279040694236755
+    },
+    {
+        "type": "title",
+        "bbox": [
+            48,
+            243,
+            263,
+            254
+        ],
+        "res": [
+            {
+                "text": "5. Experiments on Scene Text Recognition",
+                "confidence": 0.9809048771858215,
+                "text_region": [
+                    [
+                        48.0,
+                        243.0
+                    ],
+                    [
+                        266.0,
+                        243.0
+                    ],
+                    [
+                        266.0,
+                        256.0
+                    ],
+                    [
+                        48.0,
+                        256.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9192889332771301
+    },
+    {
+        "type": "title",
+        "bbox": [
+            49,
+            205,
+            284,
+            226
+        ],
+        "res": [
+            {
+                "text": "random lighting conditions realize different real-world vari-",
+                "confidence": 0.9872498512268066,
+                "text_region": [
+                    [
+                        48.0,
+                        204.0
+                    ],
+                    [
+                        287.0,
+                        204.0
+                    ],
+                    [
+                        287.0,
+                        217.0
+                    ],
+                    [
+                        48.0,
+                        217.0
+                    ]
+                ]
+            },
+            {
+                "text": "ations, which we also attribute as a key factor.",
+                "confidence": 0.9771712422370911,
+                "text_region": [
+                    [
+                        48.0,
+                        217.0
+                    ],
+                    [
+                        235.0,
+                        217.0
+                    ],
+                    [
+                        235.0,
+                        230.0
+                    ],
+                    [
+                        48.0,
+                        230.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.8476167917251587
+    },
+    {
+        "type": "figure_caption",
+        "bbox": [
+            49,
+            158,
+            285,
+            179
+        ],
+        "res": [
+            {
+                "text": "Figure 5: Results of ablation tests: (a) ablating viewfinder",
+                "confidence": 0.9814471006393433,
+                "text_region": [
+                    [
+                        48.0,
+                        156.0
+                    ],
+                    [
+                        288.0,
+                        156.0
+                    ],
+                    [
+                        288.0,
+                        170.0
+                    ],
+                    [
+                        48.0,
+                        170.0
+                    ]
+                ]
+            },
+            {
+                "text": "module; (b) ablating environment randomization module.",
+                "confidence": 0.9894714951515198,
+                "text_region": [
+                    [
+                        48.0,
+                        168.0
+                    ],
+                    [
+                        279.0,
+                        168.0
+                    ],
+                    [
+                        279.0,
+                        181.0
+                    ],
+                    [
+                        48.0,
+                        181.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.5494176745414734
+    },
+    {
+        "type": "reference",
+        "bbox": [
+            53,
+            694,
+            206,
+            712
+        ],
+        "res": [
+            {
+                "text": "$https://github.con/Jyouhou/",
+                "confidence": 0.9249550104141235,
+                "text_region": [
+                    [
+                        51.0,
+                        691.0
+                    ],
+                    [
+                        195.0,
+                        693.0
+                    ],
+                    [
+                        195.0,
+                        707.0
+                    ],
+                    [
+                        51.0,
+                        705.0
+                    ]
+                ]
+            },
+            {
+                "text": "ICDAR201s-ArT-Recognitian-Alcheny",
+                "confidence": 0.908818244934082,
+                "text_region": [
+                    [
+                        48.0,
+                        703.0
+                    ],
+                    [
+                        211.0,
+                        703.0
+                    ],
+                    [
+                        211.0,
+                        716.0
+                    ],
+                    [
+                        48.0,
+                        716.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.5259137153625488
+    },
+    {
+        "type": "reference",
+        "bbox": [
+            312,
+            703,
+            453,
+            713
+        ],
+        "res": [
+            {
+                "text": "*httpa://dumps.wikimadia.org",
+                "confidence": 0.944519579410553,
+                "text_region": [
+                    [
+                        318.0,
+                        703.0
+                    ],
+                    [
+                        454.0,
+                        703.0
+                    ],
+                    [
+                        454.0,
+                        716.0
+                    ],
+                    [
+                        318.0,
+                        716.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.5010553598403931
+    }
+]

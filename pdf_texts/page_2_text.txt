@@ -1,0 +1,107 @@
+tion follow the same paradigm. First, they analyze back-
+ground images, e.g. by performing semantic segmentation
+and depth estimation using off-the-shelf models. Then, po-
+tential locations for text embedding are extracted from the
+segmented regions. Finally, text images (foregrounds) are
+blended into the background images, with perceptive trans-
+formation inferred from estimated depth.
+However, the
+analysis of background images with off-the-shelf models
+may be rough and imprecise. The errors further propagate
+to text proposal modules and result in text being embedded
+onto unsuitable locations. Moreover, the text embedding
+process is ignorant of the overall image conditions such as
+illumination and occlusions of the scene. These two factors
+make text instances outstanding from backgrounds, leading
+to a gap between synthetic and real images.
+In this paper, we propose a synthetic engine that syn-
+thesizes scene text images from 3D virtual world.
+The
+proposed engine is based on the famous Unreal Engine 4
+(UE4), and is therefore named as UnrealText. Speciﬁcally,
+text instances are regarded as planar polygon meshes with
+text foregrounds loaded as texture. These meshes are placed
+in suitable positions in 3D world, and rendered together
+with the scene as a whole.
+As shown in Fig. 1, the proposed synthesis engine, by
+its very nature, enjoys the following advantages over pre-
+vious methods: (1) Text and scenes are rendered together,
+achieving realistic visual effects, e.g. illumination, occlu-
+sion, and perspective transformation. (2) The method has
+access to precise scene information, e.g. normal, depth, and
+object meshes, and therefore can generate better text region
+proposals. These aspects are crucial in training detectors.
+To further exploit the potential of UnrealText, we design
+three key components: (1) A view ﬁnding algorithm that
+explores the virtual scenes and generates camera viewpoints
+to obtain more diverse and natural backgrounds. (2) An en-
+vironment randomization module that changes the lighting
+conditions regularly, to simulate real-world variations. (3)
+A mesh-based text region generation method that ﬁnds suit-
+able positions for text by probing the 3D meshes.
+The contributions of this paper are summarized as fol-
+lows: (1) We propose a brand-new scene text image syn-
+thesis engine that renders images from 3D world, which is
+entirely different from previous approaches that embed text
+on 2D background images, termed as UnrealText. The pro-
+posed engine achieves realistic rendering effects and high
+scalability. (2) With the proposed techniques, the synthe-
+sis engine improves the performance of detectors and rec-
+ognizers signiﬁcantly. (3) We also generate a large scale
+multilingual scene text dataset that will aid further research.
+(4) Additionally, we notice that many of the popular scene
+text recognition datasets are only annotated in an incom-
+plete way, providing only case-insensitive word annota-
+tions. With such limited annotations, researchers are unable
+to carry out comprehensive evaluations, and tend to over-
+estimate the progress of scene text recognition algorithms.
+To address this issue, we re-annotate these datasets to in-
+clude both upper-case and lower-case characters, digits,
+punctuation marks, and spaces if there are any. We urge
+researchers to use the new annotations and evaluate in such
+a full-symbol mode for better understanding of the advan-
+tages and disadvantages of different algorithms.
+2. Related Work
+2.1. Synthetic Images
+The synthesis of photo-realistic datasets has been a pop-
+ular topic, since they provide detailed ground-truth annota-
+tions at multiple granularity, and cost less than manual an-
+notations. In scene text detection and recognition, the use of
+synthetic datasets has become a standard practice. For scene
+text recognition, where images contain only one word, syn-
+thetic images are rendered through several steps [46, 10],
+including font rendering, coloring, homography transfor-
+mation, and background blending.
+Later, GANs [5] are
+incorporated to maintain style consistency for implanted
+text [51], but it is only for single-word images. As a re-
+sult of these progresses, synthetic data alone are enough to
+train state-of-the-art recognizers.
+To train scene text detectors, SynthText [6] proposes to
+generate synthetic data by printing text on background im-
+ages. It ﬁrst analyzes images with off-the-shelf models, and
+search suitable text regions on semantically consistent re-
+gions. Text are implanted with perspective transformation
+based on estimated depth. To maintain semantic coherency,
+VISD [50] proposes to use semantic segmentation to ﬁlter
+out unreasonable surfaces such as human faces. They also
+adopt an adaptive coloring scheme to ﬁt the text into the
+artistic style of backgrounds. However, without consider-
+ing the scene as a whole, these methods fail to render text
+instances in a photo-realistic way, and text instances are too
+outstanding from backgrounds. So far, the training of de-
+tectors still relies heavily on real images.
+Although GANs and other learning-based methods have
+also shown great potential in generating realistic im-
+ages [48, 17, 12], the generation of scene text images still
+require a large amount of manually labeled data [51]. Fur-
+thermore, such data are sometimes not easy to collect, es-
+pecially for cases such as low resource languages.
+More recently, synthesizing images with 3D graph-
+ics engine has become popular in several ﬁelds, in-
+cluding human pose estimation [43], scene understand-
+ing/segmentation [28, 24, 33, 35, 37], and object detec-
+tion [29, 42, 8]. However, these methods either consider
+simplistic cases, e.g. rendering 3D objects on top of static
+background images [29, 43] and randomly arranging scenes
+ﬁlled with objects [28, 24, 35, 8], or passively use off-the-

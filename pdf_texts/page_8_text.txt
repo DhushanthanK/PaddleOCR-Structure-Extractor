@@ -1,0 +1,91 @@
+Figure 5: Results of ablation tests: (a) ablating viewﬁnder
+module; (b) ablating environment randomization module.
+random lighting conditions realize different real-world vari-
+ations, which we also attribute as a key factor.
+5. Experiments on Scene Text Recognition
+In addition to the superior performances in training scene
+text detection models, we also verify its effectiveness in the
+task of scene text recognition.
+5.1. Recognizing Latin Scene Text
+5.1.1
+Settings
+Model We select a widely accepted baseline method,
+ASTER [39], and adopt the implementation5 that ranks top-
+1 on the ICDAR 2019 ArT competition on curved scene text
+recognition (Latin) by [20]. The models are trained with a
+batch size of 512. A total of 95 symbols are recognized,
+including an End-of-Sentence mark, 52 case sensitive al-
+phabets, 10 digits, and 32 printable punctuation symbols.
+Training Datasets From the 600K English synthetic im-
+ages, we obtain a total number of 12M word-level image
+regions to make our training dataset. Also note that, our
+synthetic dataset provide character level annotations, which
+will be useful in some recognition algorithms.
+Evaluation Datasets We evaluate models trained on dif-
+ferent synthetic datasets on several widely used real image
+datasets: IIIT [25], SVT [45], ICDAR 2015 (IC15) [13],
+SVTP [32], CUTE [34], and Total-Text[4].
+Some of these datasets, however, have incomplete an-
+notations, including IIIT, SVT, SVTP, CUTE. While the
+word images in these datasets contain punctuation symbols,
+digits, upper-case and lower-case characters, the aforemen-
+tioned datasets, in their current forms, only provide case-
+insensitive annotations and ignore all punctuation symbols.
+In order for more comprehensive evaluation of scene text
+recognition, we re-annotate these 4 datasets in a case-
+sensitive way and also include punctuation symbols. We
+also release the new annotations and we believe that they
+will become better benchmarks for scene text recognition
+in the future.
+5https://github.com/Jyouhou/
+ICDAR2019-ArT-Recognition-Alchemy
+5.1.2
+Experiment Results
+Experiment results are summarized in Tab. 7. First, we
+compare our method with previous synthetic datasets. We
+have to limit the size of training datasets to 1M since
+VISD only publishes 1M word images. Our synthetic data
+achieves consistent improvements on all datasets.
+Espe-
+cially, it surpasses other synthetic datasets by a consider-
+able margin on datasets with diverse text styles and complex
+backgrounds such as SVTP (+2.4%). The experiments ver-
+ify the effectiveness of our synthesis method in scene text
+recognition especially in the complex cases.
+Since small scale experiments are not very helpful in
+how researchers should utilize these datasets, we further
+train models on combinations of Synth90K, SynthText, and
+ours. We ﬁrst limit the total number of training images to
+9M. When we train on a combination of all 3 synthetic
+datasets, with 3M each, the model performs better than the
+model trained on 4.5M × 2 datasets only. We further ob-
+serve that training on 3M × 3 synthetic datasets is com-
+parable to training on the whole Synth90K and SynthText,
+while using much fewer training data. This result suggests
+that the best practice is to combine the proposed synthetic
+dataset with previous ones.
+5.2. Recognizing Multilingual Scene Text
+5.2.1
+Settings
+Although MLT 2017 has been widely used as a benchmark
+for detection, the task of recognizing multilingual scene text
+still remains largely untouched, mainly due to lack of a
+proper training dataset. To pave the way for future research,
+we also generate a multilingual version with 600K images
+containing 10 languages as included in MLT 2019 [26]:
+Arabic, Bangla, Chinese, English, French, German, Hindi,
+Italian, Japanese, and Korean. Text contents are sampled
+from corpus extracted from the Wikimedia dump6.
+Model We use the same model and implementation as Sec-
+tion 5.1, except that the symbols to recognize are expanded
+to all characters that appear in the generated dataset.
+Training and Evaluation Data We crop from the proposed
+multilingual dataset. We discard images with widths shorter
+than 32 pixels as they are too blurry, and obtain 4.1M word
+images in total. We compare with the multilingual version
+of SynthText provided by MLT 2019 competition that con-
+tains a total number 1.2M images. For evaluation, we ran-
+domly split 1500 images for each language (including sym-
+bols and mixed) from the training set of MLT 2019. The
+rest of the training set is used for training.
+6https://dumps.wikimedia.org

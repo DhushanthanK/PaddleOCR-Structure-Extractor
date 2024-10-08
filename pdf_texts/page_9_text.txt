@@ -1,0 +1,211 @@
+Training Data
+Latin
+Arabic
+Bangla
+Chinese
+Hindi
+Japanese
+Korean
+Symbols
+Mixed
+Overall
+ST (1.2M)
+34.6
+50.5
+17.7
+43.9
+15.7
+21.2
+55.7
+44.7
+9.8
+34.9
+UnrealText (1.2M)
+42.2
+50.3
+16.5
+44.8
+30.3
+21.7
+54.6
+16.7
+25.0
+36.5
+UnrealText (full, 4.1M)
+44.3
+51.1
+19.7
+47.9
+33.1
+24.2
+57.3
+25.6
+31.4
+39.5
+MLT19-train (90K)
+64.3
+47.2
+46.9
+11.9
+46.9
+23.3
+39.1
+35.9
+3.6
+45.7
+MLT19-train (90K) + ST (1.2M)
+63.8
+62.0
+48.9
+50.7
+47.7
+33.9
+64.5
+45.5
+10.3
+54.7
+MLT19-train (90K) + UnrealText (1.2M)
+67.8
+63.0
+53.7
+47.7
+64.0
+35.7
+62.9
+44.3
+26.3
+57.9
+Table 4: Multilingual scene text recognition results (word level accuracy). Latin aggregates English, French, German, and
+Italian, as they are all marked as Latin in the MLT dataset.
+Training Data
+IIIT
+SVT
+IC15
+SVTP
+CUTE
+Total
+90K [10] (1M)
+51.6
+39.2
+35.7
+37.2
+30.9
+30.5
+ST [6] (1M)
+53.5
+30.3
+38.4
+29.5
+31.2
+31.1
+VISD [50] (1M)
+53.9
+37.1
+37.1
+36.3
+30.5
+30.9
+UnrealText (1M)
+54.8
+40.3
+39.1
+39.6
+31.6
+32.1
+ST+90K(4.5M × 2)
+80.5
+70.1
+58.4
+60.0
+63.9
+43.2
+ST+90K+UnrealText(3M × 3)
+81.6
+71.9
+61.8
+61.7
+67.7
+45.7
+ST+90K(16M)
+81.2
+71.2
+62.0
+62.3
+65.1
+44.7
+Table 5: Results on English datasets (word level accuracy).
+5.2.2
+Experiment Results
+Experiment results are shown in Tab. 4. When we only use
+synthetic data and control the number of images to 1.2M,
+ours result in a considerable improvement of 1.6% in over-
+all accuracy, and signiﬁcant improvements on some scripts,
+e.g. Latin (+7.6%) and Mixed (+21.6%). Using the whole
+training set of 4.1M images further improves overall accu-
+racy to 39.5%. When we train models on combinations of
+synthetic data and our training split of MLT19, as shown
+in the bottom of Tab. 4, we can still observe a considerable
+margin of our method over SynthText by 3.2% in overall ac-
+curacy. The experiment results demonstrate that our method
+is also superior in multilingual scene text recognition, and
+we believe this result will become a stepping stone to fur-
+ther research.
+6. Limitation and Future Work
+There are several aspects that are worth diving deeper
+into: (1) Overall, the engine is based on rules and human-
+selected parameters. The automation of the selection and
+search for these parameters can save human efforts and help
+adapt to different scenarios. (2) While rendering small text
+can help training detectors, the low image quality of the
+small text makes recognizers harder to train and harms the
+performance. Designing a method to mark the illegible ones
+as difﬁcult and excluding them from loss calculation may
+help mitigate this problem. (3) For multilingual scene text,
+scripts except Latin have much fewer available fonts that we
+have easy access to. To improve performance on more lan-
+guages, researchers may consider learning-based methods
+to transfer Latin fonts to other scripts.
+7. Conclusion
+In this paper, we introduce a scene text image synthesis
+engine that renders images with 3D graphics engines, where
+text instances and scenes are rendered as a whole. In exper-
+iments, we verify the effectiveness of the proposed engine
+in both scene text detection and recognition models. We
+also study key components of the proposed engine. We be-
+lieve our work will be a solid stepping stone towards better
+synthesis algorithms.
+Acknowledgement
+This research was supported by National Key R&D Pro-
+gram of China (No. 2017YFA0700800).
+References
+[1] Pablo Arbelaez, Michael Maire, Charless Fowlkes, and Ji-
+tendra Malik. Contour detection and hierarchical image seg-
+mentation. IEEE transactions on pattern analysis and ma-
+chine intelligence, 33(5):898–916, 2011.
+[2] Youngmin Baek, Bado Lee, Dongyoon Han, Sangdoo Yun,
+and Hwalsuk Lee. Character region awareness for text detec-
+tion. In Proceedings of the IEEE Conference on Computer
+Vision and Pattern Recognition (CVPR), pages 9365–9374,
+2019.
+[3] Zhanzhan Cheng, Xuyang Liu, Fan Bai, Yi Niu, Shiliang Pu,
+and Shuigeng Zhou.
+Arbitrarily-oriented text recognition.
+CVPR2018, 2017.
+[4] Chee Kheng Ch’ng and Chee Seng Chan. Total-text: A com-
+prehensive dataset for scene text detection and recognition.
+In Proc. ICDAR, volume 1, pages 935–942, 2017.
+[5] Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing
+Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and
+Yoshua Bengio. Generative adversarial nets. In Proc. NIPS,
+pages 2672–2680, 2014.
+[6] Ankush Gupta, Andrea Vedaldi, and Andrew Zisserman.
+Synthetic data for text localisation in natural images. In Proc.
+CVPR, pages 2315–2324, 2016.
+[7] Tong He, Zhi Tian, Weilin Huang, Chunhua Shen, Yu Qiao,
+and Changming Sun. An end-to-end textspotter with explicit
+alignment and attention. In Proc. CVPR, pages 5020–5029,
+2018.
+[8] Stefan Hinterstoisser, Olivier Pauly, Hauke Heibel, Martina
+Marek, and Martin Bokeloh. An annotation saved is an an-
+notation earned: Using fully synthetic training for object in-
+stance detection. CoRR, abs/1902.09967, 2019.

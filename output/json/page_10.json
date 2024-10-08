@@ -1,0 +1,2536 @@
+[
+    {
+        "type": "reference",
+        "bbox": [
+            50,
+            75,
+            287,
+            712
+        ],
+        "res": [
+            {
+                "text": "[9] Sepp Hochreiter and Jurgen Schmidbuber. Long short-term",
+                "confidence": 0.9696640372276306,
+                "text_region": [
+                    [
+                        51.0,
+                        73.0
+                    ],
+                    [
+                        289.0,
+                        72.0
+                    ],
+                    [
+                        289.0,
+                        86.0
+                    ],
+                    [
+                        51.0,
+                        87.0
+                    ]
+                ]
+            },
+            {
+                "text": "memory. Neurz/ comnputation, 9(8):17351780, 1997.",
+                "confidence": 0.9473312497138977,
+                "text_region": [
+                    [
+                        66.0,
+                        84.0
+                    ],
+                    [
+                        266.0,
+                        83.0
+                    ],
+                    [
+                        266.0,
+                        97.0
+                    ],
+                    [
+                        66.0,
+                        98.0
+                    ]
+                ]
+            },
+            {
+                "text": "[10] Max Jaderberg, Karen Simonyan, Andrea Vedaldi, and An-",
+                "confidence": 0.9865424633026123,
+                "text_region": [
+                    [
+                        47.0,
+                        97.0
+                    ],
+                    [
+                        287.0,
+                        97.0
+                    ],
+                    [
+                        287.0,
+                        110.0
+                    ],
+                    [
+                        47.0,
+                        110.0
+                    ]
+                ]
+            },
+            {
+                "text": "drew Zisserman. Synthetic data and artificial neural net-",
+                "confidence": 0.9788687825202942,
+                "text_region": [
+                    [
+                        67.0,
+                        108.0
+                    ],
+                    [
+                        288.0,
+                        108.0
+                    ],
+                    [
+                        288.0,
+                        121.0
+                    ],
+                    [
+                        67.0,
+                        121.0
+                    ]
+                ]
+            },
+            {
+                "text": "works for natural scene text recognition.arXiv preprint",
+                "confidence": 0.9771308302879333,
+                "text_region": [
+                    [
+                        67.0,
+                        118.0
+                    ],
+                    [
+                        289.0,
+                        119.0
+                    ],
+                    [
+                        289.0,
+                        133.0
+                    ],
+                    [
+                        67.0,
+                        132.0
+                    ]
+                ]
+            },
+            {
+                "text": "arXiv:J406.2227, 2014.",
+                "confidence": 0.9623021483421326,
+                "text_region": [
+                    [
+                        68.0,
+                        130.0
+                    ],
+                    [
+                        157.0,
+                        130.0
+                    ],
+                    [
+                        157.0,
+                        143.0
+                    ],
+                    [
+                        68.0,
+                        143.0
+                    ]
+                ]
+            },
+            {
+                "text": "[11] Yingying Jiang, Xiangyu Zhu, Xiaobing Wang, Shuli Yang.",
+                "confidence": 0.9717848896980286,
+                "text_region": [
+                    [
+                        47.0,
+                        141.0
+                    ],
+                    [
+                        288.0,
+                        142.0
+                    ],
+                    [
+                        288.0,
+                        155.0
+                    ],
+                    [
+                        47.0,
+                        154.0
+                    ]
+                ]
+            },
+            {
+                "text": "Wei Li, Hua Wang, Pei Fu, and Zhenbo Luo. R2cnn: rota-",
+                "confidence": 0.9782957434654236,
+                "text_region": [
+                    [
+                        67.0,
+                        151.0
+                    ],
+                    [
+                        287.0,
+                        152.0
+                    ],
+                    [
+                        287.0,
+                        166.0
+                    ],
+                    [
+                        67.0,
+                        165.0
+                    ]
+                ]
+            },
+            {
+                "text": "tional region cnn for orientation robust scene text detection.",
+                "confidence": 0.981850266456604,
+                "text_region": [
+                    [
+                        67.0,
+                        162.0
+                    ],
+                    [
+                        288.0,
+                        163.0
+                    ],
+                    [
+                        288.0,
+                        177.0
+                    ],
+                    [
+                        67.0,
+                        176.0
+                    ]
+                ]
+            },
+            {
+                "text": "arXiv preprinst arXiv: 706.09579, 2017.",
+                "confidence": 0.9426753520965576,
+                "text_region": [
+                    [
+                        67.0,
+                        174.0
+                    ],
+                    [
+                        215.0,
+                        173.0
+                    ],
+                    [
+                        215.0,
+                        188.0
+                    ],
+                    [
+                        68.0,
+                        189.0
+                    ]
+                ]
+            },
+            {
+                "text": "[12]  Amlan Kat, Aayush Prakash, Ming-Yu Liu, Eric Cameracci,",
+                "confidence": 0.9817821979522705,
+                "text_region": [
+                    [
+                        48.0,
+                        187.0
+                    ],
+                    [
+                        288.0,
+                        187.0
+                    ],
+                    [
+                        288.0,
+                        200.0
+                    ],
+                    [
+                        48.0,
+                        200.0
+                    ]
+                ]
+            },
+            {
+                "text": "Justin Yuan, Matt Rusiniak, David Acuna, Antonio Torralba,",
+                "confidence": 0.9984965324401855,
+                "text_region": [
+                    [
+                        67.0,
+                        198.0
+                    ],
+                    [
+                        288.0,
+                        198.0
+                    ],
+                    [
+                        288.0,
+                        211.0
+                    ],
+                    [
+                        67.0,
+                        211.0
+                    ]
+                ]
+            },
+            {
+                "text": "and Sanja Fidler. Meta-sim: Learming to generate synthetic",
+                "confidence": 0.9893417358398438,
+                "text_region": [
+                    [
+                        68.0,
+                        209.0
+                    ],
+                    [
+                        289.0,
+                        209.0
+                    ],
+                    [
+                        289.0,
+                        222.0
+                    ],
+                    [
+                        68.0,
+                        222.0
+                    ]
+                ]
+            },
+            {
+                "text": "datasets. arXiv preprint arXiv: 7904.11621, 2019.",
+                "confidence": 0.9613217115402222,
+                "text_region": [
+                    [
+                        68.0,
+                        220.0
+                    ],
+                    [
+                        250.0,
+                        220.0
+                    ],
+                    [
+                        250.0,
+                        234.0
+                    ],
+                    [
+                        68.0,
+                        234.0
+                    ]
+                ]
+            },
+            {
+                "text": "[13] Dimosthenis Karatzas, Lluis Gomez-Bigorda, Anguelos",
+                "confidence": 0.9954291582107544,
+                "text_region": [
+                    [
+                        48.0,
+                        232.0
+                    ],
+                    [
+                        288.0,
+                        232.0
+                    ],
+                    [
+                        288.0,
+                        245.0
+                    ],
+                    [
+                        48.0,
+                        245.0
+                    ]
+                ]
+            },
+            {
+                "text": "Nicolaou, Suman Ghosh, Andrew Bagdanov, Masakazu Iwa-",
+                "confidence": 0.9920778274536133,
+                "text_region": [
+                    [
+                        66.0,
+                        242.0
+                    ],
+                    [
+                        288.0,
+                        243.0
+                    ],
+                    [
+                        288.0,
+                        256.0
+                    ],
+                    [
+                        66.0,
+                        255.0
+                    ]
+                ]
+            },
+            {
+                "text": "mura, Jiri Matas, Lukas Neumann, Vijay Ramaseshan Chan-",
+                "confidence": 0.9917455911636353,
+                "text_region": [
+                    [
+                        67.0,
+                        252.0
+                    ],
+                    [
+                        288.0,
+                        253.0
+                    ],
+                    [
+                        288.0,
+                        267.0
+                    ],
+                    [
+                        67.0,
+                        266.0
+                    ]
+                ]
+            },
+            {
+                "text": "drasekhar, Shijian Lu, et al. Icdar 2015 competition on robust",
+                "confidence": 0.9827468991279602,
+                "text_region": [
+                    [
+                        67.0,
+                        264.0
+                    ],
+                    [
+                        288.0,
+                        264.0
+                    ],
+                    [
+                        288.0,
+                        277.0
+                    ],
+                    [
+                        67.0,
+                        277.0
+                    ]
+                ]
+            },
+            {
+                "text": "reading. In 2015 I3th Intermarional Conference on Doca-",
+                "confidence": 0.9519128799438477,
+                "text_region": [
+                    [
+                        68.0,
+                        275.0
+                    ],
+                    [
+                        287.0,
+                        275.0
+                    ],
+                    [
+                        287.0,
+                        289.0
+                    ],
+                    [
+                        68.0,
+                        289.0
+                    ]
+                ]
+            },
+            {
+                "text": "ment Analysis and Recogeition (ICDAR), pages 11561160.",
+                "confidence": 0.9510639309883118,
+                "text_region": [
+                    [
+                        67.0,
+                        286.0
+                    ],
+                    [
+                        287.0,
+                        286.0
+                    ],
+                    [
+                        287.0,
+                        299.0
+                    ],
+                    [
+                        67.0,
+                        299.0
+                    ]
+                ]
+            },
+            {
+                "text": "IEEE, 2015.",
+                "confidence": 0.9966753125190735,
+                "text_region": [
+                    [
+                        68.0,
+                        298.0
+                    ],
+                    [
+                        115.0,
+                        298.0
+                    ],
+                    [
+                        115.0,
+                        309.0
+                    ],
+                    [
+                        68.0,
+                        309.0
+                    ]
+                ]
+            },
+            {
+                "text": "[14] Dimosthenis Karatzas, Faisal Shafait, Seichi Uchida,",
+                "confidence": 0.966579794883728,
+                "text_region": [
+                    [
+                        47.0,
+                        309.0
+                    ],
+                    [
+                        286.0,
+                        309.0
+                    ],
+                    [
+                        286.0,
+                        322.0
+                    ],
+                    [
+                        47.0,
+                        322.0
+                    ]
+                ]
+            },
+            {
+                "text": "Masakazu Iwamura, Lluis Gomez i Bigorda, Sergi Robles",
+                "confidence": 0.9986819624900818,
+                "text_region": [
+                    [
+                        67.0,
+                        321.0
+                    ],
+                    [
+                        288.0,
+                        321.0
+                    ],
+                    [
+                        288.0,
+                        334.0
+                    ],
+                    [
+                        67.0,
+                        334.0
+                    ]
+                ]
+            },
+            {
+                "text": "Mestre, Joan Mas, David Fernandez Mota, Jon Almazan Al-",
+                "confidence": 0.986635684967041,
+                "text_region": [
+                    [
+                        67.0,
+                        332.0
+                    ],
+                    [
+                        288.0,
+                        332.0
+                    ],
+                    [
+                        288.0,
+                        345.0
+                    ],
+                    [
+                        67.0,
+                        345.0
+                    ]
+                ]
+            },
+            {
+                "text": "mazan, and Lluis Pere de las Heras. Icdar 2013 robust read-",
+                "confidence": 0.9945281147956848,
+                "text_region": [
+                    [
+                        67.0,
+                        342.0
+                    ],
+                    [
+                        287.0,
+                        342.0
+                    ],
+                    [
+                        287.0,
+                        354.0
+                    ],
+                    [
+                        67.0,
+                        354.0
+                    ]
+                ]
+            },
+            {
+                "text": "ing competition. In 2013 I2sht International Conference on",
+                "confidence": 0.9458085894584656,
+                "text_region": [
+                    [
+                        67.0,
+                        352.0
+                    ],
+                    [
+                        288.0,
+                        352.0
+                    ],
+                    [
+                        288.0,
+                        366.0
+                    ],
+                    [
+                        67.0,
+                        366.0
+                    ]
+                ]
+            },
+            {
+                "text": "Docament Analysis and Recognition (ICDAR), pages 1484",
+                "confidence": 0.9617818593978882,
+                "text_region": [
+                    [
+                        68.0,
+                        365.0
+                    ],
+                    [
+                        288.0,
+                        365.0
+                    ],
+                    [
+                        288.0,
+                        378.0
+                    ],
+                    [
+                        68.0,
+                        378.0
+                    ]
+                ]
+            },
+            {
+                "text": "1493. IEEE, 2013.",
+                "confidence": 0.9964948296546936,
+                "text_region": [
+                    [
+                        69.0,
+                        377.0
+                    ],
+                    [
+                        137.0,
+                        377.0
+                    ],
+                    [
+                        137.0,
+                        387.0
+                    ],
+                    [
+                        69.0,
+                        387.0
+                    ]
+                ]
+            },
+            {
+                "text": "[15] Hui Li, Peng Wang, Chunhua Shen, and Guyu Zhang. Show,",
+                "confidence": 0.980542778968811,
+                "text_region": [
+                    [
+                        48.0,
+                        387.0
+                    ],
+                    [
+                        288.0,
+                        387.0
+                    ],
+                    [
+                        288.0,
+                        401.0
+                    ],
+                    [
+                        48.0,
+                        401.0
+                    ]
+                ]
+            },
+            {
+                "text": "attend and read: A simple and strong baseline for irregular",
+                "confidence": 0.9672108888626099,
+                "text_region": [
+                    [
+                        67.0,
+                        399.0
+                    ],
+                    [
+                        288.0,
+                        399.0
+                    ],
+                    [
+                        288.0,
+                        412.0
+                    ],
+                    [
+                        67.0,
+                        412.0
+                    ]
+                ]
+            },
+            {
+                "text": "text recognition. AAAI, 2019.",
+                "confidence": 0.9638304710388184,
+                "text_region": [
+                    [
+                        68.0,
+                        410.0
+                    ],
+                    [
+                        177.0,
+                        410.0
+                    ],
+                    [
+                        177.0,
+                        423.0
+                    ],
+                    [
+                        68.0,
+                        423.0
+                    ]
+                ]
+            },
+            {
+                "text": "[16] Minghui Liao, Boyu Song, Shangbang Long, Minghang He,",
+                "confidence": 0.9666190147399902,
+                "text_region": [
+                    [
+                        47.0,
+                        422.0
+                    ],
+                    [
+                        288.0,
+                        422.0
+                    ],
+                    [
+                        288.0,
+                        435.0
+                    ],
+                    [
+                        47.0,
+                        435.0
+                    ]
+                ]
+            },
+            {
+                "text": "Cong Yao, and Xiang Bai. Synthtext3d: synthesizing scene",
+                "confidence": 0.9981594085693359,
+                "text_region": [
+                    [
+                        67.0,
+                        433.0
+                    ],
+                    [
+                        288.0,
+                        433.0
+                    ],
+                    [
+                        288.0,
+                        446.0
+                    ],
+                    [
+                        67.0,
+                        446.0
+                    ]
+                ]
+            },
+            {
+                "text": "text images from 3d virtual worlds. Science Chine Informa-",
+                "confidence": 0.9710870385169983,
+                "text_region": [
+                    [
+                        67.0,
+                        444.0
+                    ],
+                    [
+                        288.0,
+                        444.0
+                    ],
+                    [
+                        288.0,
+                        457.0
+                    ],
+                    [
+                        67.0,
+                        457.0
+                    ]
+                ]
+            },
+            {
+                "text": "tion Sciences, 63(2):120105, 2020.",
+                "confidence": 0.9737023711204529,
+                "text_region": [
+                    [
+                        68.0,
+                        454.0
+                    ],
+                    [
+                        195.0,
+                        454.0
+                    ],
+                    [
+                        195.0,
+                        467.0
+                    ],
+                    [
+                        68.0,
+                        467.0
+                    ]
+                ]
+            },
+            {
+                "text": "[17] Chen-Hsuan Lin, Ersin Yumer, Oliver Wang, Eli Shechtman,",
+                "confidence": 0.9860306978225708,
+                "text_region": [
+                    [
+                        47.0,
+                        465.0
+                    ],
+                    [
+                        288.0,
+                        466.0
+                    ],
+                    [
+                        288.0,
+                        480.0
+                    ],
+                    [
+                        47.0,
+                        479.0
+                    ]
+                ]
+            },
+            {
+                "text": "adversarial networks for image compositing. In Proceed-",
+                "confidence": 0.9347800016403198,
+                "text_region": [
+                    [
+                        66.0,
+                        487.0
+                    ],
+                    [
+                        290.0,
+                        486.0
+                    ],
+                    [
+                        290.0,
+                        503.0
+                    ],
+                    [
+                        66.0,
+                        504.0
+                    ]
+                ]
+            },
+            {
+                "text": "and Simon Lucey. St-gan: Spatial transformer generative",
+                "confidence": 0.9975136518478394,
+                "text_region": [
+                    [
+                        68.0,
+                        478.0
+                    ],
+                    [
+                        288.0,
+                        478.0
+                    ],
+                    [
+                        288.0,
+                        491.0
+                    ],
+                    [
+                        68.0,
+                        491.0
+                    ]
+                ]
+            },
+            {
+                "text": "ings of the IEEE Conference om Computer Vision and Pattern",
+                "confidence": 0.958318293094635,
+                "text_region": [
+                    [
+                        67.0,
+                        500.0
+                    ],
+                    [
+                        289.0,
+                        499.0
+                    ],
+                    [
+                        289.0,
+                        513.0
+                    ],
+                    [
+                        67.0,
+                        514.0
+                    ]
+                ]
+            },
+            {
+                "text": "Recoguition, pages 94559464, 2018.",
+                "confidence": 0.9727677702903748,
+                "text_region": [
+                    [
+                        67.0,
+                        512.0
+                    ],
+                    [
+                        206.0,
+                        510.0
+                    ],
+                    [
+                        206.0,
+                        523.0
+                    ],
+                    [
+                        68.0,
+                        525.0
+                    ]
+                ]
+            },
+            {
+                "text": "[18] Xuebo Liu, Ding Liang, Shi Yan, Dagui Chen, Yu Qiao, and",
+                "confidence": 0.9942599534988403,
+                "text_region": [
+                    [
+                        48.0,
+                        523.0
+                    ],
+                    [
+                        289.0,
+                        523.0
+                    ],
+                    [
+                        289.0,
+                        536.0
+                    ],
+                    [
+                        48.0,
+                        536.0
+                    ]
+                ]
+            },
+            {
+                "text": "Junjie Yan. Fots: Fast oriented text spoting with a unified",
+                "confidence": 0.9634029865264893,
+                "text_region": [
+                    [
+                        67.0,
+                        534.0
+                    ],
+                    [
+                        289.0,
+                        534.0
+                    ],
+                    [
+                        289.0,
+                        547.0
+                    ],
+                    [
+                        67.0,
+                        547.0
+                    ]
+                ]
+            },
+            {
+                "text": "network. Proc. CVPR, 2018.",
+                "confidence": 0.9925265908241272,
+                "text_region": [
+                    [
+                        67.0,
+                        544.0
+                    ],
+                    [
+                        174.0,
+                        544.0
+                    ],
+                    [
+                        174.0,
+                        556.0
+                    ],
+                    [
+                        67.0,
+                        556.0
+                    ]
+                ]
+            },
+            {
+                "text": "[19]Yuliang Liu and Lianwen Jin. Deep matching prior network:",
+                "confidence": 0.97637939453125,
+                "text_region": [
+                    [
+                        46.0,
+                        555.0
+                    ],
+                    [
+                        288.0,
+                        556.0
+                    ],
+                    [
+                        288.0,
+                        570.0
+                    ],
+                    [
+                        46.0,
+                        569.0
+                    ]
+                ]
+            },
+            {
+                "text": "Toward tighter multi-oriented text detection. In Proc. CVPR,",
+                "confidence": 0.9911487698554993,
+                "text_region": [
+                    [
+                        69.0,
+                        569.0
+                    ],
+                    [
+                        288.0,
+                        569.0
+                    ],
+                    [
+                        288.0,
+                        579.0
+                    ],
+                    [
+                        69.0,
+                        579.0
+                    ]
+                ]
+            },
+            {
+                "text": "2017.",
+                "confidence": 0.9982190132141113,
+                "text_region": [
+                    [
+                        68.0,
+                        579.0
+                    ],
+                    [
+                        93.0,
+                        579.0
+                    ],
+                    [
+                        93.0,
+                        590.0
+                    ],
+                    [
+                        68.0,
+                        590.0
+                    ]
+                ]
+            },
+            {
+                "text": "[20] Shangbang Long, Yushuo Guan, Bingxuan Wang, Kaigui",
+                "confidence": 0.9717707633972168,
+                "text_region": [
+                    [
+                        47.0,
+                        590.0
+                    ],
+                    [
+                        289.0,
+                        591.0
+                    ],
+                    [
+                        289.0,
+                        605.0
+                    ],
+                    [
+                        47.0,
+                        604.0
+                    ]
+                ]
+            },
+            {
+                "text": "Bian, and Cong Yao. Alchemy: Techniques for rectifica-",
+                "confidence": 0.9803332090377808,
+                "text_region": [
+                    [
+                        67.0,
+                        602.0
+                    ],
+                    [
+                        288.0,
+                        602.0
+                    ],
+                    [
+                        288.0,
+                        615.0
+                    ],
+                    [
+                        67.0,
+                        615.0
+                    ]
+                ]
+            },
+            {
+                "text": "tion based irregular scene text recognition. arXiv preprint",
+                "confidence": 0.9919553995132446,
+                "text_region": [
+                    [
+                        67.0,
+                        612.0
+                    ],
+                    [
+                        289.0,
+                        613.0
+                    ],
+                    [
+                        289.0,
+                        627.0
+                    ],
+                    [
+                        67.0,
+                        626.0
+                    ]
+                ]
+            },
+            {
+                "text": "arXiv:J908 11834, 2019.",
+                "confidence": 0.9389828443527222,
+                "text_region": [
+                    [
+                        68.0,
+                        624.0
+                    ],
+                    [
+                        162.0,
+                        624.0
+                    ],
+                    [
+                        162.0,
+                        637.0
+                    ],
+                    [
+                        68.0,
+                        637.0
+                    ]
+                ]
+            },
+            {
+                "text": "[21] Shangbang Long, Xin He, and Cong Yao. Scene text detec-",
+                "confidence": 0.9884393215179443,
+                "text_region": [
+                    [
+                        48.0,
+                        635.0
+                    ],
+                    [
+                        286.0,
+                        635.0
+                    ],
+                    [
+                        286.0,
+                        647.0
+                    ],
+                    [
+                        48.0,
+                        647.0
+                    ]
+                ]
+            },
+            {
+                "text": "tion and recognition: The deep learming era. arXiv preprint",
+                "confidence": 0.9664967656135559,
+                "text_region": [
+                    [
+                        68.0,
+                        645.0
+                    ],
+                    [
+                        288.0,
+                        645.0
+                    ],
+                    [
+                        288.0,
+                        659.0
+                    ],
+                    [
+                        68.0,
+                        659.0
+                    ]
+                ]
+            },
+            {
+                "text": "arXiv:1811.04256, 2018.",
+                "confidence": 0.9741857051849365,
+                "text_region": [
+                    [
+                        67.0,
+                        656.0
+                    ],
+                    [
+                        160.0,
+                        656.0
+                    ],
+                    [
+                        160.0,
+                        669.0
+                    ],
+                    [
+                        67.0,
+                        669.0
+                    ]
+                ]
+            },
+            {
+                "text": "[22] Shangbang Long, Jiaqiang Ruan, Wenjie Zhang, Xin He,",
+                "confidence": 0.9941394925117493,
+                "text_region": [
+                    [
+                        48.0,
+                        670.0
+                    ],
+                    [
+                        288.0,
+                        670.0
+                    ],
+                    [
+                        288.0,
+                        683.0
+                    ],
+                    [
+                        48.0,
+                        683.0
+                    ]
+                ]
+            },
+            {
+                "text": "Wenhao Wu, and Cong Yao. Textsnake: A flexible represen-",
+                "confidence": 0.9931817054748535,
+                "text_region": [
+                    [
+                        68.0,
+                        681.0
+                    ],
+                    [
+                        287.0,
+                        681.0
+                    ],
+                    [
+                        287.0,
+                        694.0
+                    ],
+                    [
+                        68.0,
+                        694.0
+                    ]
+                ]
+            },
+            {
+                "text": "tation for detecting text of arbitrary shapes. In Proc. ECCV,",
+                "confidence": 0.9886572957038879,
+                "text_region": [
+                    [
+                        68.0,
+                        692.0
+                    ],
+                    [
+                        288.0,
+                        692.0
+                    ],
+                    [
+                        288.0,
+                        705.0
+                    ],
+                    [
+                        68.0,
+                        705.0
+                    ]
+                ]
+            },
+            {
+                "text": "2018.",
+                "confidence": 0.998961329460144,
+                "text_region": [
+                    [
+                        68.0,
+                        704.0
+                    ],
+                    [
+                        92.0,
+                        704.0
+                    ],
+                    [
+                        92.0,
+                        715.0
+                    ],
+                    [
+                        68.0,
+                        715.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.9934311509132385
+    },
+    {
+        "type": "reference",
+        "bbox": [
+            309,
+            75,
+            546,
+            711
+        ],
+        "res": [
+            {
+                "text": "[23] Pengyuan Lyu, Zhicheng Yang, Xinhang Leng, Xiaojun Wu,",
+                "confidence": 0.9931627511978149,
+                "text_region": [
+                    [
+                        307.0,
+                        74.0
+                    ],
+                    [
+                        547.0,
+                        74.0
+                    ],
+                    [
+                        547.0,
+                        87.0
+                    ],
+                    [
+                        307.0,
+                        87.0
+                    ]
+                ]
+            },
+            {
+                "text": "Ruiyu Li, and Xiaoyong Shen. 2d attentional irregular scene",
+                "confidence": 0.9733584523200989,
+                "text_region": [
+                    [
+                        326.0,
+                        85.0
+                    ],
+                    [
+                        547.0,
+                        85.0
+                    ],
+                    [
+                        547.0,
+                        98.0
+                    ],
+                    [
+                        326.0,
+                        98.0
+                    ]
+                ]
+            },
+            {
+                "text": "text recognizer. arXiv preprint arXiv: 1906.05708, 2019.",
+                "confidence": 0.970313549041748,
+                "text_region": [
+                    [
+                        327.0,
+                        96.0
+                    ],
+                    [
+                        531.0,
+                        96.0
+                    ],
+                    [
+                        531.0,
+                        110.0
+                    ],
+                    [
+                        327.0,
+                        110.0
+                    ]
+                ]
+            },
+            {
+                "text": "[24] John McCormac, Ankur Handa, Stefan Leutenegger, and",
+                "confidence": 0.970938503742218,
+                "text_region": [
+                    [
+                        306.0,
+                        107.0
+                    ],
+                    [
+                        548.0,
+                        108.0
+                    ],
+                    [
+                        548.0,
+                        122.0
+                    ],
+                    [
+                        306.0,
+                        121.0
+                    ]
+                ]
+            },
+            {
+                "text": "Andrew J. Davison. Scenenet RGB-D: 5m photorealistic",
+                "confidence": 0.9825530648231506,
+                "text_region": [
+                    [
+                        326.0,
+                        119.0
+                    ],
+                    [
+                        546.0,
+                        119.0
+                    ],
+                    [
+                        546.0,
+                        132.0
+                    ],
+                    [
+                        326.0,
+                        132.0
+                    ]
+                ]
+            },
+            {
+                "text": "images of synthetic indoor trajectories with ground truth.",
+                "confidence": 0.9889601469039917,
+                "text_region": [
+                    [
+                        328.0,
+                        131.0
+                    ],
+                    [
+                        547.0,
+                        131.0
+                    ],
+                    [
+                        547.0,
+                        144.0
+                    ],
+                    [
+                        328.0,
+                        144.0
+                    ]
+                ]
+            },
+            {
+                "text": "CoRR, abs/1612.05079, 2016.",
+                "confidence": 0.9669251441955566,
+                "text_region": [
+                    [
+                        327.0,
+                        141.0
+                    ],
+                    [
+                        438.0,
+                        141.0
+                    ],
+                    [
+                        438.0,
+                        153.0
+                    ],
+                    [
+                        327.0,
+                        153.0
+                    ]
+                ]
+            },
+            {
+                "text": "[25]  Anand Mishra, Karteek Alahari, and CV Jawahar. Scene tex1",
+                "confidence": 0.9685261249542236,
+                "text_region": [
+                    [
+                        305.0,
+                        151.0
+                    ],
+                    [
+                        546.0,
+                        151.0
+                    ],
+                    [
+                        546.0,
+                        164.0
+                    ],
+                    [
+                        305.0,
+                        164.0
+                    ]
+                ]
+            },
+            {
+                "text": "recognition using higher order language priors. In BMVC.",
+                "confidence": 0.9903734922409058,
+                "text_region": [
+                    [
+                        327.0,
+                        164.0
+                    ],
+                    [
+                        547.0,
+                        164.0
+                    ],
+                    [
+                        547.0,
+                        177.0
+                    ],
+                    [
+                        327.0,
+                        177.0
+                    ]
+                ]
+            },
+            {
+                "text": "British Machine Vision Conference. BMVA, 2012.",
+                "confidence": 0.9760399460792542,
+                "text_region": [
+                    [
+                        327.0,
+                        175.0
+                    ],
+                    [
+                        511.0,
+                        175.0
+                    ],
+                    [
+                        511.0,
+                        188.0
+                    ],
+                    [
+                        327.0,
+                        188.0
+                    ]
+                ]
+            },
+            {
+                "text": "[26]  Nibal Nayef, Yash Patel, Michal Busta, Pinaki Nath Chowd-",
+                "confidence": 0.9792787432670593,
+                "text_region": [
+                    [
+                        306.0,
+                        187.0
+                    ],
+                    [
+                        547.0,
+                        187.0
+                    ],
+                    [
+                        547.0,
+                        200.0
+                    ],
+                    [
+                        306.0,
+                        200.0
+                    ]
+                ]
+            },
+            {
+                "text": "hury, Dimosthenis Karatzas, Wafa Khlif, Jiri Matas, Uma-",
+                "confidence": 0.9832664132118225,
+                "text_region": [
+                    [
+                        327.0,
+                        198.0
+                    ],
+                    [
+                        546.0,
+                        198.0
+                    ],
+                    [
+                        546.0,
+                        211.0
+                    ],
+                    [
+                        327.0,
+                        211.0
+                    ]
+                ]
+            },
+            {
+                "text": "pada Pal, Jean-Christophe Burie, Cheng-lin Liu, et al. Ic-",
+                "confidence": 0.987060546875,
+                "text_region": [
+                    [
+                        327.0,
+                        209.0
+                    ],
+                    [
+                        547.0,
+                        209.0
+                    ],
+                    [
+                        547.0,
+                        222.0
+                    ],
+                    [
+                        327.0,
+                        222.0
+                    ]
+                ]
+            },
+            {
+                "text": "dar2019 robust reading challenge on multi-lingual scene",
+                "confidence": 0.9839732646942139,
+                "text_region": [
+                    [
+                        327.0,
+                        220.0
+                    ],
+                    [
+                        547.0,
+                        220.0
+                    ],
+                    [
+                        547.0,
+                        234.0
+                    ],
+                    [
+                        327.0,
+                        234.0
+                    ]
+                ]
+            },
+            {
+                "text": "text detection and recognitionrc-mlt-2019. arXiv preprint",
+                "confidence": 0.9537807703018188,
+                "text_region": [
+                    [
+                        327.0,
+                        231.0
+                    ],
+                    [
+                        548.0,
+                        231.0
+                    ],
+                    [
+                        548.0,
+                        245.0
+                    ],
+                    [
+                        327.0,
+                        245.0
+                    ]
+                ]
+            },
+            {
+                "text": "arXiv: /907.00945, 2019.",
+                "confidence": 0.9426957964897156,
+                "text_region": [
+                    [
+                        327.0,
+                        242.0
+                    ],
+                    [
+                        421.0,
+                        242.0
+                    ],
+                    [
+                        421.0,
+                        254.0
+                    ],
+                    [
+                        327.0,
+                        254.0
+                    ]
+                ]
+            },
+            {
+                "text": "[27] Nibal Nayef, Fei Yin, Imen Bizid, Hyunsoo Choi, Yuan",
+                "confidence": 0.9846354126930237,
+                "text_region": [
+                    [
+                        307.0,
+                        253.0
+                    ],
+                    [
+                        547.0,
+                        253.0
+                    ],
+                    [
+                        547.0,
+                        266.0
+                    ],
+                    [
+                        307.0,
+                        266.0
+                    ]
+                ]
+            },
+            {
+                "text": "Feng, Dimosthenis Karatzas, Zhenbo Luo, Umapada Pal,",
+                "confidence": 0.9898406267166138,
+                "text_region": [
+                    [
+                        326.0,
+                        265.0
+                    ],
+                    [
+                        547.0,
+                        265.0
+                    ],
+                    [
+                        547.0,
+                        278.0
+                    ],
+                    [
+                        326.0,
+                        278.0
+                    ]
+                ]
+            },
+            {
+                "text": "Christophe Rigaud, Joseph Chazalon, et al. Icdar2017 ro-",
+                "confidence": 0.9788691401481628,
+                "text_region": [
+                    [
+                        326.0,
+                        275.0
+                    ],
+                    [
+                        546.0,
+                        275.0
+                    ],
+                    [
+                        546.0,
+                        288.0
+                    ],
+                    [
+                        326.0,
+                        288.0
+                    ]
+                ]
+            },
+            {
+                "text": "bust reading challenge on multi-lingual scene text detection",
+                "confidence": 0.9826033115386963,
+                "text_region": [
+                    [
+                        327.0,
+                        287.0
+                    ],
+                    [
+                        548.0,
+                        287.0
+                    ],
+                    [
+                        548.0,
+                        300.0
+                    ],
+                    [
+                        327.0,
+                        300.0
+                    ]
+                ]
+            },
+            {
+                "text": "and script identification-rrc-mlt. In Proc. ICDAR, volume 1,",
+                "confidence": 0.9672012329101562,
+                "text_region": [
+                    [
+                        327.0,
+                        298.0
+                    ],
+                    [
+                        548.0,
+                        298.0
+                    ],
+                    [
+                        548.0,
+                        311.0
+                    ],
+                    [
+                        327.0,
+                        311.0
+                    ]
+                ]
+            },
+            {
+                "text": "pages 14541459. IEEE, 2017.",
+                "confidence": 0.9836228489875793,
+                "text_region": [
+                    [
+                        325.0,
+                        308.0
+                    ],
+                    [
+                        442.0,
+                        306.0
+                    ],
+                    [
+                        442.0,
+                        320.0
+                    ],
+                    [
+                        325.0,
+                        322.0
+                    ]
+                ]
+            },
+            {
+                "text": "[28]  Jeremie Papon and Markus Schoeler. Semantic pose using",
+                "confidence": 0.9622966051101685,
+                "text_region": [
+                    [
+                        306.0,
+                        321.0
+                    ],
+                    [
+                        547.0,
+                        321.0
+                    ],
+                    [
+                        547.0,
+                        334.0
+                    ],
+                    [
+                        306.0,
+                        334.0
+                    ]
+                ]
+            },
+            {
+                "text": "deep networks trained on synthetic rgb-d. In Proc. ICCV,",
+                "confidence": 0.9876763224601746,
+                "text_region": [
+                    [
+                        326.0,
+                        331.0
+                    ],
+                    [
+                        547.0,
+                        330.0
+                    ],
+                    [
+                        547.0,
+                        344.0
+                    ],
+                    [
+                        326.0,
+                        345.0
+                    ]
+                ]
+            },
+            {
+                "text": "pages 774782, 2015.",
+                "confidence": 0.9768902659416199,
+                "text_region": [
+                    [
+                        325.0,
+                        342.0
+                    ],
+                    [
+                        408.0,
+                        338.0
+                    ],
+                    [
+                        409.0,
+                        352.0
+                    ],
+                    [
+                        325.0,
+                        356.0
+                    ]
+                ]
+            },
+            {
+                "text": "[29]  Xingchao Peng, Baochen Sun, Karim Ali, and Kate Saenko.",
+                "confidence": 0.9722917675971985,
+                "text_region": [
+                    [
+                        306.0,
+                        354.0
+                    ],
+                    [
+                        546.0,
+                        354.0
+                    ],
+                    [
+                        546.0,
+                        367.0
+                    ],
+                    [
+                        306.0,
+                        367.0
+                    ]
+                ]
+            },
+            {
+                "text": "Learning deep object detectors from 3d models. In Proc.",
+                "confidence": 0.9682270884513855,
+                "text_region": [
+                    [
+                        326.0,
+                        365.0
+                    ],
+                    [
+                        547.0,
+                        365.0
+                    ],
+                    [
+                        547.0,
+                        378.0
+                    ],
+                    [
+                        326.0,
+                        378.0
+                    ]
+                ]
+            },
+            {
+                "text": "ICCV, pages 12781286, 2015.",
+                "confidence": 0.975073516368866,
+                "text_region": [
+                    [
+                        327.0,
+                        376.0
+                    ],
+                    [
+                        442.0,
+                        376.0
+                    ],
+                    [
+                        442.0,
+                        389.0
+                    ],
+                    [
+                        327.0,
+                        389.0
+                    ]
+                ]
+            },
+            {
+                "text": "[30] Siyang Qin, Alessandro Bissacco, Michalis Raptis, Yasuhisa",
+                "confidence": 0.9764569997787476,
+                "text_region": [
+                    [
+                        306.0,
+                        387.0
+                    ],
+                    [
+                        546.0,
+                        387.0
+                    ],
+                    [
+                        546.0,
+                        401.0
+                    ],
+                    [
+                        306.0,
+                        401.0
+                    ]
+                ]
+            },
+            {
+                "text": "Fuji, and Ying Xiao. Towards unconstrained end-to-end text",
+                "confidence": 0.9744230508804321,
+                "text_region": [
+                    [
+                        327.0,
+                        399.0
+                    ],
+                    [
+                        547.0,
+                        399.0
+                    ],
+                    [
+                        547.0,
+                        412.0
+                    ],
+                    [
+                        327.0,
+                        412.0
+                    ]
+                ]
+            },
+            {
+                "text": "spotting. In Proceedingx of the IEEE Intermational Confer-",
+                "confidence": 0.9560460448265076,
+                "text_region": [
+                    [
+                        326.0,
+                        410.0
+                    ],
+                    [
+                        547.0,
+                        409.0
+                    ],
+                    [
+                        547.0,
+                        423.0
+                    ],
+                    [
+                        326.0,
+                        424.0
+                    ]
+                ]
+            },
+            {
+                "text": "emce on Coputer Vision, pages 47044714, 2019.",
+                "confidence": 0.9654509425163269,
+                "text_region": [
+                    [
+                        327.0,
+                        421.0
+                    ],
+                    [
+                        513.0,
+                        421.0
+                    ],
+                    [
+                        513.0,
+                        435.0
+                    ],
+                    [
+                        327.0,
+                        435.0
+                    ]
+                ]
+            },
+            {
+                "text": "[31] Weichao Qiu and Alan Yuille. Unrealev: Connecting com-",
+                "confidence": 0.9803744554519653,
+                "text_region": [
+                    [
+                        305.0,
+                        432.0
+                    ],
+                    [
+                        546.0,
+                        433.0
+                    ],
+                    [
+                        546.0,
+                        447.0
+                    ],
+                    [
+                        305.0,
+                        445.0
+                    ]
+                ]
+            },
+            {
+                "text": "puter vision to unreal engine. In Proc. ECCV, pages 909",
+                "confidence": 0.9790990948677063,
+                "text_region": [
+                    [
+                        326.0,
+                        444.0
+                    ],
+                    [
+                        547.0,
+                        444.0
+                    ],
+                    [
+                        547.0,
+                        457.0
+                    ],
+                    [
+                        326.0,
+                        457.0
+                    ]
+                ]
+            },
+            {
+                "text": "916, 2016.",
+                "confidence": 0.998470664024353,
+                "text_region": [
+                    [
+                        328.0,
+                        455.0
+                    ],
+                    [
+                        367.0,
+                        455.0
+                    ],
+                    [
+                        367.0,
+                        466.0
+                    ],
+                    [
+                        328.0,
+                        466.0
+                    ]
+                ]
+            },
+            {
+                "text": "[32] Trung Quy Phan, Palaiahnakote Shivakumara, Shangxuan",
+                "confidence": 0.9900814294815063,
+                "text_region": [
+                    [
+                        306.0,
+                        466.0
+                    ],
+                    [
+                        547.0,
+                        466.0
+                    ],
+                    [
+                        547.0,
+                        480.0
+                    ],
+                    [
+                        306.0,
+                        480.0
+                    ]
+                ]
+            },
+            {
+                "text": "distortion in natural scenes. In Proc. ICCV, pages 569576,",
+                "confidence": 0.9897865653038025,
+                "text_region": [
+                    [
+                        325.0,
+                        487.0
+                    ],
+                    [
+                        548.0,
+                        488.0
+                    ],
+                    [
+                        548.0,
+                        502.0
+                    ],
+                    [
+                        325.0,
+                        501.0
+                    ]
+                ]
+            },
+            {
+                "text": "Tian, and Chew Lim Tan. Recognizing text with perspective",
+                "confidence": 0.993811309337616,
+                "text_region": [
+                    [
+                        326.0,
+                        478.0
+                    ],
+                    [
+                        547.0,
+                        478.0
+                    ],
+                    [
+                        547.0,
+                        491.0
+                    ],
+                    [
+                        326.0,
+                        491.0
+                    ]
+                ]
+            },
+            {
+                "text": "2013.",
+                "confidence": 0.998315691947937,
+                "text_region": [
+                    [
+                        327.0,
+                        500.0
+                    ],
+                    [
+                        350.0,
+                        500.0
+                    ],
+                    [
+                        350.0,
+                        512.0
+                    ],
+                    [
+                        327.0,
+                        512.0
+                    ]
+                ]
+            },
+            {
+                "text": "[33] Stephan R Richter, Vibhav Vineet, Stefan Roth, and Vladlen",
+                "confidence": 0.9727926254272461,
+                "text_region": [
+                    [
+                        306.0,
+                        512.0
+                    ],
+                    [
+                        547.0,
+                        512.0
+                    ],
+                    [
+                        547.0,
+                        525.0
+                    ],
+                    [
+                        306.0,
+                        525.0
+                    ]
+                ]
+            },
+            {
+                "text": "Koltun.  Playing for data: Ground truth from computer",
+                "confidence": 0.9752659201622009,
+                "text_region": [
+                    [
+                        326.0,
+                        523.0
+                    ],
+                    [
+                        547.0,
+                        523.0
+                    ],
+                    [
+                        547.0,
+                        537.0
+                    ],
+                    [
+                        326.0,
+                        537.0
+                    ]
+                ]
+            },
+            {
+                "text": "games. In Earopean conference on computer vision, pages",
+                "confidence": 0.985704779624939,
+                "text_region": [
+                    [
+                        327.0,
+                        534.0
+                    ],
+                    [
+                        548.0,
+                        534.0
+                    ],
+                    [
+                        548.0,
+                        547.0
+                    ],
+                    [
+                        327.0,
+                        547.0
+                    ]
+                ]
+            },
+            {
+                "text": "102118. Springer, 2016.",
+                "confidence": 0.9891294240951538,
+                "text_region": [
+                    [
+                        328.0,
+                        544.0
+                    ],
+                    [
+                        421.0,
+                        544.0
+                    ],
+                    [
+                        421.0,
+                        558.0
+                    ],
+                    [
+                        328.0,
+                        558.0
+                    ]
+                ]
+            },
+            {
+                "text": "[34]  Anhar Risnumawan, Palaiahankote Shivakumara, Chee Seng",
+                "confidence": 0.9746347665786743,
+                "text_region": [
+                    [
+                        305.0,
+                        555.0
+                    ],
+                    [
+                        547.0,
+                        556.0
+                    ],
+                    [
+                        547.0,
+                        570.0
+                    ],
+                    [
+                        305.0,
+                        569.0
+                    ]
+                ]
+            },
+            {
+                "text": "Chan, and Chew Lim Tan. A robust arbitrary text detection",
+                "confidence": 0.9943923950195312,
+                "text_region": [
+                    [
+                        327.0,
+                        568.0
+                    ],
+                    [
+                        547.0,
+                        568.0
+                    ],
+                    [
+                        547.0,
+                        581.0
+                    ],
+                    [
+                        327.0,
+                        581.0
+                    ]
+                ]
+            },
+            {
+                "text": "system for natural scene images. Experr Systems with Appli-",
+                "confidence": 0.9592004418373108,
+                "text_region": [
+                    [
+                        326.0,
+                        579.0
+                    ],
+                    [
+                        547.0,
+                        578.0
+                    ],
+                    [
+                        547.0,
+                        592.0
+                    ],
+                    [
+                        326.0,
+                        593.0
+                    ]
+                ]
+            },
+            {
+                "text": "cafions, 41(18):80278048, 2014.",
+                "confidence": 0.9595544934272766,
+                "text_region": [
+                    [
+                        329.0,
+                        591.0
+                    ],
+                    [
+                        450.0,
+                        591.0
+                    ],
+                    [
+                        450.0,
+                        601.0
+                    ],
+                    [
+                        329.0,
+                        601.0
+                    ]
+                ]
+            },
+            {
+                "text": "[35] German Ros, Laura Sellart, Joanna Materzynska, David",
+                "confidence": 0.9810985922813416,
+                "text_region": [
+                    [
+                        306.0,
+                        602.0
+                    ],
+                    [
+                        548.0,
+                        602.0
+                    ],
+                    [
+                        548.0,
+                        615.0
+                    ],
+                    [
+                        306.0,
+                        615.0
+                    ]
+                ]
+            },
+            {
+                "text": "Vazquez, and Antonio M Lopez. The synthia dataset: A large",
+                "confidence": 0.9937032461166382,
+                "text_region": [
+                    [
+                        326.0,
+                        612.0
+                    ],
+                    [
+                        547.0,
+                        613.0
+                    ],
+                    [
+                        547.0,
+                        627.0
+                    ],
+                    [
+                        326.0,
+                        626.0
+                    ]
+                ]
+            },
+            {
+                "text": "collection of synthetic images for semantic segmentation of",
+                "confidence": 0.997440755367279,
+                "text_region": [
+                    [
+                        327.0,
+                        624.0
+                    ],
+                    [
+                        548.0,
+                        624.0
+                    ],
+                    [
+                        548.0,
+                        637.0
+                    ],
+                    [
+                        327.0,
+                        637.0
+                    ]
+                ]
+            },
+            {
+                "text": "urban scenes. In Proc. CVPR, pages 32343243, 2016.",
+                "confidence": 0.9909123182296753,
+                "text_region": [
+                    [
+                        327.0,
+                        635.0
+                    ],
+                    [
+                        526.0,
+                        635.0
+                    ],
+                    [
+                        526.0,
+                        648.0
+                    ],
+                    [
+                        327.0,
+                        648.0
+                    ]
+                ]
+            },
+            {
+                "text": "[36] Scott D Roth. Ray casting for modeling solids. Computer",
+                "confidence": 0.9524624347686768,
+                "text_region": [
+                    [
+                        306.0,
+                        646.0
+                    ],
+                    [
+                        547.0,
+                        646.0
+                    ],
+                    [
+                        547.0,
+                        660.0
+                    ],
+                    [
+                        306.0,
+                        660.0
+                    ]
+                ]
+            },
+            {
+                "text": "Grapihics & Image Procexxing, 18(2):109144, 1982.",
+                "confidence": 0.9344683289527893,
+                "text_region": [
+                    [
+                        325.0,
+                        657.0
+                    ],
+                    [
+                        521.0,
+                        656.0
+                    ],
+                    [
+                        521.0,
+                        670.0
+                    ],
+                    [
+                        325.0,
+                        671.0
+                    ]
+                ]
+            },
+            {
+                "text": "[37] Fatemeh Sadat Saleh, Mohammad Sadegh Aliakbarian,",
+                "confidence": 0.9621102809906006,
+                "text_region": [
+                    [
+                        306.0,
+                        669.0
+                    ],
+                    [
+                        546.0,
+                        669.0
+                    ],
+                    [
+                        546.0,
+                        683.0
+                    ],
+                    [
+                        306.0,
+                        683.0
+                    ]
+                ]
+            },
+            {
+                "text": "Mathieu Salzmann, Lars Petersson, and Jose M Alvarez. Ef-",
+                "confidence": 0.9887496829032898,
+                "text_region": [
+                    [
+                        326.0,
+                        681.0
+                    ],
+                    [
+                        546.0,
+                        681.0
+                    ],
+                    [
+                        546.0,
+                        694.0
+                    ],
+                    [
+                        326.0,
+                        694.0
+                    ]
+                ]
+            },
+            {
+                "text": "fective use of synthetic data for urban scene semantic seg-",
+                "confidence": 0.9785683751106262,
+                "text_region": [
+                    [
+                        326.0,
+                        691.0
+                    ],
+                    [
+                        546.0,
+                        692.0
+                    ],
+                    [
+                        546.0,
+                        706.0
+                    ],
+                    [
+                        326.0,
+                        705.0
+                    ]
+                ]
+            },
+            {
+                "text": "mentation. In Proc. ECCV, pages 86103, 2018.",
+                "confidence": 0.994769811630249,
+                "text_region": [
+                    [
+                        327.0,
+                        703.0
+                    ],
+                    [
+                        504.0,
+                        703.0
+                    ],
+                    [
+                        504.0,
+                        716.0
+                    ],
+                    [
+                        327.0,
+                        716.0
+                    ]
+                ]
+            }
+        ],
+        "img_idx": 0,
+        "score": 0.993359386920929
+    }
+]
