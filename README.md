@@ -1,3 +1,13 @@
+# PDF-OCR-Table-Extractor
+
+This repository demonstrates a complete pipeline for PDF text extraction, image annotation using PaddleOCR, and table structure recognition using PaddleOCR's PPStructure module. The extracted data is saved in text, annotated image, and JSON formats for further processing.
+
+## Features
+- Extract text from multi-page PDFs.
+- Convert PDF pages into images.
+- Use PaddleOCR to annotate text regions in images.
+- Extract tables and save the structure in JSON format.
+
 ## Project Directory Structure
 
 ```plaintext
@@ -41,14 +51,4 @@ PDF-OCR-Table-Extractor/
 └── README.md              # Project documentation (this file).
 
 ```
-## Requirements
-- Python 3.x
-- PaddleOCR
-- PyMuPDF
-- OpenCV
-- PIL
 
-You can install the required libraries using:
-
-```bash
-pip install pymupdf opencv-python Pillow paddlepaddle paddleocr
